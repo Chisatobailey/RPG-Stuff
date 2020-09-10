@@ -1,4 +1,12 @@
 <elements>
+    <info>
+		<name>Feats at level 1</name>
+		<description>Content created by the Chisato Bailey</description>
+		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+		<update version="0.0.1" />
+			<file name="Feats at level 1.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Feats%20at%20level%201.xml" />
+		</update>
+	</info>
     <element name="Feat at level 1" type="Option" source="Ian's Additions" id="ID_IANSADDITIONS_OPTION_FEATATLEVEL1">
         <description>
             <p>This grants all new characters a feat at level 1</p>

@@ -1,5 +1,13 @@
 <elements>
-    <element name="Eye of the Hand" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSWONDEROUSITEMS_MAGIC_ITEM_EYE_OF_THE_HAND">
+	<info>
+		<name>Ian's Wonderous Items</name>
+		<description>Content created by the Chisato Bailey</description>
+		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+		<update version="0.0.1" />
+			<file name="Ian's Wonderous Items.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Wonderous%20Items.xml" />
+		</update>
+	</info>
+    <element name="Eye of the Hand" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_EYE_OF_THE_HAND">
 		<description>
 			<p>The Eye of the Hand is a pendant, measuring 3 inches wide and 4 inches tall, made of finely carved amber and chased in silver. There is an eye-shaped hole in the center of the palm through which one may look. Doing so will reveal the mark of the Amber Hand which denotes the order's safehouses.</p>
             <p>When worn, this amulet grants the wearer advantage on one Sleight of Hand or Survival Skill Check once per day.</p>
@@ -14,7 +22,7 @@
 			<set name="rarity">Very Rare</set>
 		</setters>
 	</element>
-	<element name="Pot of Healthy Cooking" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSWONDEROUSITEMS_MAGIC_ITEM_POTOFHEALTHYCOOKING">
+	<element name="Pot of Healthy Cooking" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_POTOFHEALTHYCOOKING">
 		<description>
 			<p>This ordinary looking cookpot heals 5 HP to the entire party if used during a short or long rest.</p>
 		</description>
@@ -26,7 +34,7 @@
 			<set name="rarity">Rare</set>
 		</setters>
 	</element>
-	<element name="Masterwork Boots" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSWONDEROUSITEMS_MAGIC_ITEM_MASTERWORKBOOTS">
+	<element name="Masterwork Boots" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_MASTERWORKBOOTS">
 		<description>
 			<p>This beautifully made pair of boots are so comfortable and perfectly fit that the wearer's movement is increased by 5 feet.</p>
 		</description>

@@ -2,13 +2,15 @@
 <elements>
 	<info>
 		<name>Ian's Weapons</name>
-		<update version="0.0.1">
-			<file name="Ian's Weapons.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/Ian's Weapons.xml" />
+		<description>Content created by the Chisato Bailey</description>
+		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+		<update version="0.0.1" />
+			<file name="Ian's Weapons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Weapons.xml" />
 		</update>
 	</info>
 	<!-- simple -->
 	<!-- martial -->
-	<element name="Katana, Finesse (Two-Hand Only)" type="Weapon" source="Ian's Weapons" id="ID_IANSWEAPONS_WEAPON_TWOHAND_LIGHT_KATANA">
+	<element name="Katana, Finesse (Two-Hand Only)" type="Weapon" source="Ian's Weapons" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_TWOHAND_LIGHT_KATANA">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p>Historically, katana widely varied in size and weight. If you would prefer a two-handed katana that emphasizes fast, precise cuts, then you can choose this variation instead. </p>
@@ -23,7 +25,7 @@
 			<set name="proficiency">ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_KATANA</set>
 		</setters>
 	</element>
-	<element name="Katana, Versatile/Finesse" type="Weapon" source="Ian's Weapons" id="ID_IANSWEAPONS_WEAPON_VERSATILE_LIGHT_KATANA">
+	<element name="Katana, Versatile/Finesse" type="Weapon" source="Ian's Weapons" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_VERSATILE_LIGHT_KATANA">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p>Historically, katana widely varied in size and weight. If you would prefer a katana that emphasizes fast, precise cuts, then you can choose this variation instead. </p>
@@ -39,7 +41,7 @@
 			<set name="proficiency">ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_KATANA</set>
 		</setters>
 	</element>
-	<element name="Longsword, Finesse" type="Weapon" source="Ian's Weapons" id="ID_IANSWEAPONS_WEAPON_LIGHT_LONGSWORD">
+	<element name="Longsword, Finesse" type="Weapon" source="Ian's Weapons" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_LIGHT_LONGSWORD">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p></p>
@@ -53,7 +55,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
 		</setters>
 	</element>
-	<element name="Longsword, Finesse (Two-Hand Only)" type="Weapon" source="Ian's Weapons" id="ID_IANSWEAPONS_WEAPON_TWOHAND_LIGHT_LONGSWORD">
+	<element name="Longsword, Finesse (Two-Hand Only)" type="Weapon" source="Ian's Weapons" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_TWOHAND_LIGHT_LONGSWORD">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p></p>
@@ -67,7 +69,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
 		</setters>
 	</element>
-	<element name="Longsword, Versatile/Finesse" type="Weapon" source="Player’s Handbook" id="ID_WOTC_PHB_WEAPON_LONGSWORD_VERSATILE_LIGHT_LONGSWORD">
+	<element name="Longsword, Versatile/Finesse" type="Weapon" source="Player’s Handbook" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_LONGSWORD_VERSATILE_LIGHT_LONGSWORD">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p></p>
@@ -82,7 +84,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
 		</setters>
 	</element>
-	<element name="Broadblade" type="Weapon" source="Ian's Weapons" id="ID_IANSWEAPONS_WEAPON_BROADBLADE">
+	<element name="Broadblade" type="Weapon" source="Ian's Weapons" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_BROADBLADE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p></p>
@@ -96,7 +98,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
 		</setters>
 	</element>
-	<element name="Nodachi" type="Weapon" source="Ian's Weapons" id="ID_IANSWEAPONS_WEAPON_NODACHI">
+	<element name="Nodachi" type="Weapon" source="Ian's Weapons" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_NODACHI">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p>This is a greatsword version of the traditional katana.</p>
@@ -110,7 +112,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD</set>
 		</setters>
 	</element>
-	<element name="Naginata" type="Weapon" source="Ian's Weapons" id="ID_IANSWEAPONS_WEAPON_NAGINATA">
+	<element name="Naginata" type="Weapon" source="Ian's Weapons" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_NAGINATA">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_POLEARMS</supports>
 		<description>
 			<p></p>
@@ -124,7 +126,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE</set>
 		</setters>
 	</element>
-	<element name="Yumi" type="Weapon" source="Ian's Weapons" id="ID_IANSWEAPONS_WEAPON_YUMI">
+	<element name="Yumi" type="Weapon" source="Ian's Weapons" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_YUMI">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
 		<description>
 			<p></p>
@@ -139,7 +141,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW</set>
 		</setters>
 	</element>
-	<element name="Wakizashi" type="Weapon" source="Ian's Weapons" id="ID_IANSWEAPONS_WEAPON_WAKIZASHI">
+	<element name="Wakizashi" type="Weapon" source="Ian's Weapons" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_WAKIZASHI">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p>The Traditional Short-sword equivalent to the Katana.</p>
@@ -153,7 +155,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
 		</setters>
 	</element>
-	<element name="Stone Handaxe" type="Weapon" source="Ian's Weapons" id="ID_IANSWEAPONS_WEAPON_STONEHANDAXE">
+	<element name="Stone Handaxe" type="Weapon" source="Ian's Weapons" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_STONEHANDAXE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
 			<p></p>
@@ -168,7 +170,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE</set>
 		</setters>
 	</element>
-	<element name="Stone Mace" type="Weapon" source="Ian's Weapons" id="ID_IANSWEAPONS_WEAPON_STONEMACE">
+	<element name="Stone Mace" type="Weapon" source="Ian's Weapons" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_STONEMACE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_MACES</supports>
 		<description>
 			<p></p>
