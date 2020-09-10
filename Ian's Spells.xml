@@ -1,0 +1,179 @@
+<elements>
+    <element name="Automatic Writing" type="Spell" source="Ian's Spells" id="ID_IANSSPELLS_SPELL_AUTOMATIC_WRITING">
+        <supports>Sorcerer, Wizard, Warlock</supports>
+        <description>
+            <p>You must be able to write and the materials to do so. While pondering a question you enter a light trance and begin writing, after 10 minutes the spell is complete. Reading your script, you will find information about your query. Roll 1d20 and compare the result to the Automatic Writing Chart below to determine the extent of the information you uncover.</p>
+            <table>
+                <tr><td>d20</td><td>Automatic Writing</td></tr>
+                <tr><td>1</td><td>One Minor clue to start your journey to knowledge.</td></tr>
+                <tr><td>2-10</td><td>Two minor clues and one major clue.</td></tr>
+                <tr><td>11-18</td><td>Two major clues and a partial answer.</td></tr>
+                <tr><td>19-20</td><td>The answer to your query.</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Divination</set>
+            <set name="time">10 Minutes</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">Writing materials</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Dowsing" type="Spell" source="Ian's Spells" id="ID_IANSSPELLS_SPELL_DOWSING">
+        <supports>Sorcerer, Wizard, Bard, Cleric, Swordmage</supports>
+        <description>
+            <p>You extend a stick or rod (whether a magical instrument or just something you grabbed off the ground) and concentrate on one type of thing (water, cats, people, bronze statuary, whatever) and you may learn the direction and location of the nearest example of what you seek. Roll 1d20, on a 10 or higher the spell works, if you roll lower than 10 the spell fails but you regain the spent spell slot. On a critical success you learn the precise location and distance, but on a botch, you lose the spell slot despite the failure.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">any Stick or Rod</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+    <element name="Foreknowledge" type="Spell" source="Ian's Spells" id="ID_IANSSPELLS_SPELL_FOREKNOWLEDGE">
+        <supports>Wizard, Bard</supports>
+        <description>
+            <p>With a muttered word, learning information becomes faster and easier. When casting this spell, you may make one ability check to learn information with advantage. You may cast this spell as a full action (rather than a bonus action) to extend the duration to 1 minute.</p>
+            <p class="indent">If you use a 2nd level spell slot (or higher) to cast this spell, the spell will affect one additional ally for every slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Divination</set>
+            <set name="time">1 Bonus Action or 1 action</set>
+            <set name="duration">Instantaneous, or 1 Minute</set>
+            <set name="range">self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent" />
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+    <element name="Prescient Defense" type="Spell" source="Ian's Spells" id="ID_IANSSPELLS_SPELL_PRESCIENT_DEFENSE">
+        <supports>Sorcerer, Wizard, Paladin, Swordmage</supports>
+        <description>
+            <p>With a wave of your hand you temporarily focus all your magical might on defense. Until the start of your next turn, you have advantage on all saving throws and all attacks made against you are made with disadvantage. Additionally, you may move without provoking opportunity attacks.  The affect will end if you cast an offensive spell (one that does damage or requires a saving throw from an enemy) but you may cast other spells as normal.</p>
+            <p class="indent">When you reach 11th level the spell lasts for 2 turns rather than 1, and when you reach 17th level the spell becomes an aura that affects all allies within a 30-foot Radius.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent" />
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Prescient Casting" type="Spell" source="Ian's Spells" id="ID_IANSSPELLS_SPELL_PRESCIENT_CASTING">
+        <supports>Sorcerer, Wizard, Cleric, Paladin, Swordmage</supports>
+        <description>
+            <p>With a whispered word you look a few seconds into the future and learn your enemies’ defenses. This grants you advantage on all spell attack rolls and causes saving throws made (by enemies) to resist your spells to be rolled with disadvantage.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Divination</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent" />
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Regression" type="Spell" source="Ian's Spells" id="ID_IANSSPELLS_SPELL_REGRESSION">
+        <supports>Sorcerer, Wizard, Cleric</supports>
+        <description>
+            <p>You touch or hold an object and cast your perceptions back along the object’s history. The longer you hold your concentration, the further back in time you will see. These “visions” are seen from a third-party point of view. You may discover information regarding the origin and history of the object itself or about events that happened around the object. This spell won’t tell you about magic affecting the object (although it will tell you if the object is, itself, magical) or information about people associated with the object.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 Minute</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent" />
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Remote Viewing" type="Spell" source="Ian's Spells" id="ID_IANSSPELLS_SPELL_REMOTE_VIEWING">
+        <supports>Sorcerer, Wizard, Bard, Cleric</supports>
+        <description>
+            <p>You sit or lay down and enter a meditative state. Once in this trance you may focus on a destination and intuit details of the location and its environment up to and including information about enemies and other threats present. Roll 1d10 and compare it to the Remote Viewing Table to determine how much you learn.</p>
+            <table>
+                <tr><td>d10</td><td>Remote Viewing</td></tr>
+                <tr><td>1</td><td>Basic Information only: General layout, presence of lifeforms.</td></tr>
+                <tr><td>2-6</td><td>Average Information: Full layout, Specific lifeforms, presence of non-living threats.</td></tr>
+                <tr><td>7-8</td><td>Excellent information: As above, plus Specific non-living threats.</td></tr>
+                <tr><td>9-10</td><td>All above information plus whatever else you want to know.</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Divination</set>
+            <set name="time">1 Minute</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent" />
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+    <element name="Magic Mirror" type="Spell" source="Ian's Spells" id="ID_IANSSPELLS_SPELL_MAGIC_MIRROR">
+        <supports>Sorcerer, Wizard, Bard, Cleric</supports>
+        <description>
+            <p>You must have ready access to a reflective material (mirror, still water, etc.). You gaze into the reflection while concentrating on what you wish to see (this can be anything within a 10 mile radius of your current position. You will immediately see your intended target in detail and a radius of 5 feet surrounding the target in murky detail. If you choose, you may make a Wisdom(Perception) check to clarify  the area surrounding your target for free.</p>
+            <p class="indent">Casting this spell with a spell slot of 5th level or higher allows the scry image to serve as the line-of-sight requirement for casting other spells.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Divination</set>
+            <set name="time">1 Action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">A mirror or other reflective surfacce</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+</elements>

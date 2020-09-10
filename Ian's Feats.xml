@@ -1,0 +1,66 @@
+<elements>
+	<element name="Expert (1)" type="Feat" source="Ian's Feats" id="ID_IANSFEATS_FEAT_EXPERT1">
+		<requirements>([level:2])</requirements>
+		<description>
+			<p>True Prodigies are rare, however there are always those who, through training and experience, surpass simple proficiency in certain skills; they become Experts.</p>
+			<ul>
+				<li>Choose one skill in which you already have proficency, you will now receive twice your proficency bonus on checks involving this skill.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet	display="false"	/>
+		<rules>
+			<select type="Class Feature" name="Expert" number= "1" supports="Expertise,Skill" />
+		</rules>
+	</element>
+	<element name="Expert (2)" type="Feat" source="Ian's Feats" id="ID_IANSFEATS_FEAT_EXPERT2">
+	<requirements>([level:2])</requirements>
+		<description>
+			<p>True Prodigies are rare, however there are always those who, through training and experience, surpass simple proficiency in certain skills; they become Experts.</p>
+			<ul>
+				<li>Choose one skill in which you already have proficency, you will now receive twice your proficency bonus on checks involving this skill.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet	display="false"	/>
+		<rules>
+			<select type="Class Feature" name="Expert" number= "2" supports="Expertise,Skill" />
+		</rules>
+	</element>
+	<element name="Expert (3)" type="Feat" source="Ian's Feats" id="ID_IANSFEATS_FEAT_EXPERT3">
+	<requirements>([level:2])</requirements>
+		<description>
+			<p>True Prodigies are rare, however there are always those who, through training and experience, surpass simple proficiency in certain skills; they become Experts.</p>
+			<ul>
+				<li>Choose one skill in which you already have proficency, you will now receive twice your proficency bonus on checks involving this skill.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet	display="false"	/>
+		<rules>
+			<select type="Class Feature" name="Expert" number= "3" supports="Expertise,Skill" />
+		</rules>
+	</element>
+	<element name="Expert (4)" type="Feat" source="Ian's Feats" id="ID_IANSFEATS_FEAT_EXPERT4">
+	<requirements>([level:2])</requirements>
+		<description>
+			<p>True Prodigies are rare, however there are always those who, through training and experience, surpass simple proficiency in certain skills; they become Experts.</p>
+			<ul>
+				<li>Choose one skill in which you already have proficency, you will now receive twice your proficency bonus on checks involving this skill.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet	display="false"	/>
+		<rules>
+			<select type="Class Feature" name="Expert" number= "4" supports="Expertise,Skill" />
+		</rules>
+	</element>
+</elements>

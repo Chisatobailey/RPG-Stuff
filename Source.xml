@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+<info>
+        <update version="1.0.0">
+            <file name="sources.xml" url="https://github.com/Chisatobailey/RPG-Stuff/blob/Arcane-Athenaum-files/Arcane-Athenaum/sources.xml" />
+        </update>
+    </info>
+
+	<element name="Ian's Armor" type="Source" source="Ian's Armor" id="ID_IANSARMOR">
+		<description>
+			<![CDATA[<p>Ian's Armor</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">IANSARMOR</set>
+			<set name="url">https://www.dmsguild.com/product/224413/The-Swordmage-A-True-Arcane-HalfCaster-for-5e.xml</set>
+			<set name="author" url="http://thearcaneathenaum.org">Arcane Athenæum</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+	<element name="The Treant" type="Source" source="The Treant" id="ID_AA_THETREANT">
+		<description>
+			<![CDATA[<p>Arcane Athenæum's Treant</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">THETREANT</set>
+			<set name="url">https://www.dmsguild.com/product/173573/Treant-Player-Race</set>
+			<set name="author" url="http://thearcaneathenaum.org">Arcane Athenæum</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+    <element name="The Swordmage" type="Source" source="The Swordmage" id="ID_AA_THESWORDMAGE">
+		<description>
+			<![CDATA[<p>Arcane Athenæum's Swordmage</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">THESWORDMAGE</set>
+			<set name="url">https://www.dmsguild.com/product/224413/The-Swordmage-A-True-Arcane-HalfCaster-for-5e.xml</set>
+			<set name="author" url="http://thearcaneathenaum.org">Arcane Athenæum</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+    <element name="The Swordmage" type="Source" source="The Swordmage" id="ID_AA_THESWORDMAGE">
+		<description>
+			<![CDATA[<p>Arcane Athenæum's Swordmage</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">THESWORDMAGE</set>
+			<set name="url">https://www.dmsguild.com/product/224413/The-Swordmage-A-True-Arcane-HalfCaster-for-5e.xml</set>
+			<set name="author" url="http://thearcaneathenaum.org">Arcane Athenæum</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>

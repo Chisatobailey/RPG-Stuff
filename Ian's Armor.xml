@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <elements>
+        <element name="Buckler" type="Armor" source="Ian's Armory" id="ID_IANSARMOR_GEAR_BUCKLER">
+            <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD	</supports>
+            <description>
+			    <p>A small round shield made from wood or metal and carried in one hand. Wielding a buckler increases your Armor Class by 1. You can benefit from only one shield at a time.</p>
+		    </description>
+		    <setters>
+                <set name="cost" currency="gp">5</set>
+                <set name="weight" lb="3">3 lb.</set>
+                <set name="slot">onehand,secondary</set>
+                <set name="type">Shield</set>
+                <set name="armor">Shield</set>
+                <set name="armorClass">+1</set>
+                <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		    </setters>
+		    <rules>                
+			    <stat name="ac:shield" value="1" bonus="shield" />                
+		    </rules>
+	    </element>
+        <element name="Full-Cover Shield" type="Armor" source="Ian's Armory" id="ID_IANSARMOR_GEAR_FULL_COVER_SHIELD">
+            <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD	</supports>
+            <description>
+			    <p>This "War Door" type shield can be made out of wood or metal and can be any of a number of shapes. Though too unweildy to allow the user of such shields to move with ease and subtlety, this grants unparalleled protection amongst shields and even allows the user to fully crouch behind the shield granting the benefits of full-cover.</p>
+		    </description>
+		    <setters>
+                <set name="cost" currency="gp">10</set>
+                <set name="weight" lb="3">6 lb.</set>
+                <set name="slot">onehand,secondary</set>
+                <set name="type">Shield</set>
+                <set name="armor">Shield</set>
+                <set name="strength">15</set>
+                <set name="armorClass">+3</set>
+                <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		    </setters>
+		    <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			    <stat name="ac:shield" value="3" bonus="shield" />
+                <stat name="speed" value="-10" bonus="armor" requirements="![str:15]" />
+		    </rules>
+	    </element>
+    </elements>

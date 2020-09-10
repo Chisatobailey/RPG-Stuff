@@ -1,0 +1,46 @@
+<elements>
+    <element name="Eye of the Hand" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSWONDEROUSITEMS_MAGIC_ITEM_EYE_OF_THE_HAND">
+		<description>
+			<p>The Eye of the Hand is a pendant, measuring 3 inches wide and 4 inches tall, made of finely carved amber and chased in silver. There is an eye-shaped hole in the center of the palm through which one may look. Doing so will reveal the mark of the Amber Hand which denotes the order's safehouses.</p>
+            <p>When worn, this amulet grants the wearer advantage on one Sleight of Hand or Survival Skill Check once per day.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Pot of Healthy Cooking" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSWONDEROUSITEMS_MAGIC_ITEM_POTOFHEALTHYCOOKING">
+		<description>
+			<p>This ordinary looking cookpot heals 5 HP to the entire party if used during a short or long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>			
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Masterwork Boots" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSWONDEROUSITEMS_MAGIC_ITEM_MASTERWORKBOOTS">
+		<description>
+			<p>This beautifully made pair of boots are so comfortable and perfectly fit that the wearer's movement is increased by 5 feet.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>			
+			<set name="rarity">Rare</set>
+			<set name="slot">feet</set>
+			<set name="attunement">false</set>
+		</setters>
+		<rules>
+			<stat name="speed:misc" value="5" bonus="base" />
+		</rules>
+	</element>
+</elements>
