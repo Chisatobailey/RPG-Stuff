@@ -5,13 +5,13 @@ A<?xml version="1.0" encoding="utf-8"?>
 		<description>Content created by the Arcane Athenaeum</description>
 		<author url="https://thearcaneathenaeum.org/">The Arcane Athenaeum</author>
 		<update version="0.0.1" />
-			<file name="arcane-athenaeum.index" url="https://github.com/Chisatobailey/RPG-Stuff/tree/arcane-athenaeum/arcane-athenaeum.index" />
+			<file name="arcane-athenaeum.index" url="https://raw.github.com/Chisatobailey/RPG-Stuff/tree/arcane-athenaeum/arcane-athenaeum.index" />
 		</update>
 	</info>
 	<files>
-		<file name="sources.xml" url="https://github.com/Chisatobailey/RPG-Stuff/blob/arcane-athenaeum/sources.xml" />
-		<file name="Feats.xml" url="https://github.com/Chisatobailey/RPG-Stuff/blob/arcane-athenaeum/Feats.xml" />
-		<file name="Treant.xml" url="https://github.com/Chisatobailey/RPG-Stuff/blob/arcane-athenaeum/Treant.xml" />
-		<file name="class-swordmage.xml" url="https://github.com/Chisatobailey/RPG-Stuff/blob/arcane-athenaeum/class-swordmage.xml" />
+		<file name="sources.xml" url="https://raw.github.com/Chisatobailey/RPG-Stuff/blob/arcane-athenaeum/sources.xml" />
+		<file name="Feats.xml" url="https://raw.github.com/Chisatobailey/RPG-Stuff/blob/arcane-athenaeum/Feats.xml" />
+		<file name="Treant.xml" url="https://raw.github.com/Chisatobailey/RPG-Stuff/blob/arcane-athenaeum/Treant.xml" />
+		<file name="class-swordmage.xml" url="https://raw.github.com/Chisatobailey/RPG-Stuff/blob/arcane-athenaeum/class-swordmage.xml" />
 	</files>
 </index>
