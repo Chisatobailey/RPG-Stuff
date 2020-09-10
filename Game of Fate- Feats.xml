@@ -4,7 +4,7 @@
 		<name>Game of Fate-Feats</name>
 		<description>Feats for the Game of Fate</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="0.0.1" />
+		<update version="1.0.0" >
 			<file name="Game of Fate-Feats.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Feats.xml" />
 		</update>
 	</info>
