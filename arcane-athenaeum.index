@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Arcane Athenaeum</name>
+		<description>Content created by the Arcane Athenaeum</description>
+		<author url="https://thearcaneathenaeum.org/">The Arcane Athenaeum</author>
+		<update version="0.0.1" />
+			<file name="arcane-athenaeum.index" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/arcane-athenaeum/arcane-athenaeum.index" />
+		</update>
+	</info>
+	<files>
+		<file name="sources.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/arcane-athenaeum/sources.xml" />
+		<file name="Feats.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/arcane-athenaeum/Feats.xml" />
+		<file name="Treant.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/arcane-athenaeum/Treant.xml" />
+		<file name="class-swordmage.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/arcane-athenaeum/class-swordmage.xml" />
+	</files>
+</index>
