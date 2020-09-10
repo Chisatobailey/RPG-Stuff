@@ -1,0 +1,49 @@
+<elements>
+	<info>
+		<name>Game of Fate-Rings</name>
+		<description>Rings for the Game of Fate</description>
+		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+		<update version="1.0.0" >
+			<file name="Game of Fate-Rings.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Rings.xml" />
+		</update>
+	</info>
+	<element name="Weaver's Emerald" type="Magic Item" source="Game of Fate" id="ID_GAMEOFFATE_RINGS_MAGIC_ITEM_WEAVERS_EMERALD">
+		<description>
+			<p>While wearing this ring, you gain the power Weaver's Mind. This grants the ability to reroll with advantage any failed Intelligence Skill Check once per day.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+	<element name="Weaver's Sapphire" type="Magic Item" source="Game of Fate" id="ID_GAMEOFFATE_RINGS_MAGIC_ITEM_WEAVERS_SAPPHIRE">
+		<description>
+			<p>While wearing this ring, you gain the power Weaver's Insight. This grants the ability to reroll with advantage any failed Wisdom Skill Check once per day.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+    <element name="Ruby of the Weaver's Loom" type="Magic Item" source="Game of Fate" id="ID_GAMEOFFATE_RINGS_MAGIC_ITEM_RUBY_OF_THE_WEAVERS_LOOM">
+		<description>
+			<p>While wearing this ring, you gain the power Warp the Weft. This grants the ability to teleport yourself, your party, mounts and all of your equipment anywhere once per day.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+</elements>
