@@ -5,7 +5,7 @@ A<?xml version="1.0" encoding="utf-8"?>
 		<description>Content created by the Arcane Athenaeum</description>
 		<author url="https://thearcaneathenaeum.org/">The Arcane Athenaeum</author>
 		<update version="0.0.1" />
-			<file name="arcane-athenaeum.index" url="https://raw.github.com/Chisatobailey/RPG-Stuff/tree/arcane-athenaeum/arcane-athenaeum.index" />
+			<file name="arcane-athenaeum.index" url="https://raw.github.com/Chisatobailey/RPG-Stuff/blob/arcane-athenaeum/arcane-athenaeum.index" />
 		</update>
 	</info>
 	<files>
