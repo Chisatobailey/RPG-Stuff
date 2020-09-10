@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Game of Fate-Feats</name>
+		<description>Feats for the Game of Fate</description>
+		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+		<update version="0.0.1" />
+			<file name="Game of Fate-Feats.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Feats.xml" />
+		</update>
+	</info>
     <!--Istus's Gifts-->
-    <element name="Istus's Way" type="Feat" source="Game of Fate" id="ID_GAMEOFFATE_FEAT_ISTUSSWAY">
+    <element name="Istus's Way" type="Feat" source="Game of Fate" id="ID_GAMEOFFATE_FEATS_FEAT_ISTUSSWAY">
 		<description>
 			<p>"The truly wise warrior sees the path to victory before battle is even joined."</p>
             <p>You gain remarkable insight during battle (bordering on precognition) making you attacks more likely to hit and gaining you the ability to avoid some blows before they even happen.</p>
@@ -18,7 +26,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Increase (Cut the Skein)" supports="ID_GAMEOFFATE_FEAT_ASI_INTELLIGENCE|ID_GAMEOFFATE_FEAT_ASI_WISDOM" />
 		</rules>
 	</element>
-    <element name="Unravel the Mess" type="Feat" source="Game of Fate" id="ID_GAMEOFFATE_FEAT_UNRAVELTHEMESS">
+    <element name="Unravel the Mess" type="Feat" source="Game of Fate" id="ID_GAMEOFFATE_FEATS_FEAT_UNRAVELTHEMESS">
 		<description>
 			<p>"The canny mind sees many paths when the average mind sees only one, but the truly wise can percieve a strait line where others see only chaos."</p>
             <p>You have the proven ability to intuit the most efficient and effective means of persuing any line of inquiry and can even learn answers through divine means.</p>
@@ -35,7 +43,7 @@
 			<select type="Ability Score Improvement" name="Ability Score Increase (Cut the Skein)" supports="ID_GAMEOFFATE_FEAT_ASI_INTELLIGENCE|ID_GAMEOFFATE_FEAT_ASI_WISDOM" />
 		</rules>
 	</element>
-    <element name="Cut the Skein" type="Feat" source="Game of Fate" id="ID_GAMEOFFATE_FEAT_CUTTHESKEIN">
+    <element name="Cut the Skein" type="Feat" source="Game of Fate" id="ID_GAMEOFFATE_FEATS_FEAT_CUTTHESKEIN">
 		<description>
 			<p>"Often, the most direct path is the most effective solution to any problem."</p>
             <p>You have spent a great deal of time aiding others, as such you have grown sensitive to the patterns of injustice and oppression and have learned how to interrupt these cycles before they have the chance to take hold.</p>
@@ -50,7 +58,7 @@
 			<description>You have Advantage on all Charisma-based skill checks. You learn of acts of injustice near you in time to stop or even prevent them. Once per day, you may either grant your party a full surprise round at the beginning of combat -OR- you may grant only yourself an extra attack action every round during one combat.</description>
 		</sheet>
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Cut the Skein)" supports="ID_GAMEOFFATE_FEAT_ASI_INTELLIGENCE|ID_GAMEOFFATE_FEAT_ASI_WISDOM" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Cut the Skein)" supports="ID_GAMEOFFATE_FEATS_FEAT_ASI_INTELLIGENCE|ID_GAMEOFFATE_FEAT_ASI_WISDOM" />
 		</rules>
 	</element>
     <!--END Istus's Gifts-->
@@ -58,7 +66,7 @@
 	
 
     <!--Feat Ability Score Increase-->
-	<element name="Ability Score Increase (Strength)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEAT_ASI_STRENGTH">
+	<element name="Ability Score Increase (Strength)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEATS_FEAT_ASI_STRENGTH">
 		<compendium display="false" />
 		<supports>Feat, Athlete</supports>
 		<description>
@@ -71,7 +79,7 @@
 			<stat name="strength" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Dexterity)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEAT_ASI_DEXTERITY">
+	<element name="Ability Score Increase (Dexterity)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEATS_FEAT_ASI_DEXTERITY">
 		<compendium display="false" />
 		<supports>Feat, Athlete</supports>
 		<description>
@@ -84,7 +92,7 @@
 			<stat name="dexterity" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Constitution)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEAT_ASI_CONSTITUTION">
+	<element name="Ability Score Increase (Constitution)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEATS_FEAT_ASI_CONSTITUTION">
 		<compendium display="false" />
 		<supports>Feat</supports>
 		<description>
@@ -97,7 +105,7 @@
 			<stat name="constitution" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Intelligence)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEAT_ASI_INTELLIGENCE">
+	<element name="Ability Score Increase (Intelligence)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEATS_FEAT_ASI_INTELLIGENCE">
 		<compendium display="false" />
 		<supports>Feat</supports>
 		<description>
@@ -110,7 +118,7 @@
 			<stat name="intelligence" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Wisdom)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEAT_ASI_WISDOM">
+	<element name="Ability Score Increase (Wisdom)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEATS_FEAT_ASI_WISDOM">
 		<compendium display="false" />
 		<supports>Feat</supports>
 		<description>
@@ -123,7 +131,7 @@
 			<stat name="wisdom" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Charisma)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEAT_ASI_CHARISMA">
+	<element name="Ability Score Increase (Charisma)" type="Ability Score Improvement" source="Game of Fate" id="ID_GAMEOFFATE_FEATS_FEAT_ASI_CHARISMA">
 		<compendium display="false" />
 		<supports>Feat</supports>
 		<description>

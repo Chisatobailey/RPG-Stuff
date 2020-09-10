@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-<info>
+	<info>
         <update version="1.0.0">
-            <file name="sources.xml" url="https://github.com/Chisatobailey/RPG-Stuff/blob/Arcane-Athenaum-files/Arcane-Athenaum/sources.xml" />
+            <file name="source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Source.xml" />
         </update>
     </info>
 
-	<element name="The Swordmage" type="Source" source="The Swordmage" id="ID_AA_THESWORDMAGE">
+	<element name="Game of Fate-Rings" type="Source" source="Game of Fate-Rings" id="ID_GAMEOFFATE_RINGS">
 		<description>
-			<![CDATA[<p>Arcane Athenæum's Swordmage</p>]]>
+			<![CDATA[<p>Rings for the Game of Fate</p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">THESWORDMAGE</set>
-			<set name="url">https://www.dmsguild.com/product/224413/The-Swordmage-A-True-Arcane-HalfCaster-for-5e.xml</set>
-			<set name="author" url="http://thearcaneathenaum.org">Arcane Athenæum</set>
+			<set name="abbreviation">GAMEOFFATE_RINGS</set>
+			<set name="url">https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Rings.xml</set>
+			<set name="author" url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</set>
 			<set name="homebrew">true</set>
 		</setters>
 	</element>
-	<element name="The Treant" type="Source" source="The Treant" id="ID_AA_THETREANT">
+	<element name="Game of Fate-Feats" type="Source" source="Game of Fate-Feats" id="ID_GAMEOFFATE_FEATS">
 		<description>
-			<![CDATA[<p>Arcane Athenæum's Treant</p>]]>
+			<![CDATA[<p>Feats for the Game of Fate</p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">THETREANT</set>
-			<set name="url">https://www.dmsguild.com/product/173573/Treant-Player-Race</set>
-			<set name="author" url="http://thearcaneathenaum.org">Arcane Athenæum</set>
+			<set name="abbreviation">GAMEOFFATE_FEATS</set>
+			<set name="url">https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Feats.xml</set>
+			<set name="author" url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</set>
 			<set name="homebrew">true</set>
 		</setters>
 	</element>

@@ -1,4 +1,12 @@
 <elements>
+	<info>
+		<name>Game of Fate-Rings</name>
+		<description>Rings for the Game of Fate</description>
+		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+		<update version="0.0.1" />
+			<file name="Game of Fate-Rings.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Rings.xml" />
+		</update>
+	</info>
 	<element name="Weaver's Emerald" type="Magic Item" source="Game of Fate" id="ID_GAMEOFFATE_RINGS_MAGIC_ITEM_WEAVERS_EMERALD">
 		<description>
 			<p>While wearing this ring, you gain the power Weaver's Mind. This grants the ability to reroll with advantage any failed Intelligence Skill Check once per day.</p>
