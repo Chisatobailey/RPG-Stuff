@@ -3,7 +3,7 @@
 		<name>Ian's Feats</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="0.0.1" />
+		<update version="1.0.0">
 			<file name="Ian's Feats.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Feats.xml" />
 		</update>
 	</info>
