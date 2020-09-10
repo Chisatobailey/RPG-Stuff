@@ -4,7 +4,7 @@
 		<name>The Game of Fate</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="Game-of-Fate.index" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/master/Game-of-Fate.index" />
 		</update>
 	</info>
