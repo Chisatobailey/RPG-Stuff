@@ -1,0 +1,115 @@
+<elements>
+	<info>
+        <name>Feats</name>
+        <description>The Treant- Racial Feats</description>
+        <author url="http://thearcaneathenaum.org">The Arcane Athenaum</author>
+        <update version="1.0.0">
+            <file name="race-treant.xml" url="https://github.com/Chisatobailey/RPG-Stuff/blob/Arcane-Athenaum-files/Feats.xml" />
+        </update>
+    </info>
+
+	<element name="Treant Pole" type="Feat" source="The Treant" id="ID_AA_THETREANT_FEAT_TREANTPOLE">
+		<description>
+			<p><i>Prerequisite: Treant.</i></p>
+			<p>As with all trees, the passing of time and influx of nutrients has made you grow larger.</p>
+			<ul>
+				<li>Increase your Strength, Constitution, or Dexterity score by 1, to a maximum of 20.</li>
+				<li>Your size becomes Large, and you have advantage on Strength checks and Strength saving throws.</li>
+				<li>Your unarmed strikes now deal bludgeoning damage equal to 1d8 + your Strength modifier.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<sheet	display="true">
+            <description>You have advantage on Strength checks and Strength saving throws. Your unarmed strikes now deal bludgeoning damage equal to 1d8 + your Strength modifier.</description>
+        </sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Treant Pole)" supports="ID_AA_THETREANT_FEAT_ASI_STRENGTH|ID_AA_THETREANT_FEAT_ASI_CONSTITUTION|ID_AA_THETREANT_FEAT_ASI_DEXTERITY" />
+			<stat name="powerful form:dice" value="8" bonus="powerful form" />
+
+			<grant type="Size" id="ID_SIZE_LARGE" />
+		</rules>
+	</element>
+
+	<!--Feat Ability Score Increase-->
+	<element name="Ability Score Increase (Strength)" type="Ability Score Improvement" source="The Treant" id="ID_AA_THETREANT_FEAT_ASI_STRENGTH">
+		<compendium display="false" />
+		<supports>Feat, Athlete</supports>
+		<description>
+			<p>Your Strength increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Dexterity)" type="Ability Score Improvement" source="The Treant" id="ID_AA_THETREANT_FEAT_ASI_DEXTERITY">
+		<compendium display="false" />
+		<supports>Feat, Athlete</supports>
+		<description>
+			<p>Your Dexterity increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Constitution)" type="Ability Score Improvement" source="The Treant" id="ID_AA_THETREANT_FEAT_ASI_CONSTITUTION">
+		<compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Your Constitution increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Intelligence)" type="Ability Score Improvement" source="The Treant" id="ID_AA_THETREANT_FEAT_ASI_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Your Intelligence increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Wisdom)" type="Ability Score Improvement" source="The Treant" id="ID_AA_THETREANT_FEAT_ASI_WISDOM">
+		<compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Your Wisdom increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Charisma)" type="Ability Score Improvement" source="The Treant" id="ID_AA_THETREANT_FEAT_ASI_CHARISMA">
+		<compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Your Charisma increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+    <!--END Ability Score Increase-->
+</elements>

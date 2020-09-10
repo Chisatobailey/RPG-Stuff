@@ -1,0 +1,217 @@
+<elements>
+    <info>
+        <name>Treant</name>
+        <description>The Treant</description>
+        <author url="http://thearcaneathenaum.org">The Arcane Athenaum</author>
+        <update version="1.0.0">
+            <file name="race-treant.xml" url="https://github.com/Chisatobailey/RPG-Stuff/blob/Arcane-Athenaum-files/Treant.xml" />
+        </update>
+    </info>
+
+    <element name="Treant" type="Race" source="The Treant" id="ID_AA_THETREANT_RACE_TREANT">
+		<description>
+			<p class="flavor">The trees surrounding the glken hadn't seen a humanoid in many years. Now with my arrival, my hand still struggling to cover my bleeding side, they called out in creaking voices as deep as the roots which anchored them to the soil.</p>
+            <p class="flavor">A smaller tree strode forward, but unlike the others it walked on two legs and waved arms with knotted fingers. And in the bark, below the boughs that held the tender shoots of leaves, was a cracked and smiling face. He reached down and bore me up in his spindly arms before turning to walk back into the clearing. His voice, too, creaked with the sound of wood straining against itself.</p>
+            <p class="flavor">"Hrmm, you have been watched by my friends for many a day. Watched by bark without eyes. You are fortunate, young one, that the forest has heard your plight and is able to aid you. Come, drink deep, and perhaps you shall take up root here with me."</p>
+			<p> Treants are awakened trees. They are quiet, pensive, slow, and deliberate in their natures. Though normally kind and helpful to those who do not threaten the balance of nature, treants will guard their flock of trees and protect their forest homes with great ferocity, able to rip apart constructs of solid stone in seconds.</p>
+            <h4>AWAKENED BEINGS</h4>
+			<p>Treants do not mate or give birth like other races. All treants begin their life as a seemingly normal tree. Yet even as a seedling they contained the spark of sentience that would later awaken them. A tree destined to become a treant grows normally, but slowly begins to take on humanoid characteristics over the decades; their trunks split into two separate legs, branches bend down to become grasping arms, and a face forms in the tree’s rough bark.</p>
+			<p class="indent">Eventually the tree awakens fully and pulls itself free of the ground to begin its new life as a treant. It will continue to grow as it did as a tree, tending to the forest and protecting it from usurpers and destroyers.</p>
+			<h4>SHEPHERDS OF THE TREES</h4>
+			<p>The life of a treant is simple and commonly quiet. Being plants, they have no need to forage for food, creating their own sugars from the rays of the sun. Most spend their days in quiet contemplation, ruminating on the goings on of nature and the wilderness surrounding the simple homes they make in a glen or copse. A treant rarely leaves its forest, focused solely on protecting its trees and other denizens of the forest. As a treant ages and its bark thickens it will venture out less and less, eventually taking permanent root and settling forever until its time to rejoin the earth comes.</p>
+			<p class="indent">Treants have a natural affinity to nature. They can communicate with other plants through a deep and groaning tree language incomprehensible to other races. This affinity extends to creatures of fey origin, who share the treants’ love of growing things. It is possible that treants themselves are fey in nature, the spark which awakens them possibly originating from a nature spirit.</p>
+			<h4>PENSIVE AND PATIENT</h4>
+			<p>Treants rarely venture out into the world, and the concept of adventuring is foreign to most. A treant’s true home is among the trees with which it grew and shared soil. Yet some young treants will venture out to strange lands, perhaps seeking some greater sense of purpose or understanding. Many feel that they have a duty to protect all the regions of nature in the world, not just the forest where they sprouted, and travel far in pursuit of this ideal. They return to their home soil only when their height is great and their bark is thick.</p>
+			<h4>TREANT NAMES</h4>
+			<p>Treants take their names from a variety of sources. Many name themselves, being awoken with a grasp of multiple languages. Others are named by friends, both humanoid and fey. Whatever the source, most names combine two words based on a characteristic unique to the treant’s personality or build. Though treants do not have a true sex they typically lean to one gender throughout their lives.</p>
+			<p>
+			<span class="feature">Treant Names:</span>Ashthorn, Autumnbirch, Barreltrunk, Bramblewood, Cunningdale, Elderheart, Firhair, Ironbark, Limbwillow, Maplesap, Oakgrove, Pinestand, Sapjoy, Tendershoot, Wildroot, Wisebellow<br />
+			</p>
+			<h4>TREANT TRAITS</h4>
+			<p>Treants are as varied as the trees from which they grow, but in general all have the following traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Treants can grow to many hundreds or thousands of years old, their magic sustaining them far beyond the normal lifespan of their tree species. Most treants awaken within the first century of their sprouting, and it is while a treant is young and small that they travel the world.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Treants tend to carry no particular opinions beyond the need for the protection of their forests, and they have little concept of the laws of civilization. Though most are good-natured and kindly, corruption of a natural habitat or the destruction of their home can drive a treant toward madness and fury.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Treants continue to grow steadily for the entirety of their lives. Most treant saplings are between 7 and 8 feet tall when they leave their forest homes and weigh 300-700 lbs. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>False Appearance.</em></strong> While you remain motionless, you are indistinguishable from a normal tree.</p>
+			<p class="indent"><strong><em>Natural Armor.</em></strong> Your tough bark protects you from harm. You are unable to wear armor, but your AC is 14 + your Dexterity modifier or your Constitution modifier, whichever is higher. A shield's benefits apply as normal while you use your natural armor.</p>
+			<p class="indent"><strong><em>Narure's Warden.</em></strong> You have proficiency in the Nature skill.</p>
+			<p class="indent"><strong><em>Powerful Form.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. Additionally, your limbs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to ld6 + your Strength modifier.</p>
+			<p class="indent"><strong><em>Treeish.</em></strong> You are considered a plant instead of a humanoid, and you have vulnerability to fire damage. Instead of eating or breathing normally, you harness the sun's energy and surrounding oxygen to create your own food. You can survive a number of days equal to your Constitution score without sunlight or oxygen before starving or suffocating. You must drink twice as much water as a normal human, but can take in this water through your root-like feet during travel or other activities if it is available. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.</p>
+            <p class="indent"><strong><em>Tree Whisperer.</em></strong> Through your own treeish nature, you can communicate simple ideas with plants of all kinds. Plants might be able to perform tasks on your behalf, at the DM's discretion. They are unable to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Sylvan.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> A treant's parent species determines the ruggedness of its form and the litheness of its limbs. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="treant">Ashthorn, Autumnbirch, Barreltrunk, Bramblewood, Cunningdale, Elderheart, Firhair, Ironbark, Limbwillow, Maplesap, Oakgrove, Pinestand, Sapjoy, Tendershoot, Wildroot, Wisebellow</set>
+			<set name="names-format">{{treant}}</set>
+			<set name="height" modifier="2d12">7'6"</set>
+			<set name="weight" modifier="1d8">300 lb.</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+			<grant type="Racial Trait" id="ID_AA_THETREANT_RACIAL_TRAIT_FALSE_APPEARANCE" />
+			<grant type="Racial Trait" id="ID_AA_THETREANT_RACIAL_TRAIT_NATURAL_ARMOR" />
+			<grant type="Racial Trait" id="ID_AA_THETREANT_RACIAL_TRAIT_NATURES_WARDEN" />
+			<grant type="Racial Trait" id="ID_AA_THETREANT_RACIAL_TRAIT_POWERFUL_FORM" />
+			<grant type="Racial Trait" id="ID_AA_THETREANT_RACIAL_TRAIT_TREEISH" />
+			<grant type="Racial Trait" id="ID_AA_THETREANT_RACIAL_TRAIT_TREE_WHISPERER" />
+			<grant type="Racial Trait" id="ID_AA_THETREANT_RACIAL_TRAIT_TREANT_SUBRACE" />
+		</rules>
+	</element>
+	<element name="False Appearance" type="Racial Trait" source="The Treant" id="ID_AA_THETREANT_RACIAL_TRAIT_FALSE_APPEARANCE">
+		<description>
+			<p>While you remain motionless, you are indistinguishable from a normal tree.</p>
+		</description>
+		<sheet display="true">
+			<description>While you remain motionless, you are indistinguishable from a normal tree.</description>
+		</sheet>
+	</element>
+	<element name="Natural Armor" type="Racial Trait" source="The Treant" id="ID_AA_THETREANT_RACIAL_TRAIT_NATURAL_ARMOR">
+		<description>
+			<p>Your tough bark protects you from harm. You are unable to wear armor, but your AC is 14 + your Dexterity modifier or your Constitution modifier, whichever is higher. A shield's benefits apply as normal while you use your natural armor.</p>
+		</description>
+		<sheet display="false">
+			<description>Your tough bark protects you from harm. You are unable to wear armor, but your AC is 12 + your Dexterity modifier + your Constitution modifier. A shield's benefits apply as normal while you use your natural armor.</description>
+		</sheet>
+		<rules>
+			<stat name="Natural Armor" value="12" />
+			<stat name="Natural Armor" value="dexterity:modifier" />
+			<stat name="Natural Armor" value="constitution:modifier" />
+			<stat name="ac:calculation" value="Natural Armor" bonus="calculation" alt="Natural Armor" />
+		</rules>
+	</element>
+	<element name="Narure's Warden" type="Racial Trait" source="The Treant" id="ID_AA_THETREANT_RACIAL_TRAIT_NATURES_WARDEN">
+		<description>
+			<p>You have proficiency in the Nature skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Nature skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+		</rules>
+	</element>
+	<element name="Powerful Form" type="Racial Trait" source="The Treant" id="ID_AA_THETREANT_RACIAL_TRAIT_POWERFUL_FORM">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. Additionally, your limbs are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to ld6 + your Strength modifier.</p>
+		</description>
+		<sheet display="true">
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. Your unarmed strike does 1d{{powerful form:dice}}+{{powerful form:damage}} bludgeoning damage.</description>
+		</sheet>
+		<rules>
+			<stat name="powerful form:attack" value="strength:modifier" bonus="powerful form" />
+			<stat name="powerful form:damage" value="strength:modifier" bonus="powerful form" />
+			<stat name="powerful form:dice" value="6" bonus="powerful form" />
+
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+	<element name="Treeish" type="Racial Trait" source="The Treant" id="ID_AA_THETREANT_RACIAL_TRAIT_TREEISH">
+		<description>
+			<p>You are considered a plant instead of a humanoid, and you have vulnerability to fire damage. Instead of eating or breathing normally, you harness the sun's energy and surrounding oxygen to create your own food. You can survive a number of days equal to your Constitution score without sunlight or oxygen before starving or suffocating. You must drink twice as much water as a human, but can "drink" this water through your root-like feet during travel or other activities if it is available. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream; you are fully aware of your surroundings.</p>
+		</description>
+		<sheet display="true">
+			<description>You are considered a plant instead of a humanoid. You have vulnerability to fire damage. You harness the sun's energy and surrounding oxygen to create your own food. You can survive {{constitution:score}} days without these before starving or suffocating. You must drink twice as much water as a normal human, but can take in this water through your root-like feet during travel or other activities if it is available. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_FIRE" />
+		</rules>
+	</element>
+	<element name="Tree Whisperer" type="Racial Trait" source="The Treant" id="ID_AA_THETREANT_RACIAL_TRAIT_TREE_WHISPERER">
+		<description>
+			<p>Through your own treeish nature, you can communicate simple ideas with plants of all kinds. Plants might be able to perform tasks on your behalf, at the DM's discretion. They are unable to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.</p>
+		</description>
+		<sheet display="true">
+			<description>Through your own treeish nature, you can communicate simple ideas with plants of all kinds. Plants might be able to perform tasks on your behalf, at the DM's discretion. They are unable to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.</description>
+		</sheet>
+	</element>
+	<element name="Treant Subrace" type="Racial Trait" source="The Treant" id="ID_AA_THETREANT_RACIAL_TRAIT_TREANT_SUBRACE">
+		<description>
+			<p>A treant's parent species determines the ruggedness of its form and the litheness of its limbs. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Treant Subrace" supports="Treant" />
+		</rules>
+	</element>
+
+	<!--Begin Treant Subraces-->
+	<element name="Broad Leaf" type="Sub Race" source="The Treant" id="ID_AA_THETREANT_SUB_RACE_BROAD_LEAF">
+		<supports>Treant</supports>
+		<description>
+			<p>Broad-leaf treants include the ashes, birches, maples, elms, oaks, and willows, among others. They are particularly hardy and powerful, with sturdy bark and thick trunks. Treants which awaken from a broad-leaf tree can survive conditions which would kill other creatures, and they use their heavy bodies to great effect when defending their homes.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
+			<p class="indent"><strong><em>Hardwood.</em></strong> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d12">7'6"</set>
+			<set name="weight" modifier="1d10">500 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" />
+			<grant type="Racial Trait" id="ID_AA_THETREANT_RACIAL_TRAIT_HARDWOOD" />
+		</rules>
+	</element>
+	<element name="Evergreen" type="Sub Race" source="The Treant" id="ID_AA_THETREANT_SUB_RACE_EVERGREEN">
+		<supports>Treant</supports>
+		<description>
+			<p>Evergreen treants include the cedars, cypresses, firs, junipers, pines, and spruces. They are taller and thinner than other treants, possessing lithe bodies and fast reflexes. The wood of their bodies is softer, but better able to resist the freezing conditions of winter.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+			<p class="indent"><strong><em>Hasty Movement.</em></strong> Your base walking speed increases to 40 feet.</p>
+			<p class="indent"><strong><em>Winterized.</em></strong> You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="3d12">8'0"</set>
+			<set name="weight" modifier="1d8">350 lb.</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" />
+			<grant type="Racial Trait" id="ID_AA_THETREANT_RACIAL_TRAIT_HASTY_MOVEMENT" />
+			<grant type="Racial Trait" id="ID_AA_THETREANT_RACIAL_TRAIT_WINTERIZED" />
+		</rules>
+	</element>
+
+	<!--Broad Leaf Traits-->
+	<element name="Hardwood" type="Racial Trait" source="The Treant" id="ID_AA_THETREANT_RACIAL_TRAIT_HARDWOOD">
+		<description>
+			<p>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+		</description>
+		<sheet display="false">
+			<description>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</description>
+		</sheet>
+		<rules>
+			<stat name="Hardwood:hp" value="level" />
+			<stat name="hp" value="Hardwood:hp" />
+		</rules>
+	</element>
+
+	<!--Evergreen Traits-->
+	<element name="Hasty Movement" type="Racial Trait" source="The Treant" id="ID_AA_THETREANT_RACIAL_TRAIT_HASTY_MOVEMENT">
+		<description>
+			<p>Your base walking speed increases to 40 feet.</p>
+		</description>
+		<sheet display="false">
+			<description>Your base walking speed increases to 40 feet.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed" value="40" bonus="base" />
+		</rules>
+	</element>
+	<element name="Winterized" type="Racial Trait" source="The Treant" id="ID_AA_THETREANT_RACIAL_TRAIT_WINTERIZED">
+		<description>
+			<p>You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.</p>
+		</description>
+		<sheet display="true">
+			<description>You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates.</description>
+		</sheet>
+	</element>
+</elements>
