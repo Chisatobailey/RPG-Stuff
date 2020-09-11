@@ -23,7 +23,7 @@
 			<description>You have Advantage on all attack rolls; and once per day, you may choose to "see" a successful attack against you and avoid it before the blow lands. This works for all attacks including Magic Missle. This power may NOT be used to warn allies even through magical/telepathic means. </description>
 		</sheet>
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Cut the Skein)" supports="ID_GAMEOFFATE_FEAT_ASI_INTELLIGENCE|ID_GAMEOFFATE_FEAT_ASI_WISDOM" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Istus's Way)" supports="ID_GAMEOFFATE_FEATS_FEAT_ASI_INTELLIGENCE|ID_GAMEOFFATE_FEATS_FEAT_ASI_WISDOM" />
 		</rules>
 	</element>
     <element name="Unravel the Mess" type="Feat" source="Game of Fate" id="ID_GAMEOFFATE_FEATS_FEAT_UNRAVELTHEMESS">
@@ -40,7 +40,7 @@
 			<description>You have Advantage on Insight checks, and on all Intelligence skill checks. Once per day, you may learn any single piece of information you want to know. (The DM has final discretion regarding this power's effects.) </description>
 		</sheet>
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Cut the Skein)" supports="ID_GAMEOFFATE_FEAT_ASI_INTELLIGENCE|ID_GAMEOFFATE_FEAT_ASI_WISDOM" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Unravel the Mess)" supports="ID_GAMEOFFATE_FEATS_FEAT_ASI_INTELLIGENCE|ID_GAMEOFFATE_FEATS_FEAT_ASI_WISDOM" />
 		</rules>
 	</element>
     <element name="Cut the Skein" type="Feat" source="Game of Fate" id="ID_GAMEOFFATE_FEATS_FEAT_CUTTHESKEIN">
@@ -58,7 +58,7 @@
 			<description>You have Advantage on all Charisma-based skill checks. You learn of acts of injustice near you in time to stop or even prevent them. Once per day, you may either grant your party a full surprise round at the beginning of combat -OR- you may grant only yourself an extra attack action every round during one combat.</description>
 		</sheet>
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Cut the Skein)" supports="ID_GAMEOFFATE_FEATS_FEAT_ASI_INTELLIGENCE|ID_GAMEOFFATE_FEAT_ASI_WISDOM" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Cut the Skein)" supports="ID_GAMEOFFATE_FEATS_FEAT_ASI_INTELLIGENCE|ID_GAMEOFFATE_FEATS_FEAT_ASI_WISDOM" />
 		</rules>
 	</element>
     <!--END Istus's Gifts-->
