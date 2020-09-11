@@ -22,16 +22,34 @@
 			<set name="rarity">Very Rare</set>
 		</setters>
 	</element>
-	<element name="Pot of Healthy Cooking" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_POTOFHEALTHYCOOKING">
+	<element name="Gem of Therizdun" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_GEM_OF_THERIZDUN">
 		<description>
-			<p>This ordinary looking cookpot heals 5 HP to the entire party if used during a short or long rest.</p>
+			<p>This is a Citrine gem as large as a nectarine held in plain matrix rock and set as a necklace on an iron chain.</p>
+            <p>When wielded by one with the spellcasting ability, the gem is capable of modifying the memories and thoughts of virtually any target. Additionally, it allows the caster to find their target anywhere (as long as the spell remains active).  </p>
+			<p>The user takes an attack action and spends one charge to attempt to modify a memory. The caster must be touching the target. A spent charge is lost even if the target resists. The gem can hold up to 3 charges at a time. The target must succeed on a wisdom save against your spell save DC + 3 or be subject to whatever memory or thought modifications the caster desires for the spell's duration or until the spell is broken by another. The table below shows the duration of the gem's effects.</p>
+			<p>Once a target has been affected by the stone's power, they can be easily located by the caster of thier spell for as long as the spell is active, even if the caster no longer wields the gem.</p>
+			<p>The gem can be recharged at any time by spending spell slots of 3rd level or higher. One slot per charge. Duration of the gem's effects is determined by the level of the slot used to charge it. </p>
+			<table>
+				<thead>
+					<tr><td>Spell Slot Level</td><td>Max duration of effect</td></tr>
+				</thead>
+				<tr><td>3rd</td><td>30 days</td></tr>
+				<tr><td>4th</td><td>3 months</td></tr>
+				<tr><td>5th</td><td>6 months</td></tr>
+				<tr><td>6th</td><td>1 year</td></tr>
+				<tr><td>7th</td><td>5 Years</td></tr>
+				<tr><td>8th</td><td>10 years</td></tr>
+				<tr><td>9th</td><td>Permanent</td></tr>
+			</table>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Wondrous Item</set>			
-			<set name="rarity">Rare</set>
+			<set name="weight" lb="0">2 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
 		</setters>
 	</element>
 	<element name="Masterwork Boots" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_MASTERWORKBOOTS">
@@ -50,5 +68,89 @@
 		<rules>
 			<stat name="speed:misc" value="5" bonus="base" />
 		</rules>
+	</element>
+	<element name="Pot of Healthy Cooking" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_POTOFHEALTHYCOOKING">
+		<description>
+			<p>This ordinary looking cookpot heals 5 HP to the entire party if used during a short or long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>			
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+	<!--Begin Animal Stones-->
+	<element name="Air Stone" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_AIR_STONE">
+		<description>
+			<p>A small statue, well-carved, in the shape of a bird of prey. As an action, the wielder of this stone may grant themselves, or another, the ability to fly and speak to all birds and bats for 1 minute.</p>
+			<p>Use of the stone's power also grants the target advantage on dexterity saving throws for the duration.</p>
+			<p>The stone may be used only once per day and it recharges at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>			
+			<set name="rarity">Unique</set>
+		</setters>
+	</element>
+	<element name="Bear Stone" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_BEAR_STONE">
+		<description>
+			<p>This small, roughly hewn, figure evokes the spirit of a great bear such as a Polar/Cave bear (think Grizzly or Kodiak when thinking of a "cave" bear). The stone's wielder may use an action to imbue themselves with the endurance and speed of a bear for a time. </p>
+			<p>Use of this stone's power increases the wielder's speed by 10 for 1 minute and grants advantage on strength and constitution saving throws for the duration.</p>
+			<p>The stone may be used only once per day and it recharges at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>			
+			<set name="rarity">Unique</set>
+		</setters>
+	</element>
+	<element name="Boar Stone" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_BOAR_STONE">
+		<description>
+			<p>This is an intricately carved statuette of a boar. While wielding the stone, an action may be spent to summon forth a spectral giant boar for one minute that will fight for the wielder and their allies. </p>
+			<p>The stone may be used only once per day and it recharges at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>			
+			<set name="rarity">Unique</set>
+		</setters>
+	</element>
+	<element name="Insect Stone" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_INSECT_STONE">
+		<description>
+			<p>This poorly named figurine is nonetheless beautifully carved in the shape of a giant spider. As an action, the wielder of the "insect" stone may grant themselves or another the ability to envenomate enemies when striking them for 1 minute. The condition lasts until a constitution save of DC 15 ends it.</p>
+			<p>On each successful hit, the envenomated enemy suffers 1d6 poison damage. The effect of this venom is cumulative however. Therefore the first hit deals 1d6 poison and each successive hit deals and additional 1d6 until the target dies or the condition ends. </p>
+			<p>The stone may be used only once per day and it recharges at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>			
+			<set name="rarity">Unique</set>
+		</setters>
+	</element>
+	<element name="Rat Stone" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_RAT_STONE">
+		<description>
+			<p>A simply carved small statue of a Rat. While wielding the statue you may spend an action to grant yourself or another the resourcefulness of rats for one minute.</p>
+			<p>Using this stone's power grants the target advantage on ability checks to climb a surface and on all survival ability checks.</p>
+			<p>The target also gains the rat's ability to dodge, imposing disadvantage on any attack roll made against them and granting advantage on dexterity saving throws.</p>
+			<p>The stone may be used only once per day and it recharges at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>			
+			<set name="rarity">Unique</set>
+		</setters>
 	</element>
 </elements>
