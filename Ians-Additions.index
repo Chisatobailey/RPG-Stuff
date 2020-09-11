@@ -4,7 +4,7 @@
 		<name>Ian's Additions</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="0.0.1" >
+		<update version="1.1.0" >
 			<file name="Ians-Additions.index" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/master/Ians-Additions.index" />
 		</update>
 	</info>
