@@ -7,7 +7,7 @@
 			<file name="Ian's Poisons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Poisons.xml" />
 		</update>
 	</info>
-    <element name="Giant Scorpion Venom" type="Item" source="Dungeon Master’s Guide" id="ID_IANSADDITIONS_IANSPOISONS_ITEM_POISON_GIANT_SCORPION_VENOM">
+    <element name="Giant Scorpion Venom" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSPOISONS_ITEM_POISON_GIANT_SCORPION_VENOM">
 		<description>
 			<p>A creature subjected to this poison must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one. </p>
 			<div class="reference">
@@ -23,7 +23,7 @@
 		</setters>
 		<sheet alt="Giant Scorpion Venom (Injury)" />
 	</element>
-    <element name="Weak Giant Scorpion Venom" type="Item" source="Dungeon Master’s Guide" id="ID_IANSADDITIONS_IANSPOISONS_ITEM_POISON_WEAK_GIANT_SCORPION_VENOM">
+    <element name="Weak Giant Scorpion Venom" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSPOISONS_ITEM_POISON_WEAK_GIANT_SCORPION_VENOM">
 		<description>
 			<p>A creature subjected to this poison must make a DC 12 Constitution saving throw, taking 11 (2d10) poison damage on a failed save, or half as much damage on a successful one. </p>
 			<div class="reference">
@@ -39,7 +39,7 @@
 		</setters>
 		<sheet alt="Weak Giant Scorpion Venom (Injury)" />
 	</element>
-    <element name="Fraternity's Poison" type="Item" source="Dungeon Master’s Guide" id="ID_IANSADDITIONS_IANSPOISONS_ITEM_POISON_WEAK_FRATERNITYS_POISON">
+    <element name="Fraternity's Poison" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSPOISONS_ITEM_POISON_WEAK_FRATERNITYS_POISON">
 		<description>
 			<p>A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 12 (2d12) poison damage on a failed save, or half as much damage on a successful one. </p>
 			<div class="reference">

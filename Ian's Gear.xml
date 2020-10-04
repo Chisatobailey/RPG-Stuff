@@ -8,7 +8,7 @@
 		</update>
 	</info>
     <!--Begin Ammunition, Individual-->
-    <element name="Fraternity's Poisoned Arrow" type="Item" source="Player’s Handbook" id="ID_IANSADDITIONS_IANSGEAR_ITEM_FRATERNITYS_POISONED_ARROW">
+    <element name="Fraternity's Poisoned Arrow" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_FRATERNITYS_POISONED_ARROW">
 		<description>
 			<p>A creature hit by this arrow takes the weapon's normal damage and must make a DC 15 Constitution saving throw, taking 12 (2d12) poison damage on a failed save, or half as much damage on a successful one. </p>
 		</description>
