@@ -3,7 +3,7 @@
 		<name>Ian's Wonderous Items</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.1.0" >
+		<update version="1.2.0" >
 			<file name="Ian's Wonderous Items.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Wonderous%20Items.xml" />
 		</update>
 	</info>
@@ -52,6 +52,21 @@
 			<set name="rarity">Legendary</set>
 		</setters>
 	</element>
+	<element name="Hearty Rat Stew" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_HEARTYRATSTEW">
+		<description>
+			<p>This stew uses only the best rodent meat, along with potatoes, carrot, onion, turnip, kale, barley, salt, thyme, rosemary, and black pepper, to provide a tasty and hearty culinary experience.</p>
+			<p>Eating this stew during a short or long rest grants the following benefits: 5 temporary hit points, resistance to disease and advantage on constitution saving throws. These effects last 1 hour.</p>
+			<p>Once prepared, this stew may be eaten only out of combat and it requires 10 minutes of downtime. </p>
+			<p>The stew will keep without refridgeration for up to 2 days. </p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>			
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
 	<element name="Masterwork Boots" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_MASTERWORKBOOTS">
 		<description>
 			<p>This beautifully made pair of boots are so comfortable and perfectly fit that the wearer's movement is increased by 5 feet.</p>
@@ -71,7 +86,8 @@
 	</element>
 	<element name="Pot of Healthy Cooking" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_POTOFHEALTHYCOOKING">
 		<description>
-			<p>This ordinary looking cookpot heals 5 HP to the entire party if used during a short or long rest.</p>
+			<p>This ordinary looking cookpot grants all who eat a meal cooked in it 10 temporary hit points plus advantage on death saving throws and any saving throws to resist poison damage or effects. It also grants immunity to disease.</p>
+			<p>Using this pot's effects drains its magic until the next dawn.</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -81,6 +97,7 @@
 			<set name="rarity">Rare</set>
 		</setters>
 	</element>
+	
 
 	<!--Begin Animal Stones-->
 	<element name="Air Stone" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_AIR_STONE">

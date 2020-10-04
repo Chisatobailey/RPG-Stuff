@@ -1,0 +1,23 @@
+<elements>
+	<info>
+		<name>Ian's Gear</name>
+		<description>Content created by the Chisato Bailey</description>
+		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+		<update version="1.0.0" >
+			<file name="Ian's Gear.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Gear.xml" />
+		</update>
+	</info>
+    <<!--Begin Ammunition, Individual-->
+    <element name="Fraternity's Poisoned Arrow" type="Item" source="Player’s Handbook" id="ID_IANSADDITIONS_IANSGEAR_ITEM_FRATERNITYS_POISONED_ARROW">
+		<description>
+			<p>A creature hit by this arrow takes the weapon's normal damage and must make a DC 15 Constitution saving throw, taking 12 (2d12) poison damage on a failed save, or half as much damage on a successful one. </p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+</elements>
