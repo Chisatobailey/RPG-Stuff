@@ -3,7 +3,7 @@
 		<name>Ian's Treasure</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.0.0" >
+		<update version="1.1.0" >
 			<file name="Ian's Treasure.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Treasure.xml" />
 		</update>
 	</info>
