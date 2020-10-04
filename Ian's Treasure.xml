@@ -1,0 +1,22 @@
+<elements>
+	<info>
+		<name>Ian's Treasure</name>
+		<description>Content created by the Chisato Bailey</description>
+		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+		<update version="1.0.0" >
+			<file name="Ian's Treasure.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Treasure.xml" />
+		</update>
+	</info>
+    <element name="Plotdeviceium" type="Item" source="Dungeon Master’s Guide" id="ID_IANSADDITIONS_IANSTREASURE_ITEM_GEMSTONE_PLOTDEVICEIUM">
+		<description>
+			<p>This metalic ore is naturally occuring Adamantine, the rarest and most valuable of all metals on Sokkath, held in a matrix rock of granite and quartz.</p>
+		</description>
+		<setters>
+			<set name="keywords">gemstone</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">1000</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+</elements>
