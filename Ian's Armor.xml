@@ -4,11 +4,11 @@
 		    <name>Ian's Armor</name>
 		    <description>Content created by the Chisato Bailey</description>
 		    <author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		    <update version="1.0.0">
+		    <update version="1.0.1">
 			    <file name="Ian's Armor.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Armor.xml" />
 		    </update>
 	    </info>
-        <element name="Buckler" type="Armor" source="Ian's Armory" id="ID_IANSADDITIONS_IANSARMOR_GEAR_BUCKLER">
+        <element name="Buckler" type="Armor" source="Ian's Additions" id="ID_IANSADDITIONS_IANSARMOR_GEAR_BUCKLER">
             <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD	</supports>
             <description>
 			    <p>A small round shield made from wood or metal and carried in one hand. Wielding a buckler increases your Armor Class by 1. You can benefit from only one shield at a time.</p>
@@ -26,7 +26,7 @@
 			    <stat name="ac:shield" value="1" bonus="shield" />                
 		    </rules>
 	    </element>
-        <element name="Full-Cover Shield" type="Armor" source="Ian's Armory" id="ID_IANSADDITIONS_IANSARMOR_GEAR_FULL_COVER_SHIELD">
+        <element name="Full-Cover Shield" type="Armor" source="Ian's Additions" id="ID_IANSADDITIONS_IANSARMOR_GEAR_FULL_COVER_SHIELD">
             <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD	</supports>
             <description>
 			    <p>This "War Door" type shield can be made out of wood or metal and can be any of a number of shapes. Though too unweildy to allow the user of such shields to move with ease and subtlety, this grants unparalleled protection amongst shields and even allows the user to fully crouch behind the shield granting the benefits of full-cover.</p>

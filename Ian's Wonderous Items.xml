@@ -3,11 +3,11 @@
 		<name>Ian's Wonderous Items</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.2.0" >
+		<update version="1.2.1" >
 			<file name="Ian's Wonderous Items.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Wonderous%20Items.xml" />
 		</update>
 	</info>
-    <element name="Eye of the Hand" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_EYE_OF_THE_HAND">
+    <element name="Eye of the Hand" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_EYE_OF_THE_HAND">
 		<description>
 			<p>The Eye of the Hand is a pendant, measuring 3 inches wide and 4 inches tall, made of finely carved amber and chased in silver. There is an eye-shaped hole in the center of the palm through which one may look. Doing so will reveal the mark of the Amber Hand which denotes the order's safehouses.</p>
             <p>When worn, this amulet grants the wearer advantage on one Sleight of Hand or Survival Skill Check once per day.</p>
@@ -22,7 +22,7 @@
 			<set name="rarity">Very Rare</set>
 		</setters>
 	</element>
-	<element name="Gem of Therizdun" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_GEM_OF_THERIZDUN">
+	<element name="Gem of Therizdun" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_GEM_OF_THERIZDUN">
 		<description>
 			<p>This is a Citrine gem as large as a nectarine held in plain matrix rock and set as a necklace on an iron chain.</p>
             <p>When wielded by one with the spellcasting ability, the gem is capable of modifying the memories and thoughts of virtually any target. Additionally, it allows the caster to find their target anywhere (as long as the spell remains active).  </p>
@@ -52,7 +52,7 @@
 			<set name="rarity">Legendary</set>
 		</setters>
 	</element>
-	<element name="Hearty Rat Stew" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_HEARTYRATSTEW">
+	<element name="Hearty Rat Stew" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_HEARTYRATSTEW">
 		<description>
 			<p>This stew uses only the best rodent meat, along with potatoes, carrot, onion, turnip, kale, barley, salt, thyme, rosemary, and black pepper, to provide a tasty and hearty culinary experience.</p>
 			<p>Eating this stew during a short or long rest grants the following benefits: 5 temporary hit points, resistance to disease and advantage on constitution saving throws. These effects last 1 hour.</p>
@@ -67,7 +67,7 @@
 			<set name="rarity">Rare</set>
 		</setters>
 	</element>
-	<element name="Masterwork Boots" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_MASTERWORKBOOTS">
+	<element name="Masterwork Boots" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_MASTERWORKBOOTS">
 		<description>
 			<p>This beautifully made pair of boots are so comfortable and perfectly fit that the wearer's movement is increased by 5 feet.</p>
 		</description>
@@ -84,7 +84,7 @@
 			<stat name="speed:misc" value="5" bonus="base" />
 		</rules>
 	</element>
-	<element name="Pot of Healthy Cooking" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_POTOFHEALTHYCOOKING">
+	<element name="Pot of Healthy Cooking" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_POTOFHEALTHYCOOKING">
 		<description>
 			<p>This ordinary looking cookpot grants all who eat a meal cooked in it 10 temporary hit points plus advantage on death saving throws and any saving throws to resist poison damage or effects. It also grants immunity to disease.</p>
 			<p>Using this pot's effects drains its magic until the next dawn.</p>
@@ -100,7 +100,7 @@
 	
 
 	<!--Begin Animal Stones-->
-	<element name="Air Stone" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_AIR_STONE">
+	<element name="Air Stone" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_AIR_STONE">
 		<description>
 			<p>A small statue, well-carved, in the shape of a bird of prey. As an action, the wielder of this stone may grant themselves, or another, the ability to fly and speak to all birds and bats for 1 minute.</p>
 			<p>Use of the stone's power also grants the target advantage on dexterity saving throws for the duration.</p>
@@ -114,7 +114,7 @@
 			<set name="rarity">Unique</set>
 		</setters>
 	</element>
-	<element name="Bear Stone" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_BEAR_STONE">
+	<element name="Bear Stone" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_BEAR_STONE">
 		<description>
 			<p>This small, roughly hewn, figure evokes the spirit of a great bear such as a Polar/Cave bear (think Grizzly or Kodiak when thinking of a "cave" bear). The stone's wielder may use an action to imbue themselves with the endurance and speed of a bear for a time. </p>
 			<p>Use of this stone's power increases the wielder's speed by 10 for 1 minute and grants advantage on strength and constitution saving throws for the duration.</p>
@@ -128,7 +128,7 @@
 			<set name="rarity">Unique</set>
 		</setters>
 	</element>
-	<element name="Boar Stone" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_BOAR_STONE">
+	<element name="Boar Stone" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_BOAR_STONE">
 		<description>
 			<p>This is an intricately carved statuette of a boar. While wielding the stone, an action may be spent to summon forth a spectral giant boar for one minute that will fight for the wielder and their allies. </p>
 			<p>The stone may be used only once per day and it recharges at dawn.</p>
@@ -141,7 +141,7 @@
 			<set name="rarity">Unique</set>
 		</setters>
 	</element>
-	<element name="Insect Stone" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_INSECT_STONE">
+	<element name="Insect Stone" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_INSECT_STONE">
 		<description>
 			<p>This poorly named figurine is nonetheless beautifully carved in the shape of a giant spider. As an action, the wielder of the "insect" stone may grant themselves or another the ability to envenomate enemies when striking them for 1 minute. The condition lasts until a constitution save of DC 15 ends it.</p>
 			<p>On each successful hit, the envenomated enemy suffers 1d6 poison damage. The effect of this venom is cumulative however. Therefore the first hit deals 1d6 poison and each successive hit deals and additional 1d6 until the target dies or the condition ends. </p>
@@ -155,7 +155,7 @@
 			<set name="rarity">Unique</set>
 		</setters>
 	</element>
-	<element name="Rat Stone" type="Magic Item" source="Ian's Wonderous Items" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_RAT_STONE">
+	<element name="Rat Stone" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_RAT_STONE">
 		<description>
 			<p>A simply carved small statue of a Rat. While wielding the statue you may spend an action to grant yourself or another the resourcefulness of rats for one minute.</p>
 			<p>Using this stone's power grants the target advantage on ability checks to climb a surface and on all survival ability checks.</p>

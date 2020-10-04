@@ -4,7 +4,7 @@
 		<name>source</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Source.xml" />
 		</update>
 	</info>
