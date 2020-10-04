@@ -6,24 +6,13 @@
         </update>
     </info>
 
-	<element name="Game of Fate-Rings" type="Source" source="Game of Fate-Rings" id="ID_GAMEOFFATE_RINGS">
+	<element name="Game of Fate" type="Source" source="Game of Fate-Rings" id="ID_GAMEOFFATE">
 		<description>
 			<![CDATA[<p>Rings for the Game of Fate</p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">GAMEOFFATE_RINGS</set>
-			<set name="url">https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Rings.xml</set>
-			<set name="author" url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</set>
-			<set name="homebrew">true</set>
-		</setters>
-	</element>
-	<element name="Game of Fate-Feats" type="Source" source="Game of Fate-Feats" id="ID_GAMEOFFATE_FEATS">
-		<description>
-			<![CDATA[<p>Feats for the Game of Fate</p>]]>
-		</description>
-		<setters>
-			<set name="abbreviation">GAMEOFFATE_FEATS</set>
-			<set name="url">https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Feats.xml</set>
+			<set name="abbreviation">GAMEOFFATE</set>
+			<set name="url">https://github.com/Chisatobailey/RPG-Stuff/tree/Game-of-Fate</set>
 			<set name="author" url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</set>
 			<set name="homebrew">true</set>
 		</setters>
