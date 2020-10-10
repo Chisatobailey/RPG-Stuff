@@ -4,7 +4,7 @@
 		<name>Ian's Additions</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.2.2" >
+		<update version="1.2.4" >
 			<file name="Ians-Additions.index" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/master/Ians-Additions.index" />
 		</update>
 	</info>
@@ -19,6 +19,7 @@
 		<file name="Ian's Poisons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Poisons.xml" />
         <file name="Ian's Rings.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Rings.xml" />
         <file name="Ian's Spells.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Spells.xml" />
+		<file name="Ian's Staffs.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Staffs.xml" />
 		<file name="Ian's Treasure.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Treasure.xml" />
         <file name="Ian's Weapons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Weapons.xml" />
         <file name="Ian's Wonderous Items.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Wonderous%20Items.xml" />
