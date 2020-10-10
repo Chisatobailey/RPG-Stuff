@@ -20,4 +20,189 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+	<!--End Ammunition, Individual-->
+
+	<!--Begin Spellcasting Foci-->
+	<element name="Shaman's Totem" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_SHAMANS_TOTEM">
+		<description>
+			<p>The Bear Folk of the Fornhill Mountain have given birth to many strong Druidic Shamans. They use totems contained in Medicine Bags (usually worn around thier necks) to aid in focusing their magics.</p>
+			<p class="indent">Every young mage of the Bear Folk constructs their first Totem and bag when they come of age, but as they grow in power and knowledge they are inspired by Magnar the Great Bear to enhance, strengthen, and even sometimes completely change their totems to better reflect their powers.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">1</set>
+			<set name="container">Druidic Focus</set>
+			<set name="slot">onehand</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+	<!--End Spellcasting Foci-->
+
+	<!--Begin magical spellcasting foci-->
+	<element name="Annael's Medicine Bag, +1" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_ANNAELS_MEDICINE_BAG_1">
+		<description>
+			<p>At the age of 17, Annael na Mathan Dhaoine of the Bear Folk of the Fornhill Mountains became accepted by her God and was named amoung the Folk. At this time she collected the shed fur of a bear that lived near the place where she was raised by her mother and constructed her first Shamanic Totem and strung it about her neck in the Medicine Bag made by her mother. It has been a little more than a year since that time, and Annael has grown much in both power and knowledge. In the Aftermath of the battle with the construct of Lianne Deathbringer, Annael meditated on the events that had led her to that point and was struck by inspiration from Magnar Himself to remake and evolve her simple totem into an Item of Power. Hidden at the bottom of Lianne's treasure hoard, Annael found a bear's tooth contained in a ring of five bear claws all coated and held together by high-grade silver.</p>
+			<p class="indent">Annael took the strange piece of bear-related art and combined it with several small gems she found in the hoard and a few stones she had picked up in her travels by melting down 10 GP from her own pocket to coat the new items and act as a rough "glue". The result was a new Totem to place in her bag weighing about 1 lb.</p>
+			<p class="indent">Wise Healer: Whenever you cast a healing spell, you may heal each target for {{wisdom:modifier}} additional HP. </p>
+			<p class="indent">Friend of Nature: All natural (non-magical) animals, that are not being controled by magical or divine means, regard you as a friend and will not attack you (only you) unless threatened.</p>
+			<p class="indent">Word of God: You gain the power Command of Magnar.</p>
+			<p class="indent">Enhancement: This Totem grants a +1 to your spell attack bonus and spell save DC.</p>
+			<p class="indent">This Totem gains power when you reach level 8 and becomes the +2 version of Annael's Medicine Bag.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1</set>
+			<set name="rarity">uncommon</set>
+			<set name="container">Druidic Focus</set>
+			<set name="slot">neck</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+		</setters>
+		<rules>
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_COMMANDOFMAGNAR" />
+
+			<stat name="spellcasting:attack" value="1" />
+			<stat name="spellcasting:dc" value="1" />
+		</rules>
+	</element>
+	<element name="Annael's Medicine Bag, +2" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_ANNAELS_MEDICINE_BAG_2">
+		<description>
+			<p>This is the form Annael's Medicine Bag, +1 takes at Level 8 when it increases in rarity from uncommon to rare.</p>
+			<p class="indent">Wise Healer: Whenever you cast a healing spell, you may heal each target for {{wisdom:modifier}} additional HP. </p>
+			<p class="indent">Friend of Nature: All natural (non-magical) animals, that are not being controled by magical or divine means, regard you as a friend and will not attack you (only you) unless threatened.</p>
+			<p class="indent">Word of God: You gain the power Command of Magnar.</p>
+			<p class="indent">Great Spirit: Grants the power Spirit of Magnar</p>
+			<p class="indent">Enhancement: This totem grants a +2 to your spell attack bonus and spell save DC.</p>
+			<p class="indent">This Totem gains power when you reach level 12 and becomes the +3 version of Annael's Medicine Bag.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1</set>
+			<set name="rarity">rare</set>
+			<set name="container">Druidic Focus</set>
+			<set name="slot">neck</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+		</setters>
+		<rules>
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_COMMANDOFMAGNAR" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_SPIRITOFMAGNAR" />
+
+			<stat name="spellcasting:attack" value="2" />
+			<stat name="spellcasting:dc" value="2" />
+		</rules>
+	</element>
+	<element name="Annael's Medicine Bag, +3" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_ANNAELS_MEDICINE_BAG_3">
+		<description>
+			<p>This is the form Annael's Medicine Bag, +2 takes at Level 12 when it increases in rarity from rare to very rare.</p>
+			<p class="indent">Wise Healer: Whenever you cast a healing spell, you may heal each target for {{wisdom:modifier}} additional HP. </p>
+			<p class="indent">Friend of Nature: All natural (non-magical) animals, that are not being controled by magical or divine means, regard you as a friend and will not attack you (only you) unless threatened.</p>
+			<p class="indent">Word of God: You gain the power Command of Magnar.</p>
+			<p class="indent">Great Spirit: Grants the power Spirit of Magnar</p>
+			<p class="indent">Magnar's Rage: Grants the power Roar of Magnar</p>
+			<p class="indent">Enhancement: This totem grants a +3 to your spell attack bonus and spell save DC.</p>
+			<p class="indent">This Totem gains power when you reach level 16 and becomes the Legendary version of Annael's Medicine Bag.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1</set>
+			<set name="rarity">very rare</set>
+			<set name="container">Druidic Focus</set>
+			<set name="slot">neck</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+		</setters>
+		<rules>
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_COMMANDOFMAGNAR" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_SPIRITOFMAGNAR" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_ROAROFMAGNAR" />
+
+			<stat name="spellcasting:attack" value="3" />
+			<stat name="spellcasting:dc" value="3" />
+		</rules>
+	</element>
+	<element name="Annael's Medicine Bag, Legendary" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_ANNAELS_MEDICINE_BAG_LEGENDARY">
+		<description>
+			<p>This is the form Annael's Medicine Bag, +3 takes at Level 16 when it increases in rarity from very rare to legendary.</p>
+			<p class="indent">Wise Healer: Whenever you cast a healing spell, you may heal each target for {{wisdom:modifier}} additional HP. </p>
+			<p class="indent">Friend of Nature: All natural (non-magical) animals, that are not being controled by magical or divine means, regard you as a friend and will not attack you (only you) unless threatened.</p>
+			<p class="indent">Word of God: You gain the power Command of Magnar.</p>
+			<p class="indent">Great Spirit: Grants the power Spirit of Magnar</p>
+			<p class="indent">Magnar's Rage: Grants the power Roar of Magnar</p>
+			<p class="indent">Himself: Grants the power Avatar of Magnar</p>
+			<p class="indent">Enhancement: This totem grants a +3 to your spell attack bonus and spell save DC.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1</set>
+			<set name="rarity">legendary</set>
+			<set name="container">Druidic Focus</set>
+			<set name="slot">neck</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+		</setters>
+		<rules>
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_COMMANDOFMAGNAR" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_SPIRITOFMAGNAR" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_ROAROFMAGNAR" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_AVATAROFMAGNAR" />
+
+			<stat name="spellcasting:attack" value="3" />
+			<stat name="spellcasting:dc" value="3" />
+		</rules>
+	</element>
+
+		<!--Begin Annael's Medicine Bag Druid class features-->
+	<element name="Command of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_COMMANDOFMAGNAR">
+		<description>
+			<p>Magnar grants his chosen unparallelled control of animals of nature, but it is a power that must be used responsibly.</p>
+			<p class="indent">Once per day, you may use a bonus action to command (or convince) one animal to to perform any action you desire that is within the animal's capibilities.</p>
+			<p class="indent">You speak with the authority of Magnar and as such the animal will not refuse you.</p>
+		</description>
+		<sheet action="Bonus" usage="1/Day">
+			<description>Command (or convince) one animal to to perform any action you desire that is within the animal's capibilities. The animal will not refuse you.</description>
+		</sheet>
+	</element>
+	<element name="Spirit of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_SPIRITOFMAGNAR">
+		<description>
+			<p>Annael may focus her mind inward and take into herself the spirit of the Great Bear Magnar. This serves to increase her strength, stamina and agility.</p>
+			<p class="indent">You may use your Wisdom modifier for all strength checks, your speed increases by 10 feet, and you gain 16 temporary hit points. </p>
+			<p class="indent">The Power lasts for 10 minutes or until your temporary hit points are reduced to 0.</p>
+			<p class="indent">This ability may be used only once per day and it recharges at dawn.</p>
+		</description>
+		<sheet action="Bonus" usage="1/Day">
+			<description>Use your Wisdom modifier for all strength checks, your speed increases by 10 feet, and you gain 16 temporary hit points. Lasts for 10 minutes or until your temp HP are reduced to 0.</description>
+		</sheet>
+	</element>
+	<element name="Roar of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_ROAROFMAGNAR">
+		<description>
+			<p>You open you mouth and roar at your enemies, what emerges is the Voice if the Great Bear Himself!</p>
+			<p class="indent">All creatures of your choice, that can hear the roar, must succeed on a Wisdom saving throw against your spellcasting saving throw DC or be paralyzed with fear. Targets who fail the save may make a saving throw on thier turn to end the effect on themselves.</p>
+			<p class="indent">This ability may be used only once per day and it recharges at dawn.</p>
+		</description>
+		<sheet action="Bonus" usage="1/Day">
+			<description>All creatures of your choice, that can hear the roar, must succeed on a Wisdom saving throw against DC {{druid:spellcasting:dc}} or be paralyzed with fear.</description>
+		</sheet>
+	</element>
+	<element name="Avatar of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_AVATAROFMAGNAR">
+		<description>
+			<p>You mutter a quick and fervent prayer to Magnar and take on the shape of a Great Bear. This power may be used once per day</p>
+			<p class="indent">In this shape the following rules apply:</p>
+				<ul>
+					<li>Your Strength, Dexterity, and Constitution all become 20 and your Intelligence, Wisdom, and Charisima remain unchanged. Your speed is 40 ft for the duration, and you have advantage on wisdom (perception) checks that use smell.</li>
+					<li>You have hit points equal to twice your character level. If these points are reduced to zero, the power ends and you revert to your normal shape with the same number of hit points you had at the time of using this ability.</li>
+					<li>You may cast spells and speak as normal, and may use any feature that is possible to use in this shape. using any other shape changing abilities ends the spell.</li>
+					<li>Your Medicine Bag stays around you nack and cannot be removed by anything short of divine power while you are in this form. Your clothing and the rest of you gear are trasnported into the divine realm of Magnar and will reform on your person after you regain your natural form when the spell ends.</li>
+					<li>You gain the ability Multiattack. You make two attacks: one with your bite and one with your claws.</li>
+					<li>Bite. Melee Weapon Attack: to hit: {{proficency}}+5, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.</li>
+					<li>Claws. Melee Weapon Attack: to hit: {{proficency}}+5, reach 5 ft ., one target. Hit: 19 (4d6 + 5) slashing damage.</li>
+				</ul>
+		</description>
+		<sheet action="Action" usage="1/Day">
+			<description>You mutter a quick and fervent prayer to Magnar and take on the shape of a Great Bear.</description>
+		</sheet>
+	</element>
+	<!--End magical spellcasting foci-->
+
 </elements>

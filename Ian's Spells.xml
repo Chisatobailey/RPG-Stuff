@@ -35,7 +35,7 @@
         </setters>
     </element>
     <element name="Dowsing" type="Spell" source="Ian's Additions" id="ID_IANSADDITIONS_IANSSPELLS_SPELL_DOWSING">
-        <supports>Sorcerer, Wizard, Bard, Cleric, Swordmage</supports>
+        <supports>Sorcerer, Wizard, Bard, Cleric, Swordmage, Druid, Ranger</supports>
         <description>
             <p>You extend a stick or rod (whether a magical instrument or just something you grabbed off the ground) and concentrate on one type of thing (water, cats, people, bronze statuary, whatever) and you may learn the direction and location of the nearest example of what you seek. Roll 1d20, on a 10 or higher the spell works, if you roll lower than 10 the spell fails but you regain the spent spell slot. On a critical success you learn the precise location and distance, but on a botch, you lose the spell slot despite the failure.</p>
         </description>
@@ -97,7 +97,7 @@
         </setters>
     </element>
     <element name="Prescient Casting" type="Spell" source="Ian's Additions" id="ID_IANSADDITIONS_IANSSPELLS_SPELL_PRESCIENT_CASTING">
-        <supports>Sorcerer, Wizard, Cleric, Paladin, Swordmage</supports>
+        <supports>Sorcerer, Wizard, Cleric, Paladin, Swordmage, Druid</supports>
         <description>
             <p>With a whispered word you look a few seconds into the future and learn your enemies’ defenses. This grants you advantage on all spell attack rolls and causes saving throws made (by enemies) to resist your spells to be rolled with disadvantage.</p>
         </description>
@@ -137,7 +137,7 @@
         </setters>
     </element>
     <element name="Remote Viewing" type="Spell" source="Ian's Additions" id="ID_IANSADDITIONS_IANSSPELLS_SPELL_REMOTE_VIEWING">
-        <supports>Sorcerer, Wizard, Bard, Cleric</supports>
+        <supports>Sorcerer, Wizard, Bard, Cleric, Druid, Ranger</supports>
         <description>
             <p>You sit or lay down and enter a meditative state. Once in this trance you may focus on a destination and intuit details of the location and its environment up to and including information about enemies and other threats present. Roll 1d10 and compare it to the Remote Viewing Table to determine how much you learn.</p>
             <table>

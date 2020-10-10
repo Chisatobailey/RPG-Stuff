@@ -10,6 +10,20 @@
 	</info>
 	<!-- simple -->
 	<!-- martial -->
+	<element name="Broadblade" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_BROADBLADE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
+		</setters>
+	</element>
 	<element name="Katana, Finesse (Two-Hand Only)" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_TWOHAND_LIGHT_KATANA">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
@@ -84,10 +98,10 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
 		</setters>
 	</element>
-	<element name="Broadblade" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_BROADBLADE">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+	<element name="Machete" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_MACHETE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
-			<p></p>
+			<p>A classic example of how a bushman's tool can be used as a weapon.</p>
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
@@ -95,7 +109,7 @@
 			<set name="weight" lb="3">3 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="damage" type="slashing">1d8</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
 		</setters>
 	</element>
 	<element name="Nodachi" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_NODACHI">
@@ -124,6 +138,51 @@
 			<set name="slot">twohand</set>
 			<set name="damage" type="slashing">1d10</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE</set>
+		</setters>
+	</element>
+	<element name="Stone Handaxe" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_STONEHANDAXE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE</set>
+		</setters>
+	</element>
+	<element name="Stone Mace" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_STONEMACE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_MACES</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="bludgeoning">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE</set>
+		</setters>
+	</element>
+	<element name="Trident, Combat" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_TRIDENT_COMBAT">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="4">5 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT</set>
 		</setters>
 	</element>
 	<element name="Yumi" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_YUMI">
@@ -155,33 +214,270 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
 		</setters>
 	</element>
-	<element name="Stone Handaxe" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_STONEHANDAXE">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+
+	<!--Magic Weapons-->
+	<element name="Spellslinger, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_SPELLSLINGER_1">
 		<description>
-			<p></p>
+			<p>This special magical upgrade was designed by Aleena Lochlan specifically for Swordmages.</p>
+			<p class="indent">Light in the Dark: At will this weapon can emit a bright clear light that only you can see (though you can choose to make it visible to all). Also, the weapon glows a faint color of your choice when being used to channel magic.</p>
+			<p class="indent">Bonded Infusion: When attuned and bonded to this weapon, a Swordmage can activate their Arcane Infusion ability without expending a spell slot. The infusion always activates as if the highest slot the Swordmage posesses had been used. This ability may be used only once per day and it recharges at dawn.</p>
+			<p class="indent">Enhancement: You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">This weapon gains power when you reach level 8 and becomes the +2 version of Spellslinger.</p>
+			<p class="indent">To any non-swordmage character a spellslinger weapon is an ordinary +1 magic weapon without any additional effects.</p>
 		</description>
 		<setters>
-			<set name="category">Weapons</set>
-			<set name="cost" currency="gp">10</set>
-			<set name="weight" lb="4">4 lb.</set>
-			<set name="slot">onehand</set>
-			<set name="range">20/60</set>
-			<set name="damage" type="slashing">1d6</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Spellslinger +{{enhancement}}</set>
 		</setters>
 	</element>
-	<element name="Stone Mace" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_STONEMACE">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_MACES</supports>
+	<element name="Spellslinger, +2" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_SPELLSLINGER_2">
 		<description>
-			<p></p>
+			<p>This special magical upgrade was designed by Aleena Lochlan specifically for Swordmages.</p>
+			<p class="indent">This is the form a Spellslinger weapon takes at Level 8 when it increases in rarity from uncommon to rare.</p>
+			<p class="indent">Light in the Dark: At will this weapon can emit a bright clear light that only you can see (though you can choose to make it visible to all). Also, the weapon glows a faint color of your choice when being used to channel magic.</p>
+			<p class="indent">Bonded Infusion: When attuned and bonded to this weapon, a Swordmage can activate their Arcane Infusion ability without expending a spell slot. The infusion always activates as if the highest slot the Swordmage posesses had been used. This ability may be used only once per day and it recharges at dawn.</p>
+			<p class="indent">Forceful Rebuke: In the wake of taking damage, a burst of energy springs forth from your weapon and returns half that damage to your attacker. Once per day as a reaction, when taking damage, you may halve the damage you take and reflect the other half back at the triggering attacker as force damage.</p>
+			<p class="indent">Enhancement: You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">This weapon gains power when you reach level 12 and becomes the +3 version of Spellslinger.</p>
+			<p class="indent">To any non-swordmage character a spellslinger weapon is an ordinary +2 magic weapon without any additional effects.</p>
 		</description>
 		<setters>
-			<set name="category">Weapons</set>
-			<set name="cost" currency="gp">5</set>
-			<set name="weight" lb="4">4 lb.</set>
-			<set name="slot">onehand</set>
-			<set name="damage" type="bludgeoning">1d6</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Spellslinger +{{enhancement}}</set>
+		</setters>
+	</element>
+	<element name="Spellslinger, +3" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_SPELLSLINGER_3">
+		<description>
+			<p>This special magical upgrade was designed by Aleena Lochlan specifically for Swordmages.</p>
+			<p class="indent">This is the form a Spellslinger weapon takes at Level 12 when it increases in rarity from rare to very rare.</p>
+			<p class="indent">Light in the Dark: At will this weapon can emit a bright clear light that only you can see (though you can choose to make it visible to all). Also, the weapon glows a faint color of your choice when being used to channel magic.</p>
+			<p class="indent">Bonded Infusion: When attuned and bonded to this weapon, a Swordmage can activate their Arcane Infusion ability without expending a spell slot. The infusion always activates as if the highest slot the Swordmage posesses had been used. This ability may be used only once per day and it recharges at dawn.</p>
+			<p class="indent">Forceful Rebuke: Once per day as a reaction, when taking damage, you may halve the damage you take and reflect the other half back at the triggering attacker as force damage.</p>
+			<p class="indent">Arcane Reach: Once per day you may use a bonus action to activate this ability and double the standard range of your bonded weapon. The power lasts for 1 minute or until you sheath or drop you bonded weapon.</p>
+			<p class="indent">Enhancement: You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">This weapon gains power when you reach level 16 and becomes the Legendary version of Spellslinger.</p>
+			<p class="indent">To any non-swordmage character a spellslinger weapon is an ordinary +3 magic weapon without any additional effects.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Spellslinger +{{enhancement}}</set>
+		</setters>
+	</element>
+	<element name="Spellslinger, Legendary" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_SPELLSLINGER_LEGENDARY">
+		<description>
+			<p>This special magical upgrade was designed by Aleena Lochlan specifically for Swordmages.</p>
+			<p class="indent">This is the form a Spellslinger weapon takes at Level 12 when it increases in rarity from rare to very rare.</p>
+			<p class="indent">Light in the Dark: At will this weapon can emit a bright clear light that only you can see (though you can choose to make it visible to all). Also, the weapon glows a faint color of your choice when being used to channel magic.</p>
+			<p class="indent">Bonded Infusion: When attuned and bonded to this weapon, a Swordmage can activate their Arcane Infusion ability without expending a spell slot. The infusion always activates as if the highest slot the Swordmage posesses had been used. This ability may be used only once per day and it recharges at dawn.</p>
+			<p class="indent">Forceful Rebuke: Once per day as a reaction, when taking damage, you may halve the damage you take and reflect the other half back at the triggering attacker as force damage.</p>
+			<p class="indent">Arcane Reach: Once per day you may use a bonus action to activate this ability and double the standard range of your bonded weapon. The power lasts for 1 minute or until you sheath or drop you bonded weapon.</p>
+			<p class="indent">Vorpal: This weapon is now Vorpal. You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.</p>
+			<p class="indent">When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.</p>
+			<p class="indent">If this weapon is anything other than a slashing melee weapon, the critical hit death effect is determined by the DM.</p>
+			<p class="indent">To any non-swordmage character a spellslinger weapon is an ordinary +3 magic weapon without any additional effects.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">Spellslinger, Vorpal</set>
+		</setters>
+	</element>
+	<element name="Mack, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_MACK_1">
+		<description>
+			<p>Mack and Stabbitha were ordinary shortswords that were functionally and visually identical to one another. Following Agorzach's battle with the Lianne Deathbringer construct however, both bades came in simultaneous contact with a powerful magical artifact. This Artifact (which looked like the handle of a sword) broke and imbued both weapons with power. Agorzach was gifted the knowledge (presumably from the artifact) that the blades could now permanently take into themselves new attributes for causing damage.</p>
+			<p class="indent">Agorzach chose to coat the blade in the weak giant scorpion venom he collected outside Owl Cry Village. As he was doing this, he lay Stabbitha down and its blade came in contact with the smoke and dust that was all that remained of the Shadow Knight the group had just defeated.</p>
+			<p class="indent">Mack looks like and ordinary short sword, except it has a slight green sheen to the metal when the light catches it in just the right way.</p>
+			<p class="indent">Forged by Poison: Mack is now a permanently poisoned blade. Whenever you hit with Mack the target must succeed on a Constitution saving throw (DC= 8 + half your character level) or take 11 (2d10) poison damage, or half as much damage on a successful save.</p>
+			<p class="indent">Enhancement: You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">The longer you use this weapon, the more secrets you will unlock. Mack gains power when you reach level 8 and becomes the +2 version of itself.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any shortsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">shortsword||Wakizashi</set>
+			<set name="name-format">Mack +{{enhancement}}</set>
+		</setters>
+	</element>
+	<element name="Mack, +2" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_MACK_2">
+		<description>
+			<p>This is the version of Mack when it has increased in rarity from uncommon to rare.</p>
+			<p class="indent">Mack looks like an ordinary short sword, except it has a slight green sheen to the metal when the light catches it in just the right way.</p>
+			<p class="indent">Forged by Poison: Mack is now a permanently poisoned blade. Whenever you hit with Mack the target must succeed on a Constitution saving throw (DC= 8 + half your character level) or take 11 (2d10) poison damage, or half as much damage on a successful save.</p>
+			<p class="indent">Speed: Your base movement speed increases by 10 feet.</p>
+			<p class="indent">Enhancement: You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">The longer you use this weapon, the more secrets you will unlock. Mack gains power when you reach level 12 and becomes the +3 version of itself.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any shortsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">shortsword||Wakizashi</set>
+			<set name="name-format">Mack +{{enhancement}}</set>
+		</setters>
+		<rules>
+			<stat name="speed:misc" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Mack, +3" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_MACK_3">
+		<description>
+			<p>This is the version of Mack when it has increased in rarity from rare to very rare.</p>
+			<p class="indent">Mack looks like an ordinary short sword, except it has a slight green sheen to the metal when the light catches it in just the right way.</p>
+			<p class="indent">Forged by Poison: Mack is now a permanently poisoned blade. Whenever you hit with Mack the target must succeed on a Constitution saving throw (DC= 8 + half your character level) or take 11 (2d10) poison damage, or half as much damage on a successful save.</p>
+			<p class="indent">Speed: Your base movement speed increases by 10 feet.</p>
+			<p class="indent">Enduring Poison: When a target fails their constitution save against Mack's poison effect the target also suffers 6 ongoing poison damage (at the start of the targets turn). This damage stacks with each wound Mack deals and continues until the target dies or a save ends the ongoing damage.</p>
+			<p class="indent">Enhancement: You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">The longer you use this weapon, the more secrets you will unlock. Mack gains power when you reach level 16 and becomes the Legendary version of itself.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any shortsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">shortsword||Wakizashi</set>
+			<set name="name-format">Mack +{{enhancement}}</set>
+		</setters>
+		<rules>
+			<stat name="speed:misc" value="10" bonus="base" />
+		</rules>
+	</element>
+	<element name="Mack, Legendary" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_MACK_LEGENDARY">
+		<description>
+			<p>This is the version of Mack when it has increased in rarity from very rare to legendary.</p>
+			<p class="indent">Mack looks like an ordinary short sword, except it has a slight green sheen to the metal when the light catches it in just the right way.</p>
+			<p class="indent">Forged by Poison: Mack is now a permanently poisoned blade. Whenever you hit with Mack the target must succeed on a Constitution saving throw (DC= 8 + half your character level) or take 22 (4d10) poison damage, or half as much damage on a successful save.</p>
+			<p class="indent">Speed: Your base movement speed increases by 10 feet.</p>
+			<p class="indent">Enduring Poison: When a target fails their constitution save against Mack's poison effect the target also suffers 6 ongoing poison damage (at the start of the targets turn). This damage stacks with each wound Mack deals and continues until the target dies or a save ends the ongoing damage.</p>
+			<p class="indent">Vorpal: This weapon is now Vorpal. You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.</p>
+			<p class="indent">When you attack a creature that has at least one brain or heart with this weapon and roll a 20 on the attack roll, you pierce the creature's brain or heart. The creature dies if it can't survive without the lost organ. A creature is immune to this effect if it is immune to piercing damage, doesn't have or need a heart or brain, has legendary actions, or the GM decides that the creature is too big for its heart or brain to be stabbed with this weapon. Such a creature instead takes an extra 6d8 piercing damage from the hit.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any shortsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">shortsword||Wakizashi</set>
+			<set name="name-format">Mack, Vorpal</set>
+		</setters>
+		<rules>
+			<stat name="speed:misc" value="10" bonus="base" />
+		</rules>
+	</element>
+
+
+	<element name="Stabbitha, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_STABBITHA_1">
+		<description>
+			<p>Mack and Stabbitha were ordinary shortswords that were functionally and visually identical to one another. Following Agorzach's battle with the Lianne Deathbringer construct however, both bades came in simultaneous contact with a powerful magical artifact. This Artifact (which looked like the handle of a sword) broke and imbued both weapons with power. Agorzach was gifted the knowledge (presumably from the artifact) that the blades could now permanently take into themselves new attributes for causing damage.</p>
+			<p class="indent">Agorzach chose to coat the blade in the weak giant scorpion venom he collected outside Owl Cry Village. As he was doing this, he lay Stabbitha down and its blade came in contact with the smoke and dust that was all that remained of the Shadow Knight the group had just defeated.</p>
+			<p class="indent">Stabbitha looks like an ordinary short sword, except it has a slight violet sheen to the metal when the light catches it in just the right way.</p>
+			<p class="indent">Forged by Death: Stabbitha now causes any wound it inflicts to begin to fester. Whenever you hit with Stabbitha the target must succeed on a Constitution saving throw (DC= 8 + half your character level) or take 11 (2d10) necrotic damage, or half as much damage on a successful save.</p>
+			<p class="indent">Enhancement: You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">The longer you use this weapon, the more secrets you will unlock. Stabbitha gains power when you reach level 8 and becomes the +2 version of itself.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any shortsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">shortsword||Wakizashi</set>
+			<set name="name-format">Stabbitha +{{enhancement}}</set>
+		</setters>
+	</element>
+	<element name="Stabbitha, +2" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_STABBITHA_2">
+		<description>
+			<p>This is the version of Stabbitha when it has increased in rarity from uncommon to rare.</p>
+			<p class="indent">Stabbitha looks like an ordinary short sword, except it has a slight violet sheen to the metal when the light catches it in just the right way.</p>
+			<p class="indent">Forged by Death: Stabbitha now causes any wound it inflicts to begin to fester. Whenever you hit with Stabbitha the target must succeed on a Constitution saving throw (DC= 8 + half your character level) or take 11 (2d10) necrotic damage, or half as much damage on a successful save.</p>
+			<p class="indent">Cloaked in Shadow: Violet vapor surrounds you in a 5-foot radius sphere. Once per day, you may use your reaction to impose disadvantage on any attack made from within the range of this aura that would hit you or an ally. If the attack fails, the attacker takes 5 necrotic damage. If the attack succeedes despite the divadvantage, the attacker instead takes 11 necrotic damage.</p>
+			<p class="indent">Enhancement: You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">The longer you use this weapon, the more secrets you will unlock. Stabbitha gains power when you reach level 12 and becomes the +3 version of itself.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any shortsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">shortsword||Wakizashi</set>
+			<set name="name-format">Stabbitha +{{enhancement}}</set>
+		</setters>
+	</element>
+	<element name="Stabbitha, +3" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_STABBITHA_3">
+		<description>
+			<p>This is the version of Stabbitha when it has increased in rarity from rare to very rare.</p>
+			<p class="indent">Stabbitha looks like an ordinary short sword, except it has a slight violet sheen to the metal when the light catches it in just the right way.</p>
+			<p class="indent">Forged by Death: Stabbitha now causes any wound it inflicts to begin to fester. Whenever you hit with Stabbitha the target must succeed on a Constitution saving throw (DC= 8 + half your character level) or take 11 (2d10) necrotic damage, or half as much damage on a successful save.</p>
+			<p class="indent">Cloaked in Shadow: Violet vapor surrounds you in a 5-foot sphere. Once per day, you may use your reaction to impose disadvantage on any attack made from within the range of this aura that would hit you or an ally. If the attack fails, the attacker takes 5 necrotic damage. If the attack succeedes despite the divadvantage, the attacker instead takes 11 necrotic damage.</p>
+			<p class="indent">Wracked by Pain: When a target that has been wounded by Stabbitha fails the Constitution save against Stabbitha's necrotic effect, the festering wound causes crippling pain. The Target becomes incapacitated until a successful save ends this condition.</p>
+			<p class="indent">Enhancement: You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">The longer you use this weapon, the more secrets you will unlock. Stabbitha gains power when you reach level 16 and becomes the Legendary version of itself.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any shortsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">shortsword||Wakizashi</set>
+			<set name="name-format">Stabbitha +{{enhancement}}</set>
+		</setters>
+	</element>
+	<element name="Stabbitha, Legendary" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_STABBITHA_LEGENDARY">
+		<description>
+			<p>This is the version of Stabbitha when it has increased in rarity from very rare to legendary.</p>
+			<p class="indent">Stabbitha looks like an ordinary short sword, except it has a slight violet sheen to the metal when the light catches it in just the right way.</p>
+			<p class="indent">Forged by Death: Stabbitha now causes any wound it inflicts to begin to fester. Whenever you hit with Stabbitha the target must succeed on a Constitution saving throw (DC= 8 + half your character level) or take 11 (2d10) necrotic damage, or half as much damage on a successful save.</p>
+			<p class="indent">Cloaked in Shadow: Violet vapor surrounds you in a 5-foot sphere. Once per day, you may use your reaction to impose disadvantage on any attack made from within the range of this aura that would hit you or an ally. If the attack fails, the attacker takes 5 necrotic damage. If the attack succeedes despite the divadvantage, the attacker instead takes 11 necrotic damage.</p>
+			<p class="indent">Wracked by Pain: When a target that has been wounded by Stabbitha fails the Constitution save against Stabbitha's necrotic effect, the festering wound causes crippling pain. The Target becomes incapacitated until a successful save ends this condition.</p>
+			<p class="indent">Vorpal: This weapon is now Vorpal. You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.</p>
+			<p class="indent">When you attack a creature that has at least one brain or heart with this weapon and roll a 20 on the attack roll, you pierce the creature's brain or heart. The creature dies if it can't survive without the lost organ. A creature is immune to this effect if it is immune to piercing damage, doesn't have or need a heart or brain, has legendary actions, or the GM decides that the creature is too big for its heart or brain to be stabbed with this weapon. Such a creature instead takes an extra 6d8 piercing damage from the hit.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any shortsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">shortsword||Wakizashi</set>
+			<set name="name-format">Stabbitha, Vorpal</set>
 		</setters>
 	</element>
 

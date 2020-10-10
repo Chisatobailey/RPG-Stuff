@@ -71,4 +71,5 @@
 			<select type="Class Feature" name="Expert" number= "4" supports="Expertise,Skill" />
 		</rules>
 	</element>
+
 </elements>
