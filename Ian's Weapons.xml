@@ -4,7 +4,7 @@
 		<name>Ian's Weapons</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.0.2" >
+		<update version="1.2.1" >
 			<file name="Ian's Weapons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Weapons.xml" />
 		</update>
 	</info>
@@ -169,7 +169,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE</set>
 		</setters>
 	</element>
-	<element name="Trident, Combat" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_TRIDENT_COMBAT">
+	<element name="Combat Trident" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_TRIDENT_COMBAT">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
 		<description>
 			<p></p>
@@ -177,9 +177,8 @@
 		<setters>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="gp">10</set>
-			<set name="weight" lb="4">5 lb.</set>
+			<set name="weight" lb="5">5 lb.</set>
 			<set name="slot">onehand</set>
-			<set name="range">20/60</set>
 			<set name="damage" type="piercing">1d8</set>
 			<set name="versatile">1d10</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT</set>
