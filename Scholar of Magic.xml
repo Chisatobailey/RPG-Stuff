@@ -3,7 +3,7 @@
 		<name>Scholar of Magic</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.1.0">
+		<update version="1.1.1">
 			<file name="Scholar of Magic.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Scholar%20of%20Magic.xml" />
 		</update>
 	</info>
@@ -21,16 +21,17 @@
 	<element name="Warded Casting" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_SCHOLAROFMAGIC_CLASS_FEATURE_WIZARD_WARDED_CASTING">
 		<description>
 			<p>A wizard has learned to protect friendly tragets from the effects of thier spells. Beginning at 5th level you may shield a number of friendly targets equal to you intelligence modifier + 1 for the damage and effects of any spell you cast.</p>
-            <p class="indent">You may shield {{warded:casting}} friendly targets from all damage and effects from your magic at the time of casting. This cannot be done retroactivly.</p>
+            <p class="indent">You may shield 1 + your intelligence modifier friendly targets from all damage and effects from your magic at the time of casting. This cannot be done retroactivly.</p>
 		</description>
 		<sheet>
-			<description>You may shape many of your spells. Damaging spells may be evenly "split" into smaller versions. Non-damage spells can be reshaped, but effects like granting advantage or causing paralysis cannot be split. Spellrange is not affected by reshaping.</description>
+			<description>You may shield {{warded:casting}} friendly targets from all damage and effects from your magic at the time of casting.</description>
 		</sheet>
 		<rules>
 			<stat name="warded:casting" value="1" />
 			<stat name="warded:casting" value="intelligence:modifier" />
 		</rules>
 	</element>
+	
     <append id="ID_WOTC_PHB_CLASS_WIZARD">
   		<rules>
     		<grant type="Class Feature" id="ID_IANSADDITIONS_SCHOLAROFMAGIC_CLASS_FEATURE_WIZARD_SPELL_SHAPER" level="3" />
