@@ -39,6 +39,21 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
 		</setters>
 	</element>
+	<element name="Shuriken" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_SHURIKEN">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+			<p>These are small throwing weapons of various shapes.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0.25">1/4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DART</set>
+		</setters>
+	</element>
 	<element name="Stone Handaxe" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_STONEHANDAXE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
 		<description>
@@ -66,6 +81,21 @@
 			<set name="slot">onehand</set>
 			<set name="damage" type="bludgeoning">1d6</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE</set>
+		</setters>
+	</element>
+	<element name="Tanto" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_TANTO">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+			<p>The Classic single edged dagger.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
 		</setters>
 	</element>
 	<element name="Unarmed Strike" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_UNARMED_STRIKE">
