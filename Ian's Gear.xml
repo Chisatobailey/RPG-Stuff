@@ -40,7 +40,7 @@
 	<!--End Spellcasting Foci-->
 
 	<!--Begin magical spellcasting foci-->
-	<element name="Annael's Medicine Bag, +1" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_ANNAELS_MEDICINE_BAG_1">
+	<element name="Annael's Medicine Bag, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_MAGIC_ITEM_ANNAELS_MEDICINE_BAG_1">
 		<description>
 			<p>At the age of 17, Annael na Mathan Dhaoine of the Bear Folk of the Fornhill Mountains became accepted by her God and was named amoung the Folk. At this time she collected the shed fur of a bear that lived near the place where she was raised by her mother and constructed her first Shamanic Totem and strung it about her neck in the Medicine Bag made by her mother. It has been a little more than a year since that time, and Annael has grown much in both power and knowledge. In the Aftermath of the battle with the construct of Lianne Deathbringer, Annael meditated on the events that had led her to that point and was struck by inspiration from Magnar Himself to remake and evolve her simple totem into an Item of Power. Hidden at the bottom of Lianne's treasure hoard, Annael found a bear's tooth contained in a ring of five bear claws all coated and held together by high-grade silver.</p>
 			<p class="indent">Annael took the strange piece of bear-related art and combined it with several small gems she found in the hoard and a few stones she had picked up in her travels by melting down 10 GP from her own pocket to coat the new items and act as a rough "glue". The result was a new Totem to place in her bag weighing about 1 lb.</p>
@@ -66,7 +66,7 @@
 			<stat name="spellcasting:dc" value="1" />
 		</rules>
 	</element>
-	<element name="Annael's Medicine Bag, +2" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_ANNAELS_MEDICINE_BAG_2">
+	<element name="Annael's Medicine Bag, +2" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_MAGIC_ITEM_ANNAELS_MEDICINE_BAG_2">
 		<description>
 			<p>This is the form Annael's Medicine Bag, +1 takes at Level 8 when it increases in rarity from uncommon to rare.</p>
 			<p class="indent">Wise Healer: Whenever you cast a healing spell, you may heal each target for {{wisdom:modifier}} additional HP. </p>
@@ -93,7 +93,7 @@
 			<stat name="spellcasting:dc" value="2" />
 		</rules>
 	</element>
-	<element name="Annael's Medicine Bag, +3" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_ANNAELS_MEDICINE_BAG_3">
+	<element name="Annael's Medicine Bag, +3" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_MAGIC_ITEM_ANNAELS_MEDICINE_BAG_3">
 		<description>
 			<p>This is the form Annael's Medicine Bag, +2 takes at Level 12 when it increases in rarity from rare to very rare.</p>
 			<p class="indent">Wise Healer: Whenever you cast a healing spell, you may heal each target for {{wisdom:modifier}} additional HP. </p>
@@ -122,7 +122,7 @@
 			<stat name="spellcasting:dc" value="3" />
 		</rules>
 	</element>
-	<element name="Annael's Medicine Bag, Legendary" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_ANNAELS_MEDICINE_BAG_LEGENDARY">
+	<element name="Annael's Medicine Bag, Legendary" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_MAGIC_ITEM_ANNAELS_MEDICINE_BAG_LEGENDARY">
 		<description>
 			<p>This is the form Annael's Medicine Bag, +3 takes at Level 16 when it increases in rarity from very rare to legendary.</p>
 			<p class="indent">Wise Healer: Whenever you cast a healing spell, you may heal each target for {{wisdom:modifier}} additional HP. </p>
@@ -191,6 +191,7 @@
 			<p class="indent">In this shape the following rules apply:</p>
 				<ul>
 					<li>Your Strength, Dexterity, and Constitution all become 20 and your Intelligence, Wisdom, and Charisima remain unchanged. Your speed is 40 ft for the duration, and you have advantage on wisdom (perception) checks that use smell.</li>
+					<li>Your AC equals: 10 + your dexterity modifier (+5) + half your druid level.</li>
 					<li>You have hit points equal to twice your character level. If these points are reduced to zero, the power ends and you revert to your normal shape with the same number of hit points you had at the time of using this ability.</li>
 					<li>You may cast spells and speak as normal, and may use any feature that is possible to use in this shape. using any other shape changing abilities ends the spell.</li>
 					<li>Your Medicine Bag stays around you nack and cannot be removed by anything short of divine power while you are in this form. Your clothing and the rest of you gear are trasnported into the divine realm of Magnar and will reform on your person after you regain your natural form when the spell ends.</li>
