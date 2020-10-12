@@ -3,7 +3,7 @@
 		<name>Ian's Gear</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.2.0" >
+		<update version="1.4.0" >
 			<file name="Ian's Gear.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Gear.xml" />
 		</update>
 	</info>
@@ -49,6 +49,8 @@
 			<p class="indent">Word of God: You gain the power Command of Magnar.</p>
 			<p class="indent">Enhancement: This Totem grants a +1 to your spell attack bonus and spell save DC.</p>
 			<p class="indent">This Totem gains power when you reach level 8 and becomes the +2 version of Annael's Medicine Bag.</p>
+
+			<div element="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_COMMANDOFMAGNAR" />
 		</description>
 		<setters>
 			<set name="category">Spellcasting Focus</set>
@@ -75,6 +77,9 @@
 			<p class="indent">Great Spirit: Grants the power Spirit of Magnar</p>
 			<p class="indent">Enhancement: This totem grants a +2 to your spell attack bonus and spell save DC.</p>
 			<p class="indent">This Totem gains power when you reach level 12 and becomes the +3 version of Annael's Medicine Bag.</p>
+
+			<div element="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_COMMANDOFMAGNAR" />
+			<div element="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_SPIRITOFMAGNAR" />
 		</description>
 		<setters>
 			<set name="category">Spellcasting Focus</set>
@@ -103,6 +108,10 @@
 			<p class="indent">Magnar's Rage: Grants the power Roar of Magnar</p>
 			<p class="indent">Enhancement: This totem grants a +3 to your spell attack bonus and spell save DC.</p>
 			<p class="indent">This Totem gains power when you reach level 16 and becomes the Legendary version of Annael's Medicine Bag.</p>
+
+			<div element="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_COMMANDOFMAGNAR" />
+			<div element="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_SPIRITOFMAGNAR" />
+			<div element="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_ROAROFMAGNAR" />
 		</description>
 		<setters>
 			<set name="category">Spellcasting Focus</set>
@@ -132,6 +141,10 @@
 			<p class="indent">Magnar's Rage: Grants the power Roar of Magnar</p>
 			<p class="indent">Himself: Grants the power Avatar of Magnar</p>
 			<p class="indent">Enhancement: This totem grants a +3 to your spell attack bonus and spell save DC.</p>
+			<div element="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_COMMANDOFMAGNAR" />
+			<div element="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_SPIRITOFMAGNAR" />
+			<div element="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_ROAROFMAGNAR" />
+			<div element="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_AVATAROFMAGNAR" />
 		</description>
 		<setters>
 			<set name="category">Spellcasting Focus</set>

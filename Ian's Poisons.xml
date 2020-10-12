@@ -3,7 +3,7 @@
 		<name>Ian's Poisons</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.1.0" >
+		<update version="1.4.0" >
 			<file name="Ian's Poisons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Poisons.xml" />
 		</update>
 	</info>
