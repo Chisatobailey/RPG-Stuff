@@ -78,13 +78,13 @@
 				<thead>
 					<tr><td>Liquid</td><td>Max Amount</td></tr>
 				</thead>
-				<tr><td>Any Acid</td><td>8 ounces</td></tr>
-				<tr><td>Any Poison</td><td>½ ounce</td></tr>
-				<tr><td>Any Potion</td><td>1 ounce</td></tr>
+				<tr><td>Any Acid</td><td>16 ounces</td></tr>
+				<tr><td>Any Poison</td><td>3 ounce</td></tr>
+				<tr><td>Any Potion</td><td>4 ounce</td></tr>
 				<tr><td>Any Drinking Alchol</td><td>4 gallons</td></tr>
 				<tr><td>Honey</td><td>1 gallon</td></tr>
 				<tr><td>Condiments</td><td>2 gallons</td></tr>
-				<tr><td>Any Oil</td><td>1 quart</td></tr>
+				<tr><td>Any Oil</td><td>2 quart</td></tr>
 				<tr><td>Any Vinegar</td><td>2 gallon</td></tr>
 				<tr><td>Water, fresh</td><td>8 gallon</td></tr>
 				<tr><td>Water, salt</td><td>12 gallon</td></tr>
