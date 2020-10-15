@@ -3,10 +3,11 @@
 		<name>Ian's Wonderous Items</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.4.0" >
+		<update version="1.4.1" >
 			<file name="Ian's Wonderous Items.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Wonderous%20Items.xml" />
 		</update>
 	</info>
+
     <element name="Eye of the Hand" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_EYE_OF_THE_HAND">
 		<description>
 			<p>The Eye of the Hand is a pendant, measuring 3 inches wide and 4 inches tall, made of finely carved amber and chased in silver. There is an eye-shaped hole in the center of the palm through which one may look. Doing so will reveal the mark of the Amber Hand which denotes the order's safehouses.</p>
@@ -67,6 +68,37 @@
 			<set name="rarity">Rare</set>
 		</setters>
 	</element>
+	<element name="Jug of Greater Alchemy" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_GREATER_ALCHEMY_JUG">
+		<description>
+			<p>This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.</p>
+			<p class="indent">You can use an action and "spend" a single portion of any liquid placing it inside the Jug and replacing the cork. After one minute, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute until the maximum for that liquid has been reached. The maximum amount of liquid the jug can produce depends on the liquid you placed within it.</p>
+			<p class="indent">Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.</p>
+			<p class="indent">Below is a chart for reference. The final decision regarding the maximum amount of a given liquid is made by the DM.</p>
+			<table>
+				<thead>
+					<tr><td>Liquid</td><td>Max Amount</td></tr>
+				</thead>
+				<tr><td>Any Acid</td><td>8 ounces</td></tr>
+				<tr><td>Any Poison</td><td>½ ounce</td></tr>
+				<tr><td>Any Potion</td><td>1 ounce</td></tr>
+				<tr><td>Any Drinking Alchol</td><td>4 gallons</td></tr>
+				<tr><td>Honey</td><td>1 gallon</td></tr>
+				<tr><td>Condiments</td><td>2 gallons</td></tr>
+				<tr><td>Any Oil</td><td>1 quart</td></tr>
+				<tr><td>Any Vinegar</td><td>2 gallon</td></tr>
+				<tr><td>Water, fresh</td><td>8 gallon</td></tr>
+				<tr><td>Water, salt</td><td>12 gallon</td></tr>
+				<tr><td>Any Milk</td><td>1 gallon</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="12">12 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
 	<element name="Masterwork Boots" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_MASTERWORKBOOTS">
 		<description>
 			<p>This beautifully made pair of boots are so comfortable and perfectly fit that the wearer's movement is increased by 5 feet.</p>
@@ -99,7 +131,7 @@
 	</element>
 	
 
-	<!--Begin Animal Stones-->
+<!--Begin Animal Stones-->
 	<element name="Air Stone" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_AIR_STONE">
 		<description>
 			<p>A small statue, well-carved, in the shape of a bird of prey. As an action, the wielder of this stone may grant themselves, or another, the ability to fly and speak to all birds and bats for 1 minute.</p>
@@ -170,4 +202,9 @@
 			<set name="rarity">Unique</set>
 		</setters>
 	</element>
+<!--End Animal Stones-->
+
+<!--Begin Tatoos-->
+	
+<!--End Tatoos-->
 </elements>
