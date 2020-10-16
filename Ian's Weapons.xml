@@ -290,7 +290,7 @@
 	</element>
 
 	<!--Magic Weapons-->
-	<element name="Snick and Snack" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_SNICKANDSNACK">
+	<element name="Snick and Snack" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_SNICKANDSNACK">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
 		<description>
 			<p>Snick and Snack are a pair of matched daggers formerly carried by the master assassin Fairlor Quiethand. Thier origins are unknown.</p>
@@ -305,10 +305,10 @@
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">1</set>
 			<set name="weapon">DAGGER</set>
-			<set name="name-format">Snick</set>
+			<set name="name-format">Snick and Snack</set>
 		</setters>
 	</element>
-	<element name="Stinger" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_STINGER">
+	<element name="Stinger" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_STINGER">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_DAMAGE_TYPE_PIERCING,ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION,ID_INTERNAL_WEAPON_PROPERTY_LIGHT,ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
 		<description>
 			<p>Stinger is a Hand Crossbow formerly carried by the master assassin Fairlor Quiethand. Its origins are unknown.</p>
@@ -326,7 +326,7 @@
 			<set name="name-format">Stinger</set>
 		</setters>
 	</element>
-	<element name="Snake Bite" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_SNAKEBITE">
+	<element name="Snake Bite" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_SNAKEBITE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
 		<description>
 			<p>Snake Bite is a Shortbow formerly carried by the master assassin Fairlor Quiethand. Its origins are unknown.</p>
