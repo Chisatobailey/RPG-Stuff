@@ -4,7 +4,7 @@
 		<name>Ian's Weapons</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.4.7" >
+		<update version="1.4.8" >
 			<file name="Ian's Weapons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Weapons.xml" />
 		</update>
 	</info>
@@ -311,7 +311,7 @@
 		<description>
 			<p>Stinger is a Shortbow formerly carried by the master assassin Fairlor Quiethand. Its origins are unknown.</p>
 			<p>Stinger magically embues any arrows it fires with poison.</p>
-			<p>This crossbow grants a +1 bonus to attack and damage rolls. On a successful hit the target makes a constitution saving throw taking 17 (5d6) poison damage on a failed save and half damage on a successful one.</p>
+			<p>This bow grants a +1 bonus to attack and damage rolls. On a successful hit the target makes a constitution saving throw taking 17 (5d6) poison damage on a failed save and half damage on a successful one.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
