@@ -4,7 +4,7 @@
 		<name>Ian's Weapons</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.4.5" >
+		<update version="1.4.6" >
 			<file name="Ian's Weapons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Weapons.xml" />
 		</update>
 	</info>
@@ -303,7 +303,7 @@
 			<set name="attunement">false</set>
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">1</set>
-			<set name="weapon">DAGGER</set>
+			<set name="weapon">Dagger</set>
 			<set name="name-format">Snick and Snack</set>
 		</setters>
 	</element>
@@ -320,7 +320,7 @@
 			<set name="attunement">false</set>
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">1</set>
-			<set name="weapon">ID_WOTC_PHB_WEAPON_CROSSBOW_HAND</set>
+			<set name="weapon">Crossbow, Hand</set>
 			<set name="name-format">Stinger</set>
 		</setters>
 	</element>
@@ -337,7 +337,7 @@
 			<set name="attunement">false</set>
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">1</set>
-			<set name="weapon">ID_WOTC_PHB_WEAPON_SHORTBOW</set>
+			<set name="weapon">Shortbow</set>
 			<set name="name-format">Snake Bite</set>
 		</setters>
 	</element>
