@@ -4,7 +4,7 @@
 		<name>Ian's Weapons</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.4.6" >
+		<update version="1.4.7" >
 			<file name="Ian's Weapons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Weapons.xml" />
 		</update>
 	</info>
@@ -309,25 +309,25 @@
 	</element>
 	<element name="Stinger" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_STINGER">
 		<description>
-			<p>Stinger is a Hand Crossbow formerly carried by the master assassin Fairlor Quiethand. Its origins are unknown.</p>
-			<p>Stinger magically embues and crossbow bolt it fires with poison.</p>
+			<p>Stinger is a Shortbow formerly carried by the master assassin Fairlor Quiethand. Its origins are unknown.</p>
+			<p>Stinger magically embues any arrows it fires with poison.</p>
 			<p>This crossbow grants a +1 bonus to attack and damage rolls. On a successful hit the target makes a constitution saving throw taking 17 (5d6) poison damage on a failed save and half damage on a successful one.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="crossbow, hand">Weapon</set>
+			<set name="type" addition="Shortbow">Weapon</set>
 			<set name="attunement">false</set>
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">1</set>
-			<set name="weapon">Crossbow, Hand</set>
+			<set name="weapon">Shortbow</set>
 			<set name="name-format">Stinger</set>
 		</setters>
 	</element>
 	<element name="Snake Bite" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_SNAKEBITE">
 		<description>
 			<p>Snake Bite is a Shortbow formerly carried by the master assassin Fairlor Quiethand. Its origins are unknown.</p>
-			<p>Snake Bite magically embues and arrows it fires with poison.</p>
+			<p>Snake Bite magically embues any arrows it fires with poison.</p>
 			<p>This bow grants a +1 bonus to attack and damage rolls. On a successful hit the target makes a constitution saving throw taking 17 (5d6) poison damage on a failed save and half damage on a successful one.</p>
 		</description>
 		<setters>
