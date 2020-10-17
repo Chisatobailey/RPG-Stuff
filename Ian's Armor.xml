@@ -4,7 +4,7 @@
 		    <name>Ian's Armor</name>
 		    <description>Content created by the Chisato Bailey</description>
 		    <author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		    <update version="1.4.0">
+		    <update version="1.4.1">
 			    <file name="Ian's Armor.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Armor.xml" />
 		    </update>
 	    </info>
@@ -47,4 +47,24 @@
                 <stat name="speed" value="-10" bonus="armor" requirements="![str:15]" />
 		    </rules>
 	    </element>
+
+<!--Begin Magic Armor-->
+    <element name="Adamantine Armor, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSARMOR_MAGIC_ITEM_ADAMANTINE_ARMOR_1">
+		<supports>Armor</supports>
+		<description>
+			<p>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="medium or heavy, but not hide">Armor</set>
+			<set name="rarity">Rare</set>
+            <set name="enhancement">1</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="name-format">Adamantine {{parent}} +{{enhancement}}</set>
+		</setters>
+	</element>
+<!--Begin Magic Armor-->
     </elements>
