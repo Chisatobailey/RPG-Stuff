@@ -3,7 +3,7 @@
 		<name>Ian's Feats</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.4.1">
+		<update version="1.4.2">
 			<file name="Ian's Feats.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Feats.xml" />
 		</update>
 	</info>
@@ -36,7 +36,7 @@
 		</setters>
 		<sheet	display="false"	/>
 		<rules>
-			<select type="Class Feature" name="Expert" number= "2" supports="Expertise,Skill" />
+			<select type="Class Feature" name="Expert" number= "2" supports="ID_INTERNAL_SUPPORT_EXPERTISE" />
 		</rules>
 	</element>
 	<element name="Expert (3)" type="Feat" source="Ian's Additions" id="ID_IANSADDITIONS_IANSFEATS_FEAT_EXPERT3">
@@ -52,7 +52,7 @@
 		</setters>
 		<sheet	display="false"	/>
 		<rules>
-			<select type="Class Feature" name="Expert" number= "3" supports="Expertise,Skill" />
+			<select type="Class Feature" name="Expert" number= "3" supports="ID_INTERNAL_SUPPORT_EXPERTISE" />
 		</rules>
 	</element>
 	<element name="Expert (4)" type="Feat" source="Ian's Additions" id="ID_IANSADDITIONS_IANSFEATS_FEAT_EXPERT4">
@@ -68,7 +68,7 @@
 		</setters>
 		<sheet	display="false"	/>
 		<rules>
-			<select type="Class Feature" name="Expert" number= "4" supports="Expertise,Skill" />
+			<select type="Class Feature" name="Expert" number= "4" supports="ID_INTERNAL_SUPPORT_EXPERTISE" />
 		</rules>
 	</element>
 
