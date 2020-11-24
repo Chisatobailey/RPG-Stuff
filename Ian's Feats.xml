@@ -20,7 +20,7 @@
 		</setters>
 		<sheet	display="false"	/>
 		<rules>
-			<select type="Class Feature" name="Expert" number= "1" supports="Expertise,Skill" />
+			<select type="Class Feature" name="Expert" number= "1" supports="ID_INTERNAL_SUPPORT_EXPERTISE" />
 		</rules>
 	</element>
 	<element name="Expert (2)" type="Feat" source="Ian's Additions" id="ID_IANSADDITIONS_IANSFEATS_FEAT_EXPERT2">
