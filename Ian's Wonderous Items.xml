@@ -3,7 +3,7 @@
 		<name>Ian's Wonderous Items</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.4.1" >
+		<update version="1.4.2" >
 			<file name="Ian's Wonderous Items.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Wonderous%20Items.xml" />
 		</update>
 	</info>
@@ -21,6 +21,19 @@
 			<set name="type">Wondrous Item</set>
 			<set name="attunement">false</set>
 			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Game Bag of Preservation " type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_GAME_BAG_OF_PRESERVATION">
+		<description>
+			<p>This simple and unadorned game bag holds the unique power of being able to preserve any food placed within it indefinitely. The bag has a capacity of 10 lbs of food but never weighs more than 1 pound.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Rare</set>
 		</setters>
 	</element>
 	<element name="Gem of Therizdun" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_GEM_OF_THERIZDUN">
@@ -205,6 +218,208 @@
 <!--End Animal Stones-->
 
 <!--Begin Tatoos-->
-	
+	<element name="Verden's Warrior Mark, +0" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_VERDENS_WARRIOR_MARK_0">
+		<description>
+			<p>Seeing Blue: You gain the first level of the ability Seeing Blue.</p>
+			<p class="indent">Light the Way: You gain the first level of the Light the Way power.</p>
+            <p class="indent">Frightful Presence: You gain the Frightful Presence power.</p>
+            <p class="indent">Enhancement: You gain a +0 bonus to your armor class while attuned to this tattoo.</p>
+            <p class="indent">As you develop in power this tattoo will grow and spread across more of your body. At level 8 it becomes the rare version of itself.</p>
+
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SEEING_BLUE_1" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_LIGHT_THE_WAY_1" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_FRIGHTFUL_PRESENCE" />
+		</description>
+		<setters>
+			<set name="keywords">tattoo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Uncommon</set>
+            <set name="enhancement">0</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="0" />
+		</rules>
+	</element>
+	<element name="Verden's Warrior Mark, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_VERDENS_WARRIOR_MARK_1">
+		<description>
+			<p>This is the form Verden's Warrior's Mark takes when it increases in rarity from uncommon to rare. </p>
+			<p class="indent">Seeing Blue: You gain the second level of the ability Seeing Blue.</p>
+			<p class="indent">Light the Way: You gain the first level of the Light the Way power.</p>
+            <p class="indent">Frightful Presence: You gain the Frightful Presence power.</p>
+			<p class="indent">Rebuke: You gain the Rebuke power.</p>
+            <p class="indent">Enhancement: You gain a +1 bonus to your armor class while attuned to this tattoo.</p>
+            <p class="indent">As you develop in power this tattoo will grow and spread across more of your body. At level 12 it becomes the very rare version of itself.</p>
+
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SEEING_BLUE_2" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_LIGHT_THE_WAY_1" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_FRIGHTFUL_PRESENCE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REBUKE" />
+		</description>
+		<setters>
+			<set name="keywords">tattoo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Rare</set>
+            <set name="enhancement">1</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" />
+		</rules>
+	</element>
+	<element name="Verden's Warrior Mark, +2" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_VERDENS_WARRIOR_MARK_2">
+		<description>
+			<p>This is the form Verden's Warrior's Mark takes when it increases in rarity from rare to very rare. </p>
+			<p class="indent">Seeing Blue: You gain the third level of the ability Seeing Blue.</p>
+			<p class="indent">Light the Way: You gain the second level of the Light the Way power.</p>
+            <p class="indent">Frightful Presence: You gain the Frightful Presence power.</p>
+			<p class="indent">Rebuke: You gain the Rebuke power.</p>
+			<p class="indent">Cold Fury/Fiery Wrath: You gain the power Cold Fury/Fiery Wrath.</p>
+            <p class="indent">Enhancement: You gain a +2 bonus to your armor class while attuned to this tattoo.</p>
+            <p class="indent">As you develop in power this tattoo will grow and spread across more of your body. At level 16 it becomes the legendary version of itself.</p>
+
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SEEING_BLUE_3" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_LIGHT_THE_WAY_2" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_FRIGHTFUL_PRESENCE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REBUKE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_COLDFURY_FIERYWRATH" />
+		</description>
+		<setters>
+			<set name="keywords">tattoo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+            <set name="enhancement">2</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="2" />
+		</rules>
+	</element>
+	<element name="Verden's Warrior Mark, +3" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_VERDENS_WARRIOR_MARK_3">
+		<description>
+			<p>This is the form Verden's Warrior's Mark takes when it increases in rarity from very rare to legendary. </p>
+			<p class="indent">Seeing Blue: You gain the fourth level of the ability Seeing Blue.</p>
+			<p class="indent">Light the Way: You gain the second level of the Light the Way power.</p>
+            <p class="indent">Frightful Presence: You gain the Frightful Presence power.</p>
+			<p class="indent">Rebuke: You gain the Rebuke power.</p>
+			<p class="indent">Cold Fury/Fiery Wrath: You gain the power Cold Fury/Fiery Wrath.</p>
+			<p class="indent">Raging Tempest: You gain the Raging Tempest power.</p>
+            <p class="indent">Enhancement: You gain a +3 bonus to your armor class while attuned to this tattoo.</p>
+
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SEEING_BLUE_4" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_LIGHT_THE_WAY_2" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_FRIGHTFUL_PRESENCE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REBUKE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_COLDFURY_FIERYWRATH" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_RAGING_TEMPEST" />
+		</description>
+		<setters>
+			<set name="keywords">tattoo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Legendary</set>
+            <set name="enhancement">3</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="3" />
+		</rules>
+	</element>
+
+<!--Begin Verden's Mark Barbarian Class Features-->
+	<element name="Seeing Blue 1" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SEEING_BLUE_1">
+		<description>
+			<p>When you become enraged, your tattoos glow with a steady light creating an aura with a radius of 5-ft around you. This effect grows as the tattoo spreads.</p>
+		</description>
+		<sheet>
+			<description>When raging, you emit a faint light in 5-ft radius aura.</description>
+		</sheet>
+	</element>
+	<element name="Seeing Blue 2" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SEEING_BLUE_2">
+		<description>
+			<p>When you become enraged, your tattoos glow with a steady light creating an aura with a radius of 10-ft around you. This effect grows as the tattoo spreads.</p>
+		</description>
+		<sheet>
+			<description>When raging, you emit a faint light in 10-ft radius aura.</description>
+		</sheet>
+	</element>
+	<element name="Seeing Blue 3" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SEEING_BLUE_3">
+		<description>
+			<p>When you become enraged, your tattoos glow with a steady light creating an aura with a radius of 15-ft around you. This effect grows as the tattoo spreads.</p>
+		</description>
+		<sheet>
+			<description>When raging, you emit a 15-ft radius aura that creates bright light for 5-ft and a faint light for another 10 feet.</description>
+		</sheet>
+	</element>
+	<element name="Seeing Blue 4" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SEEING_BLUE_4">
+		<description>
+			<p>When you become enraged, your tattoos glow with a steady light creating an aura with a radius of 15-ft around you. </p>
+			<p class="indent">Whenever you roll a dexterity saving throw using your danger sense, if you woulf take half-damage on a success, you instead take no damage.</p>
+		</description>
+		<sheet>
+			<description>When raging, you emit a 15-ft radius aura that creates bright light for 10-ft and a faint light for another 5 feet.</description>
+		</sheet>
+	</element>
+	<element name="Light the Way 1" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_LIGHT_THE_WAY_1">
+		<description>
+			<p>Allies within your Aura gain the benefits of your danger sense. The same restrictions apply.</p>
+		</description>
+		<sheet>
+			<description>Allies within your Aura gain the benefits of your danger sense.</description>
+		</sheet>
+	</element>
+	<element name="Light the Way 2" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_LIGHT_THE_WAY_2">
+		<description>
+			<p>Allies within your Aura gain the benefits of your danger sense. The same restrictions apply.</p>
+			<p class="indent">Whenever allies within the area of bright light your aura creates roll a dexterity saving throw using danger sense, they take no damage on a successful save (rather than half damage).</p>
+		</description>
+		<sheet>
+			<description>Allies within your Aura gain the benefits of your danger sense and take no damage on a successful dexterity save (rather than half damage).</description>
+		</sheet>
+	</element>
+	<element name="Frightful Presence" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_FRIGHTFUL_PRESENCE">
+		<description>
+			<p>Once per day, with a bonus action, you may activate frightful presence. For 1 minute, any enemy who enters your aura must make a wisdom save at a DC equal to 8 + your strength modifier + your proficiency bonus or become frightned. A frightned enemy may roll a save at the end of each of their turns to against this condition.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/day">
+			<description>Any enemy who enters your aura must make a wisdom save at a DC equal to {{barbarian:fright}} or become frightened. Condition persists, save ends. The effect lasts for 1 minute.</description>
+		</sheet>
+		<rules>
+			<stat name="barbarian:fright" value="8" />
+			<stat name="barbarian:fright" value="proficiency" />
+			<stat name="barbarian:fright" value="strength:modifier" />
+		</rules>
+	</element>
+	<element name="Rebuke" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REBUKE">
+		<description>
+			<p>Once per short rest, when taking damage, you may choose to absorb half the damage dealt to you and reflect it back upon the attacker that hit you.</p>
+		</description>
+		<sheet action="Reaction" usage="1/short rest">
+			<description>When taking damage, reduce damage taken by half and deal the rest back to your attacker as force damage.</description>
+		</sheet>
+	</element>
+	<element name="Cold Fury/Fiery Wrath" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_COLDFURY_FIERYWRATH">
+		<description>
+			<p>Reaching deep into your being, you summon forth the the dispassionate cold of hate or the billowing fire of vengence and channel it through your attacks changing their nature.</p>
+			<p class="indent">When entering rage, you may choose either cold or fire. Your weapon now deals damage of that type in addition to the weapon's natural damage type. Also, you now add extra damage equal to your strength modifier to all damage rolls until your rage ends. </p>
+		</description>
+		<sheet>
+			<description>When entering rage, choose either cold or fire damage in addition to the weapon's natural damage type. 
+			Also, you now add +{{strength:modifier}} extra damage to all damage rolls until your rage ends.</description>
+		</sheet>
+	</element>
+	<element name="Raging Tempest" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_RAGING_TEMPEST" />>
+		<description>
+			<p>Once per day, while raging and taking damage may choose to activate this ability.</p>
+			<p class="indent">You immediately deal your attacker thunder and lightning (together not seperately) damage equal to the full value of the damage you took. If the damage you take will reduce you to 0 hit points or fewer, then you instead deal double the value you took back to your attacker.</p>
+		</description>
+		<sheet action="Reaction" usage="1/day">
+			<description>When taking damage, deal 100% back to your attacker half as thunder half as lightning. If the damage you took reduces you to 0 HP, deal 200% instead.</description>
+		</sheet>
+	</element>
+<!--End Verden's Mark Barbarian Class Features-->
 <!--End Tatoos-->
 </elements>
