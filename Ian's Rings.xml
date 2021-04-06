@@ -1,0 +1,26 @@
+<elements>
+	<info>
+		<name>Ian's Rings</name>
+		<description>Content created by the Chisato Bailey</description>
+		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+		<update version="2.0.0">
+			<file name="Ian's Rings.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Rings.xml" />
+		</update>
+	</info>
+	<element name="Ring of the Pleasant Aspect" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSRINGS_RINGS_MAGIC_ITEM_RINGOFTHEPLEASANTASPECT">
+		<description>
+			<p>This simple and elegant saphire ring draws the positive of all who look upon it granting the wearer a +2 to their Charisma score.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">false</set>
+		</setters>
+        <rules>
+            <stat name="charisma" value="2" />
+        </rules>
+	</element>
+</elements>

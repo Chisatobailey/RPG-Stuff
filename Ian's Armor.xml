@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<name>Ian's Armor</name>
+	    <description>Content created by the Chisato Bailey</description>
+	    <author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+	    <update version="2.1.0">
+		    <file name="Ian's Armor.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Armor.xml" />
+	    </update>
+	</info>
+
+<!--Begin Armor-->
+<!--End Armor-->
+
+<!--Begin Shields-->
+    <element name="Buckler" type="Armor" source="Ian's Additions" id="ID_IANSADDITIONS_IANSARMOR_GEAR_BUCKLER">
+        <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD	</supports>
+        <description>
+			<p>A small round shield made from wood or metal and carried in one hand. Wielding a buckler increases your Armor Class by 1. You can benefit from only one shield at a time.</p>
+		</description>
+		<setters>
+            <set name="cost" currency="gp">5</set>
+            <set name="weight" lb="3">3 lb.</set>
+            <set name="slot">onehand,secondary</set>
+            <set name="type">Shield</set>
+            <set name="armor">Shield</set>
+            <set name="armorClass">+1</set>
+            <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>                
+			<stat name="ac:shield" value="1" bonus="shield" />                
+		</rules>
+	</element>
+    <element name="Full-Cover Shield" type="Armor" source="Ian's Additions" id="ID_IANSADDITIONS_IANSARMOR_GEAR_FULL_COVER_SHIELD">
+        <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD	</supports>
+        <description>
+			<p>This "War Door" type shield can be made out of wood or metal and can be any of a number of shapes. Though too unweildy to allow the user of such shields to move with ease and subtlety, this grants unparalleled protection amongst shields and even allows the user to fully crouch behind the shield granting the benefits of full-cover.</p>
+		</description>
+		<setters>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="3">6 lb.</set>
+            <set name="slot">onehand,secondary</set>
+            <set name="type">Shield</set>
+            <set name="armor">Shield</set>
+            <set name="strength">15</set>
+            <set name="armorClass">+3</set>
+            <set name="stealth">Disadvantage</set>
+            <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:shield" value="3" bonus="shield" />
+            <stat name="speed" value="-10" bonus="armor" requirements="![str:15]" />
+		</rules>
+	</element>
+<!--End Shields-->
+
+<!--Begin Magic Armor-->
+    <element name="Mithral Armor, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSARMOR_MAGIC_ITEM_MITHRAL_ARMOR_1">
+		<description>
+			<p>Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.</p>
+            <p>You have a +1 bonus to AC while wearing this armor.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="medium or heavy, but not hide">Armor</set>
+			<set name="rarity">Rare</set>
+            <set name="enhancement">1</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+            <set name="name-format">Mithral {{parent}} +{{enhancement}}</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+		</rules>
+    </element>
+    <element name="Mithral Armor, +2" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSARMOR_MAGIC_ITEM_MITHRAL_ARMOR_2">
+		<description>
+			<p>Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.</p>
+            <p>You have a +2 bonus to AC while wearing this armor.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="medium or heavy, but not hide">Armor</set>
+			<set name="rarity">Very Rare</set>
+            <set name="enhancement">2</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+            <set name="name-format">Mithral {{parent}} +{{enhancement}}</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+		</rules>
+    </element>
+    <element name="Mithral Armor, +3" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSARMOR_MAGIC_ITEM_MITHRAL_ARMOR_3">
+		<description>
+			<p>Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.</p>
+            <p>You have a +3 bonus to AC while wearing this armor.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="medium or heavy, but not hide">Armor</set>
+			<set name="rarity">Legendary</set>
+            <set name="enhancement">3</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+            <set name="name-format">Mithral {{parent}} +{{enhancement}}</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
+		</rules>
+    </element>    
+<!--End Magic Armor-->
+
+<!--Begin Magic Shields-->
+    <element name="Animated Shield, +1" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ANIMATED_SHIELD_1">
+		<description>
+			<p>While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are incapacitated or die, at which point the shield falls to the ground or into your hand if you have one free.</p>
+            <p>You have an additional +1 bonus to AC while holding this shield.</p>
+        </description>
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+            <set name="enhancement">1</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+            <set name="name-format">Animated {{parent}} +{{enhancement}}</set>
+		</setters>
+	</element>
+<!--End Magic Shields-->
+</elements>
