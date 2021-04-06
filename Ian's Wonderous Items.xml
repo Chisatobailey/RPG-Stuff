@@ -411,7 +411,7 @@
 			Also, you now add +{{strength:modifier}} extra damage to all damage rolls until your rage ends.</description>
 		</sheet>
 	</element>
-	<element name="Raging Tempest" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_RAGING_TEMPEST" />
+	<element name="Raging Tempest" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_RAGING_TEMPEST" >
 		<description>
 			<p>Once per day, while raging and taking damage may choose to activate this ability.</p>
 			<p class="indent">You immediately deal your attacker thunder and lightning (together not seperately) damage equal to the full value of the damage you took. If the damage you take will reduce you to 0 hit points or fewer, then you instead deal double the value you took back to your attacker.</p>
