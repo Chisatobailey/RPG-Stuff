@@ -3,7 +3,7 @@
 		<name>Ian's Wonderous Items</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.4.2" >
+		<update version="2.0.0" >
 			<file name="Ian's Wonderous Items.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Wonderous%20Items.xml" />
 		</update>
 	</info>
@@ -422,4 +422,462 @@
 	</element>
 <!--End Verden's Mark Barbarian Class Features-->
 <!--End Tatoos-->
+
+<!--Begin Jyakku's Meditation Focus-->
+    <element name="Jyakku's Meditation Focus, Uncommon" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_JYAKKUS_MEDITATION_FOCUS_1">
+		<description>
+			<p>Soothing Presence: You gain the ability Soothing Presence.</p>
+			<p class="indent">Honeyed Words: You gain the Honeyed Words talent.</p>
+            <p class="indent">Warrior of Peace: You gain the Warrior of Peace talent.</p>
+            <p class="indent">Skill Bonuses: You gain a +1 bonus to your Persuasion and Religion skills while attuned to this focus.</p>
+            <p class="indent">As you develop in dicipline this Focus will become able to strengthen more of your abilities. At level 8 it becomes the rare version of itself.</p>
+
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SOOTHING_PRESENCE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_HONEYED_WORDS" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_WARRIOR_OF_PEACE" />
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wonderous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="persuasion:misc" value="1" />
+			<stat name="religion:misc" value="1" />
+
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SOOTHING_PRESENCE" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_HONEYED_WORDS" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_WARRIOR_OF_PEACE" />
+		</rules>
+	</element>
+	<element name="Jyakku's Meditation Focus, Rare" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_JYAKKUS_MEDITATION_FOCUS_2">
+		<description>
+			<p>This is the form Jyakku's Meditation Focus, Uncommon takes at Level 8 when it increases in rarity from uncommon to rare.</p>
+			<p class="indent">Soothing Presence: You gain the ability Soothing Presence.</p>
+			<p class="indent">Honeyed Words: You gain the Honeyed Words talent.</p>
+            <p class="indent">Warrior of Peace: You gain the Warrior of Peace talent.</p>
+			<p class="indent">Power of Peace: You gain the Power of Peace talent.</p>
+            <p class="indent">Skill Bonuses: You gain a +1 bonus to your Deception and Insight and retain the +1 bonus to your Persuasion and Religion skills while attuned to this focus.</p>
+            <p class="indent">As you develop in dicipline this Focus will become able to strengthen more of your abilities. At level 12 it becomes the very rare version of itself.</p>
+
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SOOTHING_PRESENCE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_HONEYED_WORDS" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_WARRIOR_OF_PEACE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_POWER_OF_PEACE" />
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wonderous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="deception:misc" value="1" />
+			<stat name="insight:misc" value="1" />
+			<stat name="persuasion:misc" value="1" />
+			<stat name="religion:misc" value="1" />
+
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SOOTHING_PRESENCE" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_HONEYED_WORDS" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_WARRIOR_OF_PEACE" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_POWER_OF_PEACE" />
+		</rules>
+	</element>
+	<element name="Jyakku's Meditation Focus, Very Rare" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_JYAKKUS_MEDITATION_FOCUS_3">
+		<description>
+			<p>This is the form Jyakku's Meditation Focus, Rare takes at Level 12 when it increases in rarity from rare to very rare.</p>
+			<p class="indent">Soothing Presence: You gain the ability Soothing Presence.</p>
+			<p class="indent">Honeyed Words: You gain the Honeyed Words talent.</p>
+            <p class="indent">Warrior of Peace: You gain the Warrior of Peace talent.</p>
+			<p class="indent">Power of Peace: You gain the Power of Peace talent.</p>
+			<p class="indent">Tranquil Palm: You gain the Tranquil Palm Power.</p>
+            <p class="indent">Skill Bonuses: You retain a +1 bonus to your Deception and Insight and gain an additional +1 bonus (total of +2) to your Persuasion and Religion skills while attuned to this focus.</p>
+            <p class="indent">As you develop in dicipline this Focus will become able to strengthen more of your abilities. At level 16 it becomes the legendary version of itself.</p>
+
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SOOTHING_PRESENCE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_HONEYED_WORDS" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_WARRIOR_OF_PEACE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_POWER_OF_PEACE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_TRANQUIL_PALM" />
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wonderous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="deception:misc" value="1" />
+			<stat name="insight:misc" value="1" />
+			<stat name="persuasion:misc" value="2" />
+			<stat name="religion:misc" value="2" />
+
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SOOTHING_PRESENCE" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_HONEYED_WORDS" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_WARRIOR_OF_PEACE" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_POWER_OF_PEACE" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_TRANQUIL_PALM" />
+		</rules>
+	</element>
+	<element name="Jyakku's Meditation Focus, Legendary" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_JYAKKUS_MEDITATION_FOCUS_4">
+		<description>
+			<p>This is the form Jyakku's Meditation Focus, Very Rare takes at Level 16 when it increases in rarity from very rare to legendary.</p>
+			<p class="indent">Soothing Presence: You gain the ability Soothing Presence.</p>
+			<p class="indent">Honeyed Words: You gain the Honeyed Words talent.</p>
+            <p class="indent">Warrior of Peace 2: You gain the Warrior of Peace talent.</p>
+			<p class="indent">Power of Peace: You gain the Power of Peace talent.</p>
+			<p class="indent">Tranquil Palm 2: You gain the Tranquil Palm Power.</p>
+			<p class="indent">Champion of Peace: You gain the Champion of Peace talent.</p>
+            <p class="indent">Skill Bonuses: You gain an additional +1 bonus (total of +2) to your Deception and Insight and you retain the +2 bonus to your Persuasion and Religion skills while attuned to this focus.</p>
+            
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SOOTHING_PRESENCE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_HONEYED_WORDS" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_WARRIOR_OF_PEACE_2" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_POWER_OF_PEACE" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_TRANQUIL_PALM_2" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_CHAMPION_OF_PEACE" />
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wonderous Item</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="deception:misc" value="2" />
+			<stat name="insight:misc" value="2" />
+			<stat name="persuasion:misc" value="2" />
+			<stat name="religion:misc" value="2" />
+
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SOOTHING_PRESENCE" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_HONEYED_WORDS" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_WARRIOR_OF_PEACE_2" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_POWER_OF_PEACE" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_TRANQUIL_PALM_2" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_CHAMPION_OF_PEACE" />
+		</rules>
+	</element>
+	
+<!--Begin Jyakku's Focus Monk Class Features-->
+	<element name="Soothing Presence" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_SOOTHING_PRESENCE">
+		<description>
+			<p>You automatically succeed on Charisma(Persuasion) checks to councel peace if your passive persuasion equals or exceeds your target's Wisdom Score.</p>
+		</description>
+		<sheet>
+			<description>When counceling peace, you automatically succeed on persuasion checks if your passive persuasion equals or exceeds your target's Wisdom Score.</description>
+		</sheet>
+	</element>
+	<element name="Honeyed Words" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_HONEYED_WORDS">
+		<description>
+			<p>Your Emissary of Peace class feature may now be used even if proficiencies in Deception or Intimidation are applied to the4 Charisma check.</p>
+		</description>
+		<sheet>
+			<description>Your Emissary of Peace class feature may now be used even if proficiencies in Deception or Intimidation are applied to the4 Charisma check.</description>
+		</sheet>
+	</element>
+	<element name="Warrior of Peace" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_WARRIOR_OF_PEACE">
+		<description>
+			<p>You may now use your Emissary of Peace class feature in combat.</p>
+			<p>As an action, you may roll a Charisma(Persuasion) check, contested by your target's Wisdom or Intelligence abilities, against an enemy you can see and make a plea for the enemy to leave the field. If you are successful, the enemy ceases fighting (and all sustained effects) immediately and retires from the battle. This enemy will not engage further so long as they are not attacked from that point (they WILL defend themselves). If the attempt fails, the target is immune to the ability for 24 hours.</p>
+			<p>Once used, this ability may not be used again until you finish a long rest.</p>
+		</description>
+		<sheet action="Attack Action" usage="1/Long Rest">
+			<description>Roll a Charisma(Persuasion) check, contested by your target's Wisdom or Intelligence ability against and enemy you can see. If Successful, the enemy stops fighting unless attacked again. If the attempt fails, the target is immune to the ability for 24 hours.</description>
+		</sheet>
+	</element>
+	<element name="Warrior of Peace 2" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_WARRIOR_OF_PEACE_2">
+		<description>
+			<p>You may now use your Emissary of Peace class feature in combat.</p>
+			<p>As an action, you may roll a Charisma(Persuasion) check, contested by your target's Wisdom or Intelligence abilities, against an enemy you can see and make a plea for the enemy to leave the field. If you are successful, the enemy ceases fighting (and all sustained effects) immediately and retires from the battle. This enemy will not engage further so long as they are not attacked from that point (they WILL defend themselves). If the attempt fails, the target is immune to the ability for 24 hours.</p>
+			<p> May be used 2/Long Rest.</p>
+		</description>
+		<sheet action="Attack Action" usage="2/Long Rest">
+			<description>Roll a Charisma(Persuasion) check, contested by your target's Wisdom or Intelligence ability against and enemy you can see. If Successful, the enemy stops fighting unless attacked again. If the attempt fails, the target is immune to the ability for 24 hours.</description>
+		</sheet>
+	</element>
+	<element name="Power of Peace" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_POWER_OF_PEACE">
+		<description>
+			<p>Your Warrior of Peace Talent may now be simultaneously used against a number of targets equal to your Charisma Modifier (minimum of 2).</p>
+		</description>
+		<sheet>
+			<description>Your Warrior of Peace Talent may now be simultaneously used against {{charisma:modifier}} targets (minimum of 2).</description>
+		</sheet>
+	</element>
+	<element name="Tranquil Palm" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_TRANQUIL_PALM">
+		<description>
+			<p>An empowered monk strike that subdues a single opponent. May be used 2/Long Rest</p>
+			<p>After hitting a target with an unarmed attack, you may spend 2 Ki points and subject your traget to a saving throw (either wisdom or intelligence, target's choice) against a DC equal to 8 + your proficiency bonus + your wisdom modifier. On a failed save, the target sits down on the field of battle and reconsideres their reasons for fighting.</p>
+			<p>The target may make a new saving throw (now at disadvantage) on each turn until either the fight or the effect ends.</p>
+			<p>The effect will immediately end if the target takes damage from you or your allies.</p>
+		</description>
+		<sheet action="Attack Action" usage="2/Long Rest">
+			<description>After hitting an enemy, spend 2 Ki points, the target makes a wisdom or intelligence saving throw against DC {{ki:dc}}. On Fail the traget sit down and stopt fighting. May make another save (at disadvantage) on each turn, save ends contition. Damage ends the condition immediately.</description>
+		</sheet>
+		<rules>
+			<stat name="ki:dc" value="8" />
+			<stat name="ki:dc" value="proficiency" />
+			<stat name="ki:dc" value="wisdom:modifier" />
+		</rules>
+	</element>
+	<element name="Tranquil Palm 2" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_TRANQUIL_PALM_2">
+		<description>
+			<p>An empowered monk strike that subdues a single opponent. May be used 4/Long Rest</p>
+			<p>After hitting a target with an unarmed attack, you may spend 2 Ki points and subject your traget to a saving throw (either wisdom or intelligence, target's choice) against a DC equal to 8 + your proficiency bonus + your wisdom modifier. On a failed save, the target sits down on the field of battle and reconsideres their reasons for fighting.</p>
+			<p>The target may make a new saving throw (now at disadvantage) on each turn until either the fight or the effect ends.</p>
+			<p>The effect will immediately end if the target takes damage from you or your allies.</p>
+		</description>
+		<sheet action="Attack Action" usage="4/Long Rest">
+			<description>After hitting an enemy, spend 2 Ki points, the target makes a wisdom or intelligence saving throw against DC {{ki:dc}}. On Fail the traget sit down and stopt fighting. May make another save (at disadvantage) on each turn, save ends contition. Damage ends the condition immediately.</description>
+		</sheet>
+		<rules>
+			<stat name="ki:dc" value="8" />
+			<stat name="ki:dc" value="proficiency" />
+			<stat name="ki:dc" value="wisdom:modifier" />
+		</rules>
+	</element>
+	<element name="Champion of Peace" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_CHAMPION_OF_PEACE">
+		<description>
+			<p>You gain the second level versions of your "Warrior of Peace" and "Tranquil Palm" abilities which grant additional uses per long rest.</p>
+			<p>You may now add half of your wisdom modifier (round down) to all Charisma(Persuasion) checks when counseling peace.</p>
+		</description>
+		<sheet>
+			<description>"Warrior of Peace" and "Tranquil Palm" may now be used twice as many times. Add {{wisdom:modifier:half}} to Charisma(Persuasion) checks to cousel peace.</description>
+		</sheet>
+	</element>
+<!--End Jyakku's Focus Monk Class Features-->
+<!--End Jyakku's Meditation Focus-->
+
+<!--Begin Topaz's Psionic Amplifier-->
+	<element name="Topaz's Psionic Amplifier, Uncommon" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_TOPAZS_PSIONIC_APMLIFIER_1">
+		<description>
+			<p>Integrated Equipment: You gain the ability Integrated Equipment.</p>
+			<p class="indent">Psychic Warning: You gain the Psychic Warning talent.</p>
+            <p class="indent">Psychic Assault: You gain the Psychic Assault talent.</p>
+            <p class="indent">Defensive Enhancement: You gain the Reactive Shield Power.</p>
+            <p class="indent">As you continue on your travels you gather the components to improve on the design of your amplifier. At level 8 it becomes the rare version of itself.</p>
+
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_EQUIPMENT" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_WARNING" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_ASSAULT" />
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="slot">Body</set>
+			<set name="type">Wonderous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_EQUIPMENT" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_WARNING" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_ASSAULT" />
+		</rules>
+	</element>
+	<element name="Topaz's Psionic Amplifier, Rare" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_TOPAZS_PSIONIC_APMLIFIER_2">
+		<description>
+			<p>This is the form Topaz's Psionic Amplifier, Rare takes at Level 8 when it increases in rarity from uncommon to rare.</p>
+			<p class="indent">Integrated Equipment: You gain the ability Integrated Equipment.</p>
+			<p class="indent">Psychic Warning: You gain the Psychic Warning talent.</p>
+            <p class="indent">Psychic Assault: You gain the Psychic Assault talent.</p>
+			<p class="indent">Psychic Amplitude Boost: You gain +1 to your Mystic  Spell Attack Modifier and Spell Save DC.</p>
+            <p class="indent">Defensive Enhancement: You gain the Reactive Shield 2 Power.</p>
+            <p class="indent">As you continue on your travels you gather the components to improve on the design of your amplifier. At level 12 it becomes the very rare version of itself.</p>
+
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD_2" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_EQUIPMENT" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_WARNING" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_ASSAULT" />
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="slot">Body</set>
+			<set name="type">Wonderous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+			<stat name="spellcasting:dc" value="1" />
+
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD_2" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_EQUIPMENT" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_WARNING" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_ASSAULT" />
+		</rules>
+	</element>
+	<element name="Topaz's Psionic Amplifier, Very Rare" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_TOPAZS_PSIONIC_APMLIFIER_3">
+		<description>
+			<p>This is the form Topaz's Psionic Amplifier, Rare takes at Level 12 when it increases in rarity from rare to very rare.</p>
+			<p class="indent">Integrated Equipment: You gain the ability Integrated Equipment.</p>
+			<p class="indent">Psychic Warning: You gain the Psychic Warning talent.</p>
+            <p class="indent">Psychic Assault: You gain the Psychic Assault talent.</p>
+			<p class="indent">Psychic Amplitude Boost: You gain +2 to your Mystic  Spell Attack Modifier and Spell Save DC.</p>
+            <p class="indent">Defensive Enhancement: You gain the Reactive Shield 3 Power.</p>
+            <p class="indent">As you continue on your travels you gather the components to improve on the design of your amplifier. At level 16 it becomes the legendary version of itself.</p>
+
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD_3" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_EQUIPMENT" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_WARNING" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_ASSAULT" />
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="slot">Body</set>
+			<set name="type">Wonderous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" />
+			<stat name="spellcasting:dc" value="2" />
+
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD_3" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_EQUIPMENT" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_WARNING" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_ASSAULT" />
+		</rules>
+	</element>
+	<element name="Topaz's Psionic Amplifier, Legendary" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_TOPAZS_PSIONIC_APMLIFIER_4">
+		<description>
+			<p>This is the form Topaz's Psionic Amplifier, Rare takes at Level 12 when it increases in rarity from very rare to legendary.</p>
+			<p class="indent">Integrated Equipment: You gain the ability Integrated Equipment.</p>
+			<p class="indent">Psychic Warning: You gain the Psychic Warning talent.</p>
+            <p class="indent">Psychic Assault: You gain the Psychic Assault talent.</p>
+			<p class="indent">Psychic Amplitude Boost: You gain +3 to your Mystic  Spell Attack Modifier and Spell Save DC.</p>
+            <p class="indent">Defensive Enhancement: You gain the Reactive Shield 4 Power.</p>
+			<p class="indent">Integrated Amplifier: You gain the Integrated Amplifier Feature.</p>
+
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD_4" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_EQUIPMENT" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_WARNING" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_ASSAULT" />
+			<div element="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_AMPLIFIER" />
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">Body</set>
+			<set name="type">Wonderous Item</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">false</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" />
+			<stat name="spellcasting:dc" value="3" />
+
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD_4"/>
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_EQUIPMENT" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_WARNING" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_ASSAULT" />
+			<grant type="Class Feature" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_AMPLIFIER" />
+		</rules>
+	</element>
+	
+	
+<!--Begin Topaz's Amplifier Mystic Class Features-->
+	<element name="Reactive Shield" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD">
+		<description>
+			<p>Once per short rest, you may use a reaction to create a psychic shield that grants a +3 bonus to AC.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Short Rest">
+			<description>You create a psychic shield that grants a +3 bonus to AC.</description>
+		</sheet>
+	</element>
+	<element name="Reactive Shield 2" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD_2">
+		<description>
+			<p>Once per short rest, you may use a reaction to create a psychic shield that grants a +3 bonus to AC.</p>
+		</description>
+		<sheet action="Reaction" usage="2/Short Rest">
+			<description>You create a psychic shield that grants a +3 bonus to AC.</description>
+		</sheet>
+	</element>
+	<element name="Reactive Shield 3" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD_3">
+		<description>
+			<p>Once per short rest, you may use a reaction to create a psychic shield that grants a +3 bonus to AC.</p>
+		</description>
+		<sheet action="Reaction" usage="2/Short Rest">
+			<description>You create a psychic shield that grants a +3 bonus to AC.</description>
+		</sheet>
+	</element>
+	<element name="Reactive Shield 4" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_REACTIVE_SHIELD_4">
+		<description>
+			<p>Once per short rest, you may use a reaction to create a psychic shield that grants a +3 bonus to AC.</p>
+		</description>
+		<sheet action="Reaction" usage="2/Short Rest">
+			<description>You create a psychic shield that grants a +3 bonus to AC.</description>
+		</sheet>
+	</element>
+	<element name="Integrated Equipment" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_EQUIPMENT">
+		<description>
+			<p>You may integrate a number of pieces of equipment equal to half your mystic level (rounded down) into your frame. This equipment may be either magical or normal however no item requiring attunement may be integrated.</p>
+			<p>Integration offers the following effects:</p>
+			<ul>
+				<li>The piece of equipment cannot be damaged or removed from your possession.</li>
+				<li>The weight of integrated equipment is considered to be 0 for purposes of determining encumbrance and carry limits.</li>
+				<li>The integrated equipment answers to your thoughts and may therefore be called up or accessed (as in a backpack or bag of holding), with a free move action (just like drawing a weapon is).</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You may integrate {{level:mystic:half}} items, not requiring attunement, into your frame.</description>
+		</sheet>
+	</element>
+	<element name="Psychic Warning" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_WARNING">
+		<description>
+			<p>You have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
+		</rules>
+	</element>
+	<element name="Psychic Assault" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_PSYCHIC_ASSAULT">
+		<description>
+			<p>Once per short rest, you may use an attack action to deal 1d10 psychic damage directly to an opponent. You may spend Psi Points to increase this damage, 1 Psychic for each psi point spent to a maximum equal to your Psi Limit.</p>
+			<p>This attack cannot be avoided by most enemies and therefore hits automatically. However targets that are resistant to psychic damage may make a constitution saving throw to resist the full damage of the attack (otherwise they take half damage as normal.</p>
+			<p>If this power is used on a target that in immune to psychic damage, the attack rebounds on the attacker. You must make a constitution saving throw against your own Spell Save DC or suffer half damage. A successful save negates all rebound damage.</p>
+		</description>
+		<sheet action="Attack Action" usage="1/Short Rest">
+			<description>Deal 1d10 + number of additional Psi Points spent (max. = Psi Limit) psychic damage to an opponent; unblockable.</description>
+		</sheet>
+	</element>
+	<element name="Integrated Amplifier" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_CLASS_FEATURE_INTEGRATED_AMPLIFIER">
+		<description>
+			<p>Your Psionic Amplifier becomes fully integrated into your frame.</p>
+			<p>Integration offers the following effects:</p>
+			<ul>
+				<li>The Amplifier cannot be damaged or removed from your possession.</li>
+				<li>The weight of integrated Amplifier is becomes 0 for purposes of determining encumbrance and carry limits.</li>
+				<li>The Amplifier no longer requires attunement to gain all benefits.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Your Psionic Amplifier becomes fully integrated into your frame.</description>
+		</sheet>
+	</element>
+<!--End Topaz's Amplifier Mystic Class Features-->
+<!--End Topaz's Psionic Amplifier-->
 </elements>

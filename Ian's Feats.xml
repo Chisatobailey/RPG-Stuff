@@ -3,12 +3,15 @@
 		<name>Ian's Feats</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.4.2">
+		<update version="2.0.0">
 			<file name="Ian's Feats.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Feats.xml" />
 		</update>
 	</info>
+
+	<!--Begin General Feats-->
 	<element name="Expert (1)" type="Feat" source="Ian's Additions" id="ID_IANSADDITIONS_IANSFEATS_FEAT_EXPERT1">
-		<requirements>([level:2])</requirements>
+		<prerequisites>Level 2</prerequisites>
+		<requirements>[level:2]</requirements>
 		<description>
 			<p>True Prodigies are rare, however there are always those who, through training and experience, surpass simple proficiency in certain skills; they become Experts.</p>
 			<ul>
@@ -24,7 +27,8 @@
 		</rules>
 	</element>
 	<element name="Expert (2)" type="Feat" source="Ian's Additions" id="ID_IANSADDITIONS_IANSFEATS_FEAT_EXPERT2">
-	<requirements>([level:2])</requirements>
+		<prerequisites>Level 2</prerequisites>
+		<requirements>[level:2]</requirements>
 		<description>
 			<p>True Prodigies are rare, however there are always those who, through training and experience, surpass simple proficiency in certain skills; they become Experts.</p>
 			<ul>
@@ -40,7 +44,8 @@
 		</rules>
 	</element>
 	<element name="Expert (3)" type="Feat" source="Ian's Additions" id="ID_IANSADDITIONS_IANSFEATS_FEAT_EXPERT3">
-	<requirements>([level:2])</requirements>
+		<prerequisites>Level 2</prerequisites>
+		<requirements>[level:2]</requirements>
 		<description>
 			<p>True Prodigies are rare, however there are always those who, through training and experience, surpass simple proficiency in certain skills; they become Experts.</p>
 			<ul>
@@ -56,7 +61,8 @@
 		</rules>
 	</element>
 	<element name="Expert (4)" type="Feat" source="Ian's Additions" id="ID_IANSADDITIONS_IANSFEATS_FEAT_EXPERT4">
-	<requirements>([level:2])</requirements>
+		<prerequisites>Level 2</prerequisites>
+		<requirements>[level:2]</requirements>
 		<description>
 			<p>True Prodigies are rare, however there are always those who, through training and experience, surpass simple proficiency in certain skills; they become Experts.</p>
 			<ul>
@@ -71,5 +77,6 @@
 			<select type="Class Feature" name="Expert" number= "4" supports="ID_INTERNAL_SUPPORT_EXPERTISE" />
 		</rules>
 	</element>
+	<!--End General Feats-->
 
 </elements>

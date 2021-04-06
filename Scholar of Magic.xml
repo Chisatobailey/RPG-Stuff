@@ -3,7 +3,7 @@
 		<name>Scholar of Magic</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.4.0">
+		<update version="2.0.0">
 			<file name="Scholar of Magic.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Scholar%20of%20Magic.xml" />
 		</update>
 	</info>
@@ -20,7 +20,7 @@
 	</element>
 	<element name="Warded Casting" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_SCHOLAROFMAGIC_CLASS_FEATURE_WIZARD_WARDED_CASTING">
 		<description>
-			<p>A wizard has learned to protect friendly tragets from the effects of thier spells. Beginning at 5th level you may shield a number of friendly targets equal to you intelligence modifier + 1 for the damage and effects of any spell you cast.</p>
+			<p>A wizard has learned to protect friendly tragets from the effects of their spells. Beginning at 5th level you may shield a number of friendly targets equal to your intelligence modifier + 1 from the damage and effects of any spell you cast.</p>
             <p class="indent">You may shield 1 + your intelligence modifier friendly targets from all damage and effects from your magic at the time of casting. This cannot be done retroactivly.</p>
 		</description>
 		<sheet>
@@ -31,7 +31,7 @@
 			<stat name="warded:casting" value="intelligence:modifier" />
 		</rules>
 	</element>
-	
+		
     <append id="ID_WOTC_PHB_CLASS_WIZARD">
   		<rules>
     		<grant type="Class Feature" id="ID_IANSADDITIONS_SCHOLAROFMAGIC_CLASS_FEATURE_WIZARD_SPELL_SHAPER" level="3" />

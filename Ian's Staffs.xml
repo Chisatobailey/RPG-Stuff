@@ -4,13 +4,13 @@
 		<name>Ian's Staffs</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.4.1" >
+		<update version="2.0.0" >
 			<file name="Ian's Staffs.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Staffs.xml" />
 		</update>
 	</info>
     <element name="Chainbreaker" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_CHAINBREAKER">
 		<description>
-			<p>Warding Flame: While this staff is on your person, you have advantage on initiative rolls. Additionally, each time you hit an enemy with a fire spell cast through this staff you deal additional fire damage equal to your spellcasting ability modifier. The staff can also be used as a magic quarterstaff.</p>
+			<p>Warding Flame: While this staff is on your person, you have advantage on initiative rolls. Each time you hit an enemy with a fire spell cast through this staff you deal an additional 2(1d4) fire damage. The staff can also be used as a magic quarterstaff.</p>
 			<p class="indent">Attuned Ownership: This staff, once attuned, will only answer to one person. If anyone, other than the staff's owner, touches Fatemaker it will heat up and deal 4 fire damage. This damage increases to 2d8 fire if anyone other than the rightful owner tries to use the staff. This damage is not applied if another person is struck by Fatemaker in melee combat.</p>
 			<p class="indent">Enhancement: You gain a +1 bonus to attack and damage rolls made with this staff. Also, it grants a +1 to your spell attack bonus and spell save DC.</p>
 			<p class="indent">This staff gains power when you reach level 8 and becomes Rulebreaker.</p>
@@ -37,7 +37,7 @@
     <element name="Rulebreaker" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_RULEBREAKER">
 		<description>
             <p>Rulebreaker is the form Chainbreaker takes when it increases in rarity from uncommon to rare.</p>
-			<p class="indent">Warding Flame: While this staff is on your person, you have advantage on initiative rolls. Additionally, each time you hit an enemy with a fire spell cast through this staff you deal additional fire damage equal to your spellcasting ability modifier. The staff can also be used as a magic quarterstaff.</p>
+			<p class="indent">Warding Flame: While this staff is on your person, you have advantage on initiative rolls. Each time you hit an enemy with a fire spell cast through this staff you deal an additional 3(1d6) fire damage. The staff can also be used as a magic quarterstaff.</p>
 			<p class="indent">Attuned Ownership: This staff, once attuned, will only answer to one person. If anyone, other than the staff's owner, touches Fatemaker it will heat up and deal 4 fire damage. This damage increases to 2d8 fire if anyone other than the rightful owner tries to use the staff. This damage is not applied if another person is struck by Fatemaker in melee combat.</p>
 			<p class="indent">Smoke: You know the spell Shadow Armor and may use it once per day without spending a spell slot.</p>
             <p class="indent">Enhancement: You gain a +2 bonus to attack and damage rolls made with this staff. Also, it grants a +2 to your spell attack bonus and spell save DC.</p>
@@ -66,7 +66,7 @@
     <element name="Dawnbringer" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_DAWNBRINGER">
 		<description>
             <p>Dawnbringer is the form Rulebreaker takes when it increases in rarity from rare to very rare.</p>
-			<p class="indent">Warding Flame: While this staff is on your person, you have advantage on initiative rolls. Additionally, each time you hit an enemy with a fire spell cast through this staff you deal additional fire damage equal to your spellcasting ability modifier. The staff can also be used as a magic quarterstaff.</p>
+			<p class="indent">Warding Flame: While this staff is on your person, you have advantage on initiative rolls. Each time you hit an enemy with a fire spell cast through this staff you deal an additional 4(1d8) fire damage. The staff can also be used as a magic quarterstaff.</p>
 			<p class="indent">Attuned Ownership: This staff, once attuned, will only answer to one person. If anyone, other than the staff's owner, touches Fatemaker it will heat up and deal 4 fire damage. This damage increases to 2d8 fire if anyone other than the rightful owner tries to use the staff. This damage is not applied if another person is struck by Fatemaker in melee combat.</p>
 			<p class="indent">Smoke: You know the spell Shadow Armor and may use it once per day without spending a spell slot.</p>
 			<p class="indent">Fire: Once per day you may activate your Mantle of Flame through this staff in addition to your normal uses of the power.</p>
@@ -96,7 +96,7 @@
     <element name="Fatemaker" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_FATEMAKER">
 		<description>
             <p>Fatemaker is the form Dawnbringer takes when it increases in rarity from very rare to legendary.</p>
-			<p class="indent">Warding Flame: While this staff is on your person, you have advantage on initiative rolls. Additionally, each time you hit an enemy with a fire spell cast through this staff you deal additional fire damage equal to TWICE your spellcasting ability modifier. The staff can also be used as a magic quarterstaff.</p>
+			<p class="indent">Warding Flame: While this staff is on your person, you have advantage on initiative rolls. Each time you hit an enemy with a fire spell cast through this staff you deal an additional 7(2d6) fire damage. The staff can also be used as a magic quarterstaff.</p>
 			<p class="indent">Attuned Ownership: This staff, once attuned, will only answer to one person. If anyone, other than the staff's owner, touches Fatemaker it will heat up and deal 4 fire damage. This damage increases to 2d8 fire if anyone other than the rightful owner tries to use the staff. This damage is not applied if another person is struck by Fatemaker in melee combat.</p>
 			<p class="indent">Smoke: You know the spell Shadow Armor and may use it once per day without spending a spell slot.</p>
 			<p class="indent">Fire: Once per day you may activate your Mantle of Flame through this staff in addition to your normal uses of the power.</p>

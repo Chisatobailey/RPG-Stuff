@@ -3,11 +3,11 @@
 		<name>Ian's Gear</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.4.1" >
+		<update version="2.0.0" >
 			<file name="Ian's Gear.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Gear.xml" />
 		</update>
 	</info>
-    <!--Begin Ammunition, Individual-->
+<!--Begin Ammunition, Individual-->
     <element name="Fraternity's Poisoned Arrow" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_FRATERNITYS_POISONED_ARROW">
 		<description>
 			<p>A creature hit by this arrow takes the weapon's normal damage and must make a DC 15 Constitution saving throw, taking 12 (2d12) poison damage on a failed save, or half as much damage on a successful one. </p>
@@ -20,9 +20,9 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<!--End Ammunition, Individual-->
+<!--End Ammunition, Individual-->
 
-	<!--Begin Spellcasting Foci-->
+<!--Begin Spellcasting Foci-->
 	<element name="Shaman's Totem" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_SHAMANS_TOTEM">
 		<description>
 			<p>The Bear Folk of the Fornhill Mountain have given birth to many strong Druidic Shamans. They use totems contained in Medicine Bags (usually worn around thier necks) to aid in focusing their magics.</p>
@@ -37,9 +37,11 @@
 			<set name="attunement">false</set>
 		</setters>
 	</element>
-	<!--End Spellcasting Foci-->
+<!--End Spellcasting Foci-->
 
-	<!--Begin magical spellcasting foci-->
+<!--Begin magical spellcasting foci-->
+
+	<!--Begin Annael's Medicine Bag-->
 	<element name="Annael's Medicine Bag, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_MAGIC_ITEM_ANNAELS_MEDICINE_BAG_1">
 		<description>
 			<p>Wise Healer: Whenever you cast a healing spell, you may heal each target for {{wisdom:modifier}} additional HP. </p>
@@ -164,6 +166,62 @@
 			<stat name="spellcasting:dc" value="3" />
 		</rules>
 	</element>
+		<!--Begin Annael's Medicine Bag Druid class features-->
+	<element name="Command of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_COMMANDOFMAGNAR">
+		<description>
+			<p>Magnar grants his chosen unparallelled control of animals of nature, but it is a power that must be used responsibly.</p>
+			<p class="indent">Once per day, you may use a bonus action to command (or convince) one animal to to perform any action you desire that is within the animal's capibilities.</p>
+			<p class="indent">You speak with the authority of Magnar and as such the animal will not refuse you.</p>
+		</description>
+		<sheet action="Bonus" usage="1/Day">
+			<description>Command (or convince) one animal to to perform any action you desire that is within the animal's capibilities. The animal will not refuse you.</description>
+		</sheet>
+	</element>
+	<element name="Spirit of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_SPIRITOFMAGNAR">
+		<description>
+			<p>Annael may focus her mind inward and take into herself the spirit of the Great Bear Magnar. This serves to increase her strength, stamina and agility.</p>
+			<p class="indent">You may use your Wisdom modifier for all strength checks, your speed increases by 10 feet, and you gain 16 temporary hit points. </p>
+			<p class="indent">The Power lasts for 10 minutes or until your temporary hit points are reduced to 0.</p>
+			<p class="indent">This ability may be used only once per day and it recharges at dawn.</p>
+		</description>
+		<sheet action="Bonus" usage="1/Day">
+			<description>Use your Wisdom modifier for all strength checks, your speed increases by 10 feet, and you gain 16 temporary hit points. Lasts for 10 minutes or until your temp HP are reduced to 0.</description>
+		</sheet>
+	</element>
+	<element name="Roar of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_ROAROFMAGNAR">
+		<description>
+			<p>You open you mouth and roar at your enemies, what emerges is the Voice if the Great Bear Himself!</p>
+			<p class="indent">All creatures of your choice, that can hear the roar, must succeed on a Wisdom saving throw against your spellcasting saving throw DC or be paralyzed with fear. Targets who fail the save may make a saving throw on thier turn to end the effect on themselves.</p>
+			<p class="indent">This ability may be used only once per day and it recharges at dawn.</p>
+		</description>
+		<sheet action="Bonus" usage="1/Day">
+			<description>All creatures of your choice, that can hear the roar, must succeed on a Wisdom saving throw against DC {{druid:spellcasting:dc}} or be paralyzed with fear.</description>
+		</sheet>
+	</element>
+	<element name="Avatar of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_AVATAROFMAGNAR">
+		<description>
+			<p>You mutter a quick and fervent prayer to Magnar and take on the shape of a Great Bear. This power may be used once per day</p>
+			<p class="indent">In this shape the following rules apply:</p>
+				<ul>
+					<li>Your Strength, Dexterity, and Constitution all become 20 and your Intelligence, Wisdom, and Charisima remain unchanged. Your speed is 40 ft for the duration, and you have advantage on wisdom (perception) checks that use smell.</li>
+					<li>Your AC equals: 10 + your dexterity modifier (+5) + half your druid level.</li>
+					<li>You have hit points equal to twice your character level. If these points are reduced to zero, the power ends and you revert to your normal shape with the same number of hit points you had at the time of using this ability.</li>
+					<li>You may cast spells and speak as normal, and may use any feature that is possible to use in this shape. using any other shape changing abilities ends the spell.</li>
+					<li>Your Medicine Bag stays around you nack and cannot be removed by anything short of divine power while you are in this form. Your clothing and the rest of you gear are trasnported into the divine realm of Magnar and will reform on your person after you regain your natural form when the spell ends.</li>
+					<li>You gain the ability Multiattack. You make two attacks: one with your bite and one with your claws.</li>
+					<li>Bite. Melee Weapon Attack: to hit: {{proficency}}+5, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.</li>
+					<li>Claws. Melee Weapon Attack: to hit: {{proficency}}+5, reach 5 ft ., one target. Hit: 19 (4d6 + 5) slashing damage.</li>
+				</ul>
+		</description>
+		<sheet action="Action" usage="1/Day">
+			<description>You mutter a quick and fervent prayer to Magnar and take on the shape of a Great Bear.</description>
+		</sheet>
+	</element>
+		<!--End Annael's Medicine Bag Druid class features-->
+	<!--End Annael's Medicine Bag-->
+
+
+	<!--Begin Amethyst Dragon Amulet-->
 	<element name="Amethyst Dragon Amulet, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_AMETHYST_DRAGON_AMULET_1">
 		<description>
 			<p>Dragonsense: You gain the power Dragonsense. Your Dragonsense increases in strength with the Amulet.</p>
@@ -307,7 +365,7 @@
 		</rules>
 	</element>
 
-<!--Begin Amethyst Dragon Amulet features and traits-->
+		<!--Begin Amethyst Dragon Amulet features and traits-->
 	<element name="Hidden Learning" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_HIDDEN_LEARNING">
 		<description>
 			<p>From deep inside yourself you wrest forgotten knowledge you have no memory of learning. </p>
@@ -402,59 +460,8 @@
 			<description>All creatures of your choice make a Wisdom Save at DC {{spellcastng:dc}} or are frightned, save ends.</description>
 		</sheet>
 	</element>
-<!--End Amethyst Dragon Amulet Features and Traits-->
-
-<!--Begin Annael's Medicine Bag Druid class features-->
-	<element name="Command of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_COMMANDOFMAGNAR">
-		<description>
-			<p>Magnar grants his chosen unparallelled control of animals of nature, but it is a power that must be used responsibly.</p>
-			<p class="indent">Once per day, you may use a bonus action to command (or convince) one animal to to perform any action you desire that is within the animal's capibilities.</p>
-			<p class="indent">You speak with the authority of Magnar and as such the animal will not refuse you.</p>
-		</description>
-		<sheet action="Bonus" usage="1/Day">
-			<description>Command (or convince) one animal to to perform any action you desire that is within the animal's capibilities. The animal will not refuse you.</description>
-		</sheet>
-	</element>
-	<element name="Spirit of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_SPIRITOFMAGNAR">
-		<description>
-			<p>Annael may focus her mind inward and take into herself the spirit of the Great Bear Magnar. This serves to increase her strength, stamina and agility.</p>
-			<p class="indent">You may use your Wisdom modifier for all strength checks, your speed increases by 10 feet, and you gain 16 temporary hit points. </p>
-			<p class="indent">The Power lasts for 10 minutes or until your temporary hit points are reduced to 0.</p>
-			<p class="indent">This ability may be used only once per day and it recharges at dawn.</p>
-		</description>
-		<sheet action="Bonus" usage="1/Day">
-			<description>Use your Wisdom modifier for all strength checks, your speed increases by 10 feet, and you gain 16 temporary hit points. Lasts for 10 minutes or until your temp HP are reduced to 0.</description>
-		</sheet>
-	</element>
-	<element name="Roar of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_ROAROFMAGNAR">
-		<description>
-			<p>You open you mouth and roar at your enemies, what emerges is the Voice if the Great Bear Himself!</p>
-			<p class="indent">All creatures of your choice, that can hear the roar, must succeed on a Wisdom saving throw against your spellcasting saving throw DC or be paralyzed with fear. Targets who fail the save may make a saving throw on thier turn to end the effect on themselves.</p>
-			<p class="indent">This ability may be used only once per day and it recharges at dawn.</p>
-		</description>
-		<sheet action="Bonus" usage="1/Day">
-			<description>All creatures of your choice, that can hear the roar, must succeed on a Wisdom saving throw against DC {{druid:spellcasting:dc}} or be paralyzed with fear.</description>
-		</sheet>
-	</element>
-	<element name="Avatar of Magnar" type="Class Feature" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_CLASS_FEATURE_AVATAROFMAGNAR">
-		<description>
-			<p>You mutter a quick and fervent prayer to Magnar and take on the shape of a Great Bear. This power may be used once per day</p>
-			<p class="indent">In this shape the following rules apply:</p>
-				<ul>
-					<li>Your Strength, Dexterity, and Constitution all become 20 and your Intelligence, Wisdom, and Charisima remain unchanged. Your speed is 40 ft for the duration, and you have advantage on wisdom (perception) checks that use smell.</li>
-					<li>Your AC equals: 10 + your dexterity modifier (+5) + half your druid level.</li>
-					<li>You have hit points equal to twice your character level. If these points are reduced to zero, the power ends and you revert to your normal shape with the same number of hit points you had at the time of using this ability.</li>
-					<li>You may cast spells and speak as normal, and may use any feature that is possible to use in this shape. using any other shape changing abilities ends the spell.</li>
-					<li>Your Medicine Bag stays around you nack and cannot be removed by anything short of divine power while you are in this form. Your clothing and the rest of you gear are trasnported into the divine realm of Magnar and will reform on your person after you regain your natural form when the spell ends.</li>
-					<li>You gain the ability Multiattack. You make two attacks: one with your bite and one with your claws.</li>
-					<li>Bite. Melee Weapon Attack: to hit: {{proficency}}+5, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.</li>
-					<li>Claws. Melee Weapon Attack: to hit: {{proficency}}+5, reach 5 ft ., one target. Hit: 19 (4d6 + 5) slashing damage.</li>
-				</ul>
-		</description>
-		<sheet action="Action" usage="1/Day">
-			<description>You mutter a quick and fervent prayer to Magnar and take on the shape of a Great Bear.</description>
-		</sheet>
-	</element>
+		<!--End Amethyst Dragon Amulet features and traits-->
+	<!--End Amethyst Dragon Amulet-->
 <!--End magical spellcasting foci-->
 
 </elements>
