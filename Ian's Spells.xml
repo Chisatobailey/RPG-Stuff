@@ -338,7 +338,7 @@
         <supports>Sorcerer, Wizard, Druid, Bard, Ranger</supports>
         <description>
             <p>This simple spell allows the caster to increase (or decrease) the flow or movement of air in a 20-foot-radius sphere centered on any point within 60 feet that the caster can see. The max speed that can be created (or reduced) by this spell is 5 MPH. The wind can be moved in whatever direction the caster wishes. Outside the spell's sphere the wind dies instantly. </p>
-            <p class="indent">As a bonus action on each of the caster's turns, they may move the sphere up to 120 feet. 
+            <p class="indent">As a bonus action on each of the caster's turns, they may move the sphere up to 120 feet. </p>
             <p class="indent">If cast using a spell slot of 2nd-level or higher, the max speed change of the wind created by the spell increases by 10 MPH for every slot level above first. Additionally spending a 5th level (or higher) spell slot increases the size of the spell's sphere to a 50-foot-radius and the area becomes difficult terrain. Casting with an 8th level slot will can knock humanoids and small animals prone (Strength save verses caster's spell save DC to withstand this effect) and deal 5 force damage per round to any creature or object it hits. A 9th level slot increases this damage to 10 force and those creatures that are knocked prone are also pushed 10 feet per round. (Save Ends)</p>
         </description>
         <setters>
