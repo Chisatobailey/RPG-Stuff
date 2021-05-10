@@ -3,7 +3,7 @@
 		<name>Ian's Wonderous Items</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="2.1.0" >
+		<update version="2.1.1" >
 			<file name="Ian's Wonderous Items.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Wonderous%20Items.xml" />
 		</update>
 	</info>
@@ -880,4 +880,93 @@
 	</element>
 <!--End Topaz's Amplifier Mystic Class Features-->
 <!--End Topaz's Psionic Amplifier-->
+
+<!--Begin Artifacts-->
+	<element name="Hylian Shield" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_HYLIAN_SHIELD">
+		<description>
+			<p>Thie Magical Shield comes from the far-flung realm of Hyrule (a material plane on the other end of the Nexus). It cannot be broken or indeed damaged in any way.</p>
+            <p>The Hylian Shield is extremely light and therefore causes no encumbrance or dexterity penalties for it's user. It also has the remarkable ability to be "slung" onto the user's back and "drawn" again as a free action.</p>
+        </description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Wondrous Item</set>
+            <set name="armor">Shield</set>
+            <set name="armorClass">+2</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Artifact</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+        </setters>
+        <rules>
+            <stat name="ac:shield" value="2" bonus="shield" />
+		</rules>
+	</element>
+    <element name="Shadowstone" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_SHADOWSTONE">
+		<description>
+			<p>The Shadowstone is a small chunk of solidified shadow. It grants the user the ability to shroud themselves in a field of impenetrable darkness once per day.</p>
+            <p>As a free action, the wielder of this stone may cloak themselves in a 15-ft radius sphere of shadow that is opaque to everyone except the stone's wielder. The wielder suffers no penalties from the stone's effect.</p>
+            <p>This field lasts for 10 minutes or until dispelled with a free action. After ending the stone cannot be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+    <element name="Dryad's Heart" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_DRYADS_HEART">
+		<description>
+			<p>The Dryad's Heart is believed to be the petrified heart of the Dryad progenitor. It grants the user the ability to control all plants within a 20-ft radius once per day.</p>
+            <p>As a free action, the wielder of this stone may create an area wherein that user has complete command and control of all plants held within the affected zone. These plants cannot move (unless they are normally ambulatory), however they may be grown or withered at the user's command.</p>
+            <p>Once the area is created, the stone's user may, with an action, issue a command to the plants. This can be either simple (such as "grow") or complex (such as "grow and restrain/attack my enemies).</p>
+            <p>The area lasts for up to 10 minutes or until dispelled with a free action. Once used, the stone cannot be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+    <element name="Phoenix Gem" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_PHOENIX_GEM">
+		<description>
+			<p>The Phoenix Gem is a small and brightly colored crystal in mixed hues of red and orange. It carries 2 charges. Spending one charge grants the user the power "Mantle of Flame".</p>
+            <p>These charges are spent as free actions and once used are gone until the gem recharges at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+    <element name="Surge Transistor" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_SURGE_TRANSISTOR">
+		<description>
+			<p>The Surge Transistor is a unique piece of artificer tech that was comissioned by an unknown swordmage. It is a strange device, that is made of two diamonds set in silver and attached by a doulbe coil of silver wire.</p>
+            <p>The device holds 2 charges. Each charge may be used, one at a time, to double the swordmage's Infusion Surge damage on a single strike.</p>
+            <p>These charges are spent as free actions and once used are gone until the device recharges at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+<!--End Artifacts-->
 </elements>
