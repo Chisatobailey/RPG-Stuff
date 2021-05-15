@@ -5,7 +5,7 @@
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
 		<update version="1.0.0">
-			<file name="source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Star-Wars-DnD/source.xml" />
 		</update>
 	</info>
 
@@ -15,7 +15,7 @@
 		</description>
 		<setters>
 			<set name="abbreviation">STARWARSDND</set>
-			<set name="url">https://github.com/Chisatobailey/RPG-Stuff/tree/Ian's-Additions</set>
+			<set name="url">https://github.com/Chisatobailey/RPG-Stuff/tree/Star-Wars-DnD</set>
 			<set name="author" url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</set>
 			<set name="homebrew">true</set>
 		</setters>
