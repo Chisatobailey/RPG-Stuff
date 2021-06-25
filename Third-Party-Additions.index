@@ -4,7 +4,7 @@
 		<name>Third-Party Additions</name>
 		<description>Content Created by Various Third-Parties</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.1.1">
+		<update version="1.1.2">
 			<file name="Third-Party-Additions.index" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/master/Third-Party-Additions.index" />
 		</update>
 	</info>
