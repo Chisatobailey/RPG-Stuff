@@ -4,7 +4,7 @@
 		<name>Circle of Winter</name>
 		<description>Druid: Circle of Winter</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="Druid-Winter.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Third-Party-Additions/Druid-Winter.xml" />
 		</update>
 	</info>
@@ -59,6 +59,7 @@
 			<description>Your link to the season of winter grants you access to certain spells.</description>
 		</sheet>
 		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_FROSTBITE" />
 			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_XGTE_SPELL_SNILLOCS_SNOWBALL_SWARM" level="3" spellcasting="Druid" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM" level="5" spellcasting="Druid" prepared="true" />
