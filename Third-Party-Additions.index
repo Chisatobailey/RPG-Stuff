@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="Source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Third-Party-Additions/Source.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Third-Party-Additions/source.xml" />
 		<file name="Druid-Winter.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Third-Party-Additions/Druid-Winter.xml" />
 	</files>
 </index>
