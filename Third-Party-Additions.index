@@ -4,12 +4,12 @@
 		<name>Third-Party Additions</name>
 		<description>Content Created by Various Third-Parties</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="Third-Party-Additions.index" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/master/Third-Party-Additions.index" />
 		</update>
 	</info>
 	<files>
-		<file name="sources.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/arcane-athenaeum/sources.xml" />
-		<file name="Feats.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/arcane-athenaeum/Feats.xml" />
+		<file name="Source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Third-Party-Additions/Source.xml" />
+		<file name="Druid-Winter.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Third-Party-Additions/Druid-Winter.xml" />
 	</files>
 </index>
