@@ -1,124 +1,112 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<elements>	
-	<element name="Circle of Seasons" type="Archetype" source="Xanathar’s Lost Notes to Everything Else" id="ID_XLN_ARCHETYPE_CIRCLE_OF_SEASONS">
+<elements>
+    <info>
+		<name>Circle of Winter</name>
+		<description>Druid: Circle of Winter</description>
+		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+		<update version="1.0.1">
+			<file name="Druid-Winter.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Third-Party-Additions/Druid-Winter.xml" />
+		</update>
+	</info>
+
+	<element name="Circle of Winter" type="Archetype" source="Third-Party-Additions" id="ID_3PAD_ARCHETYPE_CIRCLE_OF_WINTER">
 		<supports>Druid Circle</supports>
 		<description>
-			<p>Druids of the Circle of Seasons learn early in their trials that all things are transient. All things that live must die, and those things that don’t live are worn away by the wind and rain.</p>
-			<p class="indent">As a druid of the seasons, you embody nature’s invisible hand. Whether through famine or pestilence, flood or fire, you revere the world’s natural cycle of destruction and rebirth. Your connection to the natural cycles of life and death allows you to burn nature’s enemies and renew her allies.</p>
-			<div element="ID_XLN_ARCHETYPE_FEATURE_SEASONS_BONUS_CANTRIP" />
-			<div element="ID_XLN_ARCHETYPE_FEATURE_SEASONS_SHROUD_OF_SEASONS" />
-			<div element="ID_XLN_ARCHETYPE_FEATURE_SEASONS_ASHES_OF_LIFE" />
-			<div element="ID_XLN_ARCHETYPE_FEATURE_SEASONS_CHILD_OF_CHANGE" />
-			<div element="ID_XLN_ARCHETYPE_FEATURE_SEASONS_NATURAL_DUALITY" />
+			<p>Druids of the Circle of Winter harness the hidden powers of the frigid tundras of the world, as well as the harsh season of winter. Some of these druids make direct contact with fey courts that are associated with the winter, while others simply gain their powers due to a frozen landscape being their home.</p>
+                <table>
+                    <thead>
+                        <tr><td>Druid Level</td><td>Feature</td></tr>
+                    </thead>
+                    <tr><td>2nd</td><td><em>Circle Spells, Winter Spirit</em></td></tr>
+                    <tr><td>6th</td><td><em>Blizzard Cloud</em></td></tr>
+                    <tr><td>10th</td><td><em>Slippery Magic</em></td></tr>
+                    <tr><td>14th</td><td><em>Cold Soul</em></td></tr>
+                </table>
+
+			<div element="ID_3PAD_ARCHETYPE_FEATURE_WINTER_CIRCLE_SPELLS" />
+			<div element="ID_3PAD_ARCHETYPE_FEATURE_WINTER_WINTER_SPIRIT" />
+			<div element="ID_3PAD_ARCHETYPE_FEATURE_WINTER_BLIZZARD_CLOUD" />
+			<div element="ID_3PAD_ARCHETYPE_FEATURE_WINTER_SLIPPERY_MAGIC" />
+			<div element="ID_3PAD_ARCHETYPE_FEATURE_WINTER_COLD_SOUL" />
 		</description>
 		<sheet display="false">
-			<description>Druids of the Circle of Seasons learn early in their trials that all things are transient.</description>
+			<description>Druids of the Circle of Winter harness the hidden powers of the frigid tundras of the world.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_SEASONS_BONUS_CANTRIP" level="2" />
-			<grant type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_SEASONS_SHROUD_OF_SEASONS" level="2" />
-			<grant type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_SEASONS_ASHES_OF_LIFE" level="6" />
-			<grant type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_SEASONS_CHILD_OF_CHANGE" level="10" />
-			<grant type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_SEASONS_NATURAL_DUALITY" level="14" />
+			<grant type="Archetype Feature" id="ID_3PAD_ARCHETYPE_FEATURE_WINTER_CIRCLE_SPELLS" level="2" />
+			<grant type="Archetype Feature" id="ID_3PAD_ARCHETYPE_FEATURE_WINTER_WINTER_SPIRIT" level="2" />
+			<grant type="Archetype Feature" id="ID_3PAD_ARCHETYPE_FEATURE_WINTER_BLIZZARD_CLOUD" level="6" />
+			<grant type="Archetype Feature" id="ID_3PAD_ARCHETYPE_FEATURE_WINTER_SLIPPERY_MAGIC" level="10" />
+			<grant type="Archetype Feature" id="ID_3PAD_ARCHETYPE_FEATURE_WINTER_COLD_SOUL" level="14" />
 		</rules>
 	</element>
 
-	<element name="Bonus Cantrip" type="Archetype Feature" source="Xanathar’s Lost Notes to Everything Else" id="ID_XLN_ARCHETYPE_FEATURE_SEASONS_BONUS_CANTRIP">
+	<element name="Circle Spells" type="Archetype Feature" source="Third-Party-Additions" id="ID_3PAD_ARCHETYPE_FEATURE_WINTER_CIRCLE_SPELLS">
 		<description>
-			<p>Starting at 2nd level, you learn one additional druid cantrip of your choice.</p>
+			<p>Your link to the season of winter grants you access to certain spells. At 2nd level, you learn the frostbite cantrip, or a different druid cantrip of your choice if you already knew it. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Winter Spells table.</p>
+            <p>Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.</p> 
+                <table>
+                    <thead>
+                        <tr><td>Druid Level</td><td>Spells</td></tr>
+                    </thead>
+                    <tr><td>3rd</td><td><em>Darkness, Snilloc's Snowball Swarm</em></td></tr>
+                    <tr><td>5th</td><td><em>Sleet Storm, Wall of Water</em></td></tr>
+                    <tr><td>7th</td><td><em>Fire Shield, Ice Storm</em></td></tr>
+                    <tr><td>9th</td><td><em>Cone of Cold, Control Winds</em></td></tr>
+                </table>
 		</description>
 		<sheet display="false">
-			<description>You learn one additional druid cantrip of your choice.</description>
+			<description>Your link to the season of winter grants you access to certain spells.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="Bonus Cantrip, Circle of Seasons" supports="Druid, 0" spellcasting="Druid" />
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_SNILLOCS_SNOWBALL_SWARM" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_WALL_OF_WATER" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_WINDS" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="Shroud of Seasons" type="Archetype Feature" source="Xanathar’s Lost Notes to Everything Else" id="ID_XLN_ARCHETYPE_FEATURE_SEASONS_SHROUD_OF_SEASONS">
+	<element name="Winter Spirit" type="Archetype Feature" source="Third-Party-Additions" id="ID_3PAD_ARCHETYPE_FEATURE_WINTER_WINTER_SPIRIT">
 		<description>
-			<p>Starting at 2nd level, you can embrace friend or foe under nature’s shroud.</p>
-			<p class="indent">As an action, you can expend one use of your Wild Shape and choose one creature you can see within 60 feet of you that has at least 1 hit point. That creature must make a Constitution saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following options, which takes effect at the start of the creature’s next turn and lasts for up to 1 minute while you concentrate it. As a bonus action, you cause nature to focus directly on the creature to much greater effect.</p>
-			<p class="indent"><strong><em>Deep Winter’s Freeze.</em></strong> Frost covers the target’s skin. Its movement speed is reduced by 10 feet. Using your bonus action, it takes cold damage equal to 1d4 + your Wisdom modifier.</p>
-			<p class="indent"><strong><em>Fade Rot.</em></strong> A creature is afflicted with pestilence and disease, causing it to suffer one level of exhaustion, and regains only half the normal healing from spells and effects. Using your bonus action, it takes necrotic damage equal to your Wisdom modifier (minimum of 1 damage).</p>
-			<p class="indent"><strong><em>Harvestide.</em></strong> The season of harvest reaps the bounty and readies the land for renewal. A creature under the shroud can use its bonus action on its turn to be showered in radiant energy, and regains hit points equal to 1d4 + your Wisdom modifier.</p>
-			<p class="indent"><strong><em>Wildflame.</em></strong> As a bonus action, you cause flames to flash across the target dealing 1d6 fire damage, and causes the target to ignite in flames. At the start of each of its turns, or until the shroud ends, the target takes fire damage equal to your Wisdom modifier (minimum of 1) and sheds bright light in a 10-foot radius and dim light for an additional 10 feet. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as being submerged in water).</p>
+			<p>At 2nd level, you can lower your body's temperature to below freezing through druidic magic. As an action, you can expend a use of your Wild Shape feature to channel the might of winter, rather than transforming into a beast form, and you gain 5 temporary hit points for each level you have in this class. While this feature is active, you gain the following benefits:</p>
+			<ul>
+                <li>You add your Wisdom modifier (a minimum of +1) to the damage you deal with any druid cantrip or spell as additional cold damage.</li>
+			    <li>Your melee weapon attacks deal an extra 1d6 cold damage to any target they hit.</li>
+            </ul>
+			<p class="indent">These benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again.</p>
+			<p class="indent">Also, you are adapted to cold climates, as described in Chapter 5 of the Dungeon Master's Guide.</p>
 		</description>
 		<sheet action="Action">
-			<description>You can expend one use of your Wild Shape and choose one creature you can see within 60 feet of you that has at least 1 hit point. That creature must make a Constitution saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following options, which takes effect at the start of the creature’s next turn and lasts for up to 1 minute while you concentrate it.</description>
+			<description>you can expend a use of your Wild Shape feature to channel the might of winter, rather than transforming into a beast form, and you gain 5 temporary hit points for each level you have in this class.</description>
 		</sheet>
-		<rules>
-			<grant type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_SHROUD_OF_SEASONS_DEEP_WINTERS_FREEZE" />
-			<grant type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_SHROUD_OF_SEASONS_FADE_ROT" />
-			<grant type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_SHROUD_OF_SEASONS_HARVESTIDE" />
-			<grant type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_SHROUD_OF_SEASONS_WILDFLAME" />
-		</rules>
 	</element>
-	<element name="Deep Winter’s Freeze" type="Archetype Feature" source="Xanathar’s Lost Notes to Everything Else" id="ID_XLN_ARCHETYPE_FEATURE_SHROUD_OF_SEASONS_DEEP_WINTERS_FREEZE">
+	<element name="Blizzard Cloud" type="Archetype Feature" source="Third-Party-Additions" id="ID_3PAD_ARCHETYPE_FEATURE_WINTER_BLIZZARD_CLOUD">
 		<description>
-			<p>Frost covers the target’s skin. Its movement speed is reduced by 10 feet. Using your bonus action, it takes cold damage equal to 1d4 + your Wisdom modifier.</p>
+			<p>Beginning at 6th level, while you are affected by your Winter Spirit feature, a cloud of frost and snow billows around you, freezing your foes.</p>
+            <p class="indent">As a bonus action on each of your turns, you can force one creature within 30 feet of you to make a Constitution saving throw. On a failed save, the creature's movement speed is reduced by 10 feet until the end of its next turn.</p>
 		</description>
-		<sheet action="Shroud of Seasons">
-			<description>Its movement speed is reduced by 10 feet. Using your bonus action, it takes 1d4+{{wisdom:modifier}} cold damage.</description>
+		<sheet action="Bonus">
+			<description>While you are affected by your Winter Spirit, make one creature make a Constitution saving throw against your spell save DC. On failed save that creature's movment speed is reduced by 10.</description>
 		</sheet>
 	</element>
-	<element name="Fade Rot" type="Archetype Feature" source="Xanathar’s Lost Notes to Everything Else" id="ID_XLN_ARCHETYPE_FEATURE_SHROUD_OF_SEASONS_FADE_ROT">
+	<element name="Slippery Magic" type="Archetype Feature" source="Third-Party-Additions" id="ID_3PAD_ARCHETYPE_FEATURE_WINTER_SLIPPERY_MAGIC">
 		<description>
-			<p>A creature is afflicted with pestilence and disease, causing it to suffer one level of exhaustion, and regains only half the normal healing from spells and effects. Using your bonus action, it takes necrotic damage equal to your Wisdom modifier (minimum of 1 damage).</p>
-		</description>
-		<sheet action="Shroud of Seasons">
-			<description>A creature suffers one level of exhaustion, and regains only half the normal healing from spells and effects. Using your bonus action, it takes {{fade rot:damage}} necrotic damage.</description>
-		</sheet>
-		<rules>
-			<stat name="fade rot:damage" value="1" bonus="base" />
-			<stat name="fade rot:damage" value="wisdom:modifier" bonus="base" />
-		</rules>
-	</element>
-	<element name="Harvestide" type="Archetype Feature" source="Xanathar’s Lost Notes to Everything Else" id="ID_XLN_ARCHETYPE_FEATURE_SHROUD_OF_SEASONS_HARVESTIDE">
-		<description>
-			<p>The season of harvest reaps the bounty and readies the land for renewal. A creature under the shroud can use its bonus action on its turn to be showered in radiant energy, and regains hit points equal to 1d4 + your Wisdom modifier.</p>
-		</description>
-		<sheet action="Shroud of Seasons">
-			<description>A creature under the shroud can use its bonus action on its turn to be showered in radiant energy, and regains hit points equal to 1d4+{{wisdom:modifier}}.</description>
-		</sheet>
-	</element>
-	<element name="Wildflame" type="Archetype Feature" source="Xanathar’s Lost Notes to Everything Else" id="ID_XLN_ARCHETYPE_FEATURE_SHROUD_OF_SEASONS_WILDFLAME">
-		<description>
-			<p>As a bonus action, you cause flames to flash across the target dealing 1d6 fire damage, and causes the target to ignite in flames. At the start of each of its turns, or until the shroud ends, the target takes fire damage equal to your Wisdom modifier (minimum of 1) and sheds bright light in a 10-foot radius and dim light for an additional 10 feet. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as being submerged in water).</p>
-		</description>
-		<sheet action="Shroud of Seasons">
-			<description>As a bonus action, you cause flames to flash across the target dealing 1d6 fire damage, and causes the target to ignite in flames. At the start of each of its turns, or until the shroud ends, the target takes {{wildflame:damage}} fire damage and sheds bright light in a 10-foot radius and dim light for an additional 10 feet. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as being submerged in water).</description>
-		</sheet>
-		<rules>
-			<stat name="wildflame:damage" value="1" bonus="base" />
-			<stat name="wildflame:damage" value="wisdom:modifier" bonus="base" />
-		</rules>
-	</element>
-	<element name="Ashes of Life" type="Archetype Feature" source="Xanathar’s Lost Notes to Everything Else" id="ID_XLN_ARCHETYPE_FEATURE_SEASONS_ASHES_OF_LIFE">
-		<description>
-			<p>At 6th level, when the target creature of your shroud dies, you can use your reaction to reclaim some of its life force and instantly use it heal yourself or another creature within 60 feet of you a number of hit points equal to your druid level.</p>
+			<p>Beginning at 10th level, your magic is permanently touched by slippery ice. When a creature fails its saving throw against a druid spell you cast that deals cold damage, it falls prone.</p>
+            <p class="indent">The bonus cold damage on melee attacks granted by your Winter Spirit feature does not count as a spell dealing cold damage for this feature.</p>
 		</description>
 		<sheet>
-			<description>When the target creature of your shroud dies, you can use your reaction to reclaim some of its life force and instantly use it heal yourself or another creature within 60 feet of you {{level:druid}} hit points.</description>
+			<description>Beginning at 10th level, your magic is permanently touched by slippery ice. When a creature fails its saving throw against a druid spell you cast that deals cold damage, it falls prone. Winter Spirit's bonus damage DOES NOT count.</description>
 		</sheet>
 	</element>
-	<element name="Child of Change" type="Archetype Feature" source="Xanathar’s Lost Notes to Everything Else" id="ID_XLN_ARCHETYPE_FEATURE_SEASONS_CHILD_OF_CHANGE">
+	<element name="Cold Soul" type="Archetype Feature" source="Third-Party-Additions" id="ID_3PAD_ARCHETYPE_FEATURE_WINTER_COLD_SOUL">
 		<description>
-			<p>At 10th level, when you use your Shroud of Seasons feature, the shroud descends as a 10-foot cube on a point within range that you choose instead of a single creature. While you concentrate on the shroud, each creature that starts its turn in the area, or moves there for the first time, must succeed on a Constitution saving throw or be affected by its season.</p>
-			<p class="indent">Additionally, while you concentrate on your shroud, you gain resistance to the damage type of the season in effect.</p>
+			<p>Starting at 14th level, your body permanently resembles a creature of snow and frost. You are immune to cold damage, and when a creature hits you with a melee attack, it takes cold damage equal to half of your druid level.</p>
 		</description>
 		<sheet>
-			<description>When you use your Shroud of Seasons feature, the shroud descends as a 10-foot cube on a point within range that you choose instead of a single creature. While you concentrate on the shroud, each creature that starts its turn in the area, or moves there for the first time, must succeed on a Constitution saving throw or be affected by its season.
-			Additionally, while you concentrate on your shroud, you gain resistance to the damage type of the season in effect.</description>
-		</sheet>
-	</element>
-	<element name="Natural Duality" type="Archetype Feature" source="Xanathar’s Lost Notes to Everything Else" id="ID_XLN_ARCHETYPE_FEATURE_SEASONS_NATURAL_DUALITY">
-		<description>
-			<p>Starting at 14th level, the size of your shroud swells to 20 feet and power of each seasons effects and damage doubles.</p>
-			<p class="indent">Additionally, while you concentrate on your shroud, you can cast a concentration spell at the same time. The first time you would fail a saving throw to maintain concentration the spell fails, and the shroud remains.</p>
-		</description>
-		<sheet>
-			<description>The size of your shroud swells to 20 feet and power of each seasons effects and damage doubles.
-			Additionally, while you concentrate on your shroud, you can cast a concentration spell at the same time. The first time you would fail a saving throw to maintain concentration the spell fails, and the shroud remains.</description>
+			<description>You are immune to cold damage, and when a creature hits you with a melee attack, it takes cold damage equal to half of your druid level.</description>
 		</sheet>
 	</element>	
 </elements>
