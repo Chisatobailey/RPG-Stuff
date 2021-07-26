@@ -4,7 +4,7 @@
 		<name>Ian's Weapons</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="2.1.2" >
+		<update version="2.1.5" >
 			<file name="Ian's Weapons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Weapons.xml" />
 		</update>
 	</info>
@@ -52,6 +52,7 @@
 			<set name="range">20/60</set>
 			<set name="damage" type="piercing">1d4</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DART</set>
+			<set name="stackable">true</set>
 		</setters>
 	</element>
 	<element name="Stone Handaxe" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_STONEHANDAXE">
@@ -244,6 +245,48 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE</set>
 		</setters>
 	</element>
+	<element name="Rapier (Light)" type="Weapon" source="Player’s Handbook" id="ID_WOTC_PHB_WEAPON_LIGHT_RAPIER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+		</setters>
+	</element>
+	<element name="Saber" type="Weapon" source="Player’s Handbook" id="ID_WOTC_PHB_WEAPON_SABER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+		</setters>
+	</element>
+	<element name="Smallsword" type="Weapon" source="Player’s Handbook" id="ID_WOTC_PHB_WEAPON_SMALLSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
 	<element name="Combat Trident" type="Weapon" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_WEAPON_TRIDENT_COMBAT">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
 		<description>
@@ -309,40 +352,41 @@
 	</element>
 	<element name="Stinger" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_STINGER">
 		<description>
-			<p>Stinger is a Shortbow formerly carried by the master assassin Fairlor Quiethand. Its origins are unknown.</p>
+			<p>Stinger is a Longbow formerly carried by the master assassin Fairlor Quiethand. Its origins are unknown.</p>
 			<p>Stinger magically embues any arrows it fires with poison.</p>
 			<p>This bow grants a +1 bonus to attack and damage rolls. On a successful hit the target makes a constitution saving throw (DC 15) taking 14 (4d6) poison damage on a failed save and half damage on a successful one.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="Shortbow">Weapon</set>
+			<set name="type" addition="Longbow">Weapon</set>
 			<set name="attunement">false</set>
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">1</set>
-			<set name="weapon">Shortbow</set>
+			<set name="weapon">Longbow</set>
 			<set name="name-format">Stinger</set>
 		</setters>
 	</element>
 	<element name="Snake Bite" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_SNAKEBITE">
 		<description>
-			<p>Snake Bite is a Shortbow formerly carried by the master assassin Fairlor Quiethand. Its origins are unknown.</p>
+			<p>Snake Bite is a Longbow formerly carried by the master assassin Fairlor Quiethand. Its origins are unknown.</p>
 			<p>Snake Bite magically embues any arrows it fires with poison.</p>
 			<p>This bow grants a +1 bonus to attack and damage rolls. On a successful hit the target makes a constitution saving throw (DC 15) taking 14 (4d6) poison damage on a failed save and half damage on a successful one.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="Shortbow">Weapon</set>
+			<set name="type" addition="Longbow">Weapon</set>
 			<set name="attunement">false</set>
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">1</set>
-			<set name="weapon">Shortbow</set>
+			<set name="weapon">Longbow</set>
 			<set name="name-format">Snake Bite</set>
 		</setters>
 	</element>
 
 <!--Begin unique magic weapons-->
+<!--Begin Spellslinger-->
 	<element name="Spellslinger, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_SPELLSLINGER_1">
 		<description>
 			<p>This special magical upgrade was designed by Aleena Lochlan specifically for Swordmages.</p>
@@ -429,6 +473,9 @@
 			<set name="name-format">Spellslinger {{parent}}, Vorpal</set>
 		</setters>
 	</element>
+<!--End Spellslinger-->
+
+<!--Begin Mack and Stabitha-->
 	<element name="Mack, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_MACK_1">
 		<description>
 			<p>Mack looks like and ordinary short sword, except it has a slight green sheen to the metal when the light catches it in just the right way.</p>
@@ -594,7 +641,9 @@
 			<set name="name-format">Stabitha, Vorpal</set>
 		</setters>
 	</element>
+<!--End Mack and Stabitha-->
 
+<!--Begin Quencher and Pathfinder-->
 	<element name="Quencher, +1" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWEAPONS_MAGIC_ITEM_QUENCHER_1">
 		<description>
 			<p>Quench Flame: You place the tip of Quencher in the fire and water bursts forth extinguishing it. Once per long rest, you may use an action to put out any fire (including magic fire) which occupies a square-shapped area that is 20 ft on a side (or less). </p>
@@ -775,6 +824,7 @@
 			<grant type="Spell" id="ID_IANSADDITIONS_IANSSPELLS_SPELL_DOWSING" spellcasting="Ranger" />
 		</rules>
 	</element>
+<!--End Quencher and Pathfinder-->
 <!--End Unique magic Weapons-->
 
 	<!-- Tweaks, Appended -->

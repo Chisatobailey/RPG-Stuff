@@ -10,7 +10,7 @@
 <!--Begin Ammunition, Individual-->
     <element name="Fraternity's Poisoned Arrow" type="Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSGEAR_ITEM_FRATERNITYS_POISONED_ARROW">
 		<description>
-			<p>A creature hit by this arrow takes the weapon's normal damage and must make a DC 15 Constitution saving throw, taking 12 (2d12) poison damage on a failed save, or half as much damage on a successful one. </p>
+			<p>A creature hit by this arrow takes the weapon's normal damage and must make a DC 15 Constitution saving throw, taking 13 (2d12) poison damage on a failed save, or half as much damage on a successful one. </p>
 		</description>
 		<setters>
 			<set name="category">Ammunition</set>
@@ -208,7 +208,7 @@
 					<li>You have hit points equal to twice your character level. If these points are reduced to zero, the power ends and you revert to your normal shape with the same number of hit points you had at the time of using this ability.</li>
 					<li>You may cast spells and speak as normal, and may use any feature that is possible to use in this shape. using any other shape changing abilities ends the spell.</li>
 					<li>Your Medicine Bag stays around you nack and cannot be removed by anything short of divine power while you are in this form. Your clothing and the rest of you gear are trasnported into the divine realm of Magnar and will reform on your person after you regain your natural form when the spell ends.</li>
-					<li>You gain the ability Multiattack. You make two attacks: one with your bite and one with your claws.</li>
+					<li>You gain the ability Multiattack. You make three attacks: one with your bite and two with your claws.</li>
 					<li>Bite. Melee Weapon Attack: to hit: {{proficency}}+5, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.</li>
 					<li>Claws. Melee Weapon Attack: to hit: {{proficency}}+5, reach 5 ft ., one target. Hit: 19 (4d6 + 5) slashing damage.</li>
 				</ul>

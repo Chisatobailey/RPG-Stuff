@@ -952,6 +952,21 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
+	<element name="Periapt of the Dominant Mind" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_DOMINANT_MIND_PERIAPT">
+		<description>
+			<p>The Periapt of the Dominant Mind is a small circlet of brightly colored gemstones in mixed hues of green and violet. It grants the wearer immunity from psychic attack.</p>
+            <p>As a free action (or a reaction) the wearer may activate this immunity. The power lasts for 1 minute and then fades from the circlet until it recharges at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
     <element name="Surge Transistor" type="Magic Item" source="Ian's Additions" id="ID_IANSADDITIONS_IANSWONDEROUSITEMS_MAGIC_ITEM_SURGE_TRANSISTOR">
 		<description>
 			<p>The Surge Transistor is a unique piece of artificer tech that was comissioned by an unknown swordmage. It is a strange device, that is made of two diamonds set in silver and attached by a doulbe coil of silver wire.</p>
