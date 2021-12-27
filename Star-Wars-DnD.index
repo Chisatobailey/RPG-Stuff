@@ -9,20 +9,8 @@
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Source.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Star-Wars-DnD/source.xml" />
 		<file name="Barbarian Revisited.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Barbarian%20Revisited.xml" />
-		<file name="Feats at level 1.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Feats%20at%20level%201.xml" />
-		<file name="Ian's Armor.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Armor.xml" />
-        <file name="Ian's Feats.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Feats.xml" />
-		<file name="Ian's Gear.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Gear.xml" />
-		<file name="Ian's Potions.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Potions.xml" />
-		<file name="Ian's Poisons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Poisons.xml" />
-        <file name="Ian's Rings.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Rings.xml" />
-        <file name="Ian's Spells.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Spells.xml" />
-		<file name="Ian's Staffs.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Staffs.xml" />
-		<file name="Ian's Treasure.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Treasure.xml" />
-        <file name="Ian's Weapons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Weapons.xml" />
-        <file name="Ian's Wonderous Items.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Wonderous%20Items.xml" />
-        <file name="Scholar of Magic.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Scholar%20of%20Magic.xml" />
+		
 	</files>
 </index>

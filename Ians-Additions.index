@@ -4,7 +4,7 @@
 		<name>Ian's Additions</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="2.1.6" >
+		<update version="2.1.7" >
 			<file name="Ians-Additions.index" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/master/Ians-Additions.index" />
 		</update>
 	</info>
@@ -23,6 +23,7 @@
 		<file name="Ian's Treasure.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Treasure.xml" />
         <file name="Ian's Weapons.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Weapons.xml" />
         <file name="Ian's Wonderous Items.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Ian's%20Wonderous%20Items.xml" />
+		<file name="Mystic Revisited.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Mystic%20Revisited.xml" />
         <file name="Scholar of Magic.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Scholar%20of%20Magic.xml" />
 	</files>
 </index>
