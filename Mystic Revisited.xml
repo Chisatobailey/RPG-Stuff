@@ -4,7 +4,7 @@
 		<name>Mystic Revisited</name>
 		<description>Content Adapted by Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.0.0">
+		<update version="1.1.0">
 			<file name="Barbarian Revisited.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Ian's-Additions/Mystic%20Revisited.xml" />
 		</update>
 	</info>
@@ -160,27 +160,30 @@
 			<!-- Psi Points -->
 			<stat name="psi-points" value="4" bonus="psi points" />
 			<stat name="psi-points" value="6" bonus="psi points" level="2" />
-			<stat name="psi-points" value="12" bonus="psi points" level="3" />
-			<stat name="psi-points" value="14" bonus="psi points" level="4" />
-			<stat name="psi-points" value="18" bonus="psi points" level="5" />
-			<stat name="psi-points" value="20" bonus="psi points" level="6" />
-			<stat name="psi-points" value="22" bonus="psi points" level="7" />
-			<stat name="psi-points" value="24" bonus="psi points" level="8" />
-			<stat name="psi-points" value="28" bonus="psi points" level="9" />
-			<stat name="psi-points" value="30" bonus="psi points" level="10" />
-            <stat name="psi-points" value="32" bonus="psi points" level="11" />
-            <stat name="psi-points" value="34" bonus="psi points" level="13" />
-            <stat name="psi-points" value="36" bonus="psi points" level="15" />
+			<stat name="psi-points" value="8" bonus="psi points" level="3" />
+			<stat name="psi-points" value="10" bonus="psi points" level="4" />
+			<stat name="psi-points" value="12" bonus="psi points" level="5" />
+			<stat name="psi-points" value="14" bonus="psi points" level="6" />
+			<stat name="psi-points" value="16" bonus="psi points" level="7" />
+			<stat name="psi-points" value="18" bonus="psi points" level="8" />
+			<stat name="psi-points" value="20" bonus="psi points" level="9" />
+			<stat name="psi-points" value="22" bonus="psi points" level="10" />
+            <stat name="psi-points" value="24" bonus="psi points" level="11" />
+			<stat name="psi-points" value="26" bonus="psi points" level="12" />
+            <stat name="psi-points" value="28" bonus="psi points" level="13" />
+			<stat name="psi-points" value="30" bonus="psi points" level="14" />
+            <stat name="psi-points" value="32" bonus="psi points" level="15" />
+			<stat name="psi-points" value="34" bonus="psi points" level="16" />
+			<stat name="psi-points" value="36" bonus="psi points" level="17" />
             <stat name="psi-points" value="38" bonus="psi points" level="18" />
-            <stat name="psi-points" value="40" bonus="psi points" level="18" />
+			<stat name="psi-points" value="40" bonus="psi points" level="19" />
+            <stat name="psi-points" value="42" bonus="psi points" level="20" />
 
 			<!-- Psi Limit -->
-			<stat name="psi-limit" value="2" bonus="psi limit" />
-			<stat name="psi-limit" value="3" bonus="psi limit" level="3" />
-			<stat name="psi-limit" value="4" bonus="psi limit" level="5" />
-			<stat name="psi-limit" value="5" bonus="psi limit" level="7" />
-			<stat name="psi-limit" value="6" bonus="psi limit" level="12" />
-            <stat name="psi-limit" value="7" bonus="psi limit" level="17" />
+			<stat name="psi-limit" value="4" bonus="psi limit" />
+			<stat name="psi-limit" value="5" bonus="psi limit" level="5" />
+			<stat name="psi-limit" value="6" bonus="psi limit" level="10" />
+            <stat name="psi-limit" value="7" bonus="psi limit" level="16" />
 
 			<!-- Talents -->
 			<select type="Class Feature" name="Psionic Talent" supports="Psionic Talents" level="1" />
