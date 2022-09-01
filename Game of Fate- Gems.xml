@@ -1,0 +1,75 @@
+<elements>
+	<info>
+		<name>Game of Fate-Rings</name>
+		<description>Rings for the Game of Fate</description>
+		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
+		<update version="2.0.0" >
+			<file name="Game of Fate-Gems.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Gems.xml" />
+		</update>
+	</info>
+	<element name="Amethyst of the Weaver's Loom" type="Magic Item" source="Game of Fate" id="ID_GAMEOFFATE_GEMS_MAGIC_ITEM_AMETHYST_OF_THE_WEAVERS_LOOM">
+		<description>
+			<p>While wearing this amulet, you gain the power Warping the Loom. This grants the ability to teleport yourself to any space, visible or not, within 300 feet once per short rest; this uses an object interaction (free). </p>
+		</description>
+		<setters>
+			<set name="category">Wonderous Items</set>
+			<set name="type">Wonderous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">neck</set>
+			<set name="equippable">true</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+	<element name="Ruby of the Weaver's Loom" type="Magic Item" source="Game of Fate" id="ID_GAMEOFFATE_GEMS_MAGIC_ITEM_RUBY_OF_THE_WEAVERS_LOOM">
+		<description>
+			<p>While wearing this amulet, you gain the power Warp the Weft. This grants the ability to teleport yourself and an ally to the aid of another, regardless of distance, once per day.</p>
+		</description>
+		<setters>
+			<set name="category">Wonderous Items</set>
+			<set name="type">Wonderous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">neck</set>
+			<set name="equippable">true</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+	<element name="Weaver's Emerald" type="Magic Item" source="Game of Fate" id="ID_GAMEOFFATE_GEMS_MAGIC_ITEM_WEAVERS_EMERALD">
+		<description>
+			<p>While wearing this ring, you gain the power Weaver's Mind. This grants the ability to reroll with advantage any failed Intelligence Skill Check once per long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+	<element name="Weaver's Onyx" type="Magic Item" source="Game of Fate" id="ID_GAMEOFFATE_GEMS_MAGIC_ITEM_WEAVERS_ONYX">
+		<description>
+			<p>While wearing this ring, you gain the power Weaver's Grace. This grants the power to reroll any failed ability check with advantage once per day.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+	<element name="Weaver's Sapphire" type="Magic Item" source="Game of Fate" id="ID_GAMEOFFATE_GEMS_MAGIC_ITEM_WEAVERS_SAPPHIRE">
+		<description>
+			<p>While wearing this ring, you gain the power Weaver's Insight. This grants the ability to reroll with advantage any failed Wisdom Skill Check once per long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+</elements>
