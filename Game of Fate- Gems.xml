@@ -3,7 +3,7 @@
 		<name>Game of Fate-Rings</name>
 		<description>Rings for the Game of Fate</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="2.0.0" >
+		<update version="2.1.0" >
 			<file name="Game of Fate-Gems.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Gems.xml" />
 		</update>
 	</info>
@@ -35,7 +35,7 @@
 	</element>
 	<element name="Weaver's Emerald" type="Magic Item" source="Game of Fate" id="ID_GAMEOFFATE_GEMS_MAGIC_ITEM_WEAVERS_EMERALD">
 		<description>
-			<p>While wearing this ring, you gain the power Weaver's Mind. This grants the ability to reroll with advantage any failed Intelligence Skill Check once per long rest.</p>
+			<p>While wearing this ring, you gain the power Weaver's Mind. This grants the ability to reroll, with a +10 bonus, any failed Intelligence Skill Check once per long rest.</p>
 		</description>
 		<setters>
 			<set name="category">Rings</set>
