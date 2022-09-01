@@ -10,7 +10,7 @@
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Source.xml" />
-		<file name="Game of Fate-Gems.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Rings.xml" />
+		<file name="Game of Fate-Gems.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Gems.xml" />
 		<file name="Game of Fate-Feats.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Game-of-Fate/Game%20of%20Fate-%20Feats.xml" />
 	</files>
 </index>
