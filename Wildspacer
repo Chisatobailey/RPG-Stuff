@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-        <update version="1.0.1">
+        <update version="1.0.2">
             <file name="Wildspacer" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Astral-Adventures/Wildspacer.xml" />
         </update>
     </info>
@@ -40,7 +40,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
             <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_SPACE" />
+            <grant type="Proficiency" id="ID_AAD_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_SPACE" />
 			<grant type="Background Feature" id="ID_AAD_BACKGROUND_FEATURE_WILDSPACE_ADAPTATION" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
 		</rules>
 	</element>
