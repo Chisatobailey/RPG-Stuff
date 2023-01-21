@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-        <update version="1.0.0">
+        <update version="1.0.1">
             <file name="Wildspacer" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Astral-Adventures/Wildspacer.xml" />
         </update>
     </info>
@@ -53,5 +53,12 @@
         <rules>
             <grant type="Feat" id="ID_PHB_FEAT_TOUGH" />
         </rules>
+	</element>
+
+    <element name="Vehicle Proficiency (Space)" type="Proficiency" source="Astral Adventures" id="ID_AAD_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_SPACE">
+		<supports>Tool, Vehicle, ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES</supports>
+		<description>
+			<p>Proficiency in the pioloting and use of spelljamming ships.</p>
+		</description>
 	</element>
 </elements>
