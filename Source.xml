@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+        <update version="1.0.0">
+            <file name="source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Astral-Adventures/Source.xml" />
+        </update>
+    </info>
+
+	<element name="Astral Adventures" type="Source" source="Astral Adventures" id="ID_AAD">
+		<description>
+			<![CDATA[<p>A few elements from the WOTC Astral Adventures Sourcebook. *FOR PRIVATE USE ONLY*</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">AAD</set>
+			<set name="url">https://github.com/Chisatobailey/RPG-Stuff/tree/Astral-Adventures</set>
+			<set name="author" url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
