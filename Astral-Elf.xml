@@ -1,0 +1,183 @@
+<elements>
+
+    <info>
+        <update version="1.0.0">
+            <file name="Astral Elf" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Astral-Adventures/Astral-Elf.xml" />
+        </update>
+    </info>
+    <element name="Astral Elf" type="Sub Race" source="Astral Adventures" id="ID_AAD_SUB_RACE_ASTRAL_ELF">
+		<supports>Elf</supports>
+		<description>
+			<p>Long ago, groups of elves ventured from the Feywild to the Astral Plane to be closer to their gods. Life in the Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an astral elf's eyes.</p>
+            <p>Because nothing ages on the Astral Plane, astral elves who inhabit that plane can be very old, and their longevity gives them an unusual perspective on the passage of time. Some are prone to melancholy, while others might display an absence of feeling. Many look for creative ways to occupy themselves. Whether they choose to live in quiet contemplation or strike out to explore the reaches of the multiverse, astral elves tend to see things through the lens of time as having little or no meaning to them. Astral elves who don't dwell in the Astral Plane can live to be more than 750 years old.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Increases one ability score by 1.</p>
+			<p class="indent"><strong><em>Astral Fire.</em></strong> You know one of the following cantrips of your choice: Dancing Lights, Light, or Sacred Flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).</p>
+			<p class="indent"><strong><em>Starlight Step.</em></strong> As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent"><strong><em>Astral Trance.</em></strong> You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious. Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon of your choice, selected from the Player's Handbook. You magically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<select type="Racial Trait" name="Ability Score Increase (Astral Elf)" supports="Astral Elf" number="1" />
+			<grant type="Racial Trait" id="ID_AAD_RACIAL_TRAIT_ASTRAL_FIRE" />
+			<grant type="Racial Trait" id="ID_AAD_RACIAL_TRAIT_STARLIGHT_STEP" />
+			<grant type="Racial Trait" id="ID_AAD_RACIAL_TRAIT_ASTRAL_TRANCE" />
+		</rules>
+	</element> 
+
+<!--Begin Ability Score Increase-->
+
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Astral Adventures" id="ID_AAD_RACE_ASTRAL_ELF_STRENGTH">
+        <compendium display="false" />
+        <supports>Astral Elf</supports>
+        <description>
+            <p>Your Strength score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" alt="Astral Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Astral Adventures" id="ID_AAD_RACE_ASTRAL_ELF_DEXTERITY">
+        <compendium display="false" />
+        <supports>Astral Elf</supports>
+        <description>
+            <p>Your Dexterity score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" alt="Astral Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Astral Adventures" id="ID_AAD_RACE_ASTRAL_ELF_CONSTITUTION">
+        <compendium display="false" />
+        <supports>Astral Elf</supports>
+        <description>
+            <p>Your Constitution score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" alt="Astral Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Astral Adventures" id="ID_AAD_RACE_ASTRAL_ELF_INTELLIGENCE">
+        <compendium display="false" />
+        <supports>Astral Elf</supports>
+        <description>
+            <p>Your Intelligence score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1" alt="Astral Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Astral Adventures" id="ID_AAD_RACE_ASTRAL_ELF_WISDOM">
+        <compendium display="false" />
+        <supports>Astral Elf</supports>
+        <description>
+            <p>Your Wisdom score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="wisdom" value="1" alt="Astral Elf" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Astral Adventures" id="ID_AAD_RACE_ASTRAL_ELF_CHARISMA">
+        <compendium display="false" />
+        <supports>Astral Elf</supports>
+        <description>
+            <p>Your Charisma score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="charisma" value="1" alt="Astral Elf" />
+        </rules>
+    </element>
+
+<!--End Ability Score Increase-->
+<!--Begin Astral Fire-->
+	<element name="Astral Fire" type="Racial Trait" source="Astral Adventures" id="ID_AAD_RACIAL_TRAIT_ASTRAL_FIRE">
+		<description>
+			<p>You know one of the following cantrips of your choice: Dancing Lights, Light, or Sacred Flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).</p>
+		</description>
+		<sheet display="false">
+			<description>You know one of the following cantrips of your choice: Dancing Lights, Light, or Sacred Flame.</description>
+		</sheet>
+		<rules>
+			<select type="Racial Trait Feature" name="Astral Fire" supports="Astral Fire" />
+		</rules>
+	</element>
+
+    <element name="Spellcasting Ability (Charisma)" type="Racial Trait Feature" source="Astral Adventures" id="ID_AAD_RACE_TRAIT_ASTRAL_FIRE_CHARISMA">
+		<compendium display="false" />
+		<supports>Astral Fire</supports>
+		<description>
+			<p>You channel the magic through your charm.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Charisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip (Astral Fire)" supports="Astral Fire" number="1" />
+		</rules>
+	</element>
+    <element name="Spellcasting Ability (Intelligence)" type="Racial Trait Feature" source="Astral Adventures" id="ID_AAD_RACE_TRAIT_ASTRAL_FIRE_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Astral Fire</supports>
+		<description>
+			<p>You channel the magic through your learned knowledge of the universe.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Intelligence.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip (Astral Fire)" supports="Astral Fire" number="1" />
+		</rules>
+	</element>
+    <element name="Spellcasting Ability (Wisdom)" type="Racial Trait Feature" source="Astral Adventures" id="ID_AAD_RACE_TRAIT_ASTRAL_FIRE_WISDOM">
+		<compendium display="false" />
+		<supports>Astral Fire</supports>
+		<description>
+			<p>You channel the magic through your natural understanding of the world.</p>
+		</description>
+		<sheet>
+			<description>Spellcasting ability: Wisdom.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip (Astral Fire)" supports="Astral Fire" number="1" />
+		</rules>
+	</element>
+
+    <append id="ID_PHB_SPELL_DANCING_LIGHTS">
+        <supports>Astral Fire</supports>
+    </append>
+    <append id="ID_PHB_SPELL_LIGHT">
+        <supports>Astral Fire</supports>
+    </append>
+    <append id="ID_PHB_SPELL_SACRED_FLAME">
+        <supports>Astral Fire</supports>
+    </append>
+
+<!--End Astral Fire-->
+
+	<element name="Starlight Step" type="Racial Trait" source="Astral Adventures" id="ID_AAD_RACIAL_TRAIT_STARLIGHT_STEP">
+		<description>
+			<p>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
+		</sheet>
+	</element>
+
+	<element name="Astral Trance" type="Racial Trait" source="Astral Adventures" id="ID_AAD_RACIAL_TRAIT_ASTRAL_TRANCE">
+		<description>
+			<p>You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious. Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon of your choice, selected from the Player's Handbook. You magically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest.</p>
+		</description>
+		<sheet>
+            <p>You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.</p>
+            <p class="indent">Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon of your choice, selected from the Player's Handbook.</p>
+	</element>
+</elements>
