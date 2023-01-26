@@ -1,10 +1,11 @@
 <elements>
 
     <info>
-        <update version="1.0.1">
+        <update version="1.0.2">
             <file name="Astral Elf" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Astral-Adventures/Astral-Elf.xml" />
         </update>
     </info>
+    
     <element name="Astral Elf" type="Sub Race" source="Astral Adventures" id="ID_AAD_SUB_RACE_ASTRAL_ELF">
 		<supports>Elf</supports>
 		<description>
@@ -21,7 +22,7 @@
 			<set name="weight" modifier="1d4">90 lb.</set>
 		</setters>
 		<rules>
-			<select type="Racial Trait" name="Ability Score Increase (Astral Elf)" supports="Astral Elf" number="1" />
+			<select type="Racial Trait" name="Ability Score Increase (Astral Elf)" supports="Astral Elf" />
 			<grant type="Racial Trait" id="ID_AAD_RACIAL_TRAIT_ASTRAL_FIRE" />
 			<grant type="Racial Trait" id="ID_AAD_RACIAL_TRAIT_STARLIGHT_STEP" />
 			<grant type="Racial Trait" id="ID_AAD_RACIAL_TRAIT_ASTRAL_TRANCE" />
