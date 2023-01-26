@@ -4,13 +4,13 @@
 		<name>The Game of Fate</name>
 		<description>Content created by the Chisato Bailey</description>
 		<author url="https://github.com/Chisatobailey/RPG-Stuff">Chisato Bailey</author>
-		<update version="1.0.4">
+		<update version="1.0.5">
 			<file name="Astral-Adventures.index" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/master/Astral-Adventures.index" />
 		</update>
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Astral-Adventures/Source.xml" />
-		<file name="Wildspacer.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Astral-Adventures/Wildspacer" />
+		<file name="Wildspacer.xml" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Astral-Adventures/Wildspacer.xml" />
 		<file name="Astral Elf" url="https://raw.githubusercontent.com/Chisatobailey/RPG-Stuff/Astral-Adventures/Astral-Elf.xml" />
 	</files>
 </index>
